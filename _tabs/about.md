@@ -26,7 +26,7 @@ permalink: /about/
 
 ## Experience & Certifications
 
-- **QA Software Engineer**, KT Corp.(2019)  git
+- **QA Software Engineer**, KT Corp.(2019)
 - Licensed Electrical Engineer  
 - Level-1 Certificate in Spreadsheet & Database Applications (Computer Specialist)  
 
