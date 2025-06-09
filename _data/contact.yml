@@ -11,11 +11,10 @@
   icon: "fab fa-instagram"
   url: "https://instagram.com/jssseh"
   
-- type: email
+- type: custom
   icon: "fas fa-envelope"
   url: "mailto:jssseh@gmail.com"
-
-  noblank: true # open link in current tab
+  title: "jssseh@gmail.com"
 
 - type: rss
   icon: "fas fa-rss"

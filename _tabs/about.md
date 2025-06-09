@@ -3,6 +3,9 @@ layout: page
 title: About
 icon: fas fa-info-circle
 permalink: /about/
+order: 4
+
+
 ---
 
 ## Research Interests
