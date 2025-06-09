@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: Serendipity # the main title
 
-tagline: AI, Deep learning, Medical Imaging, Signal processing # it will display as the subtitle
+tagline: 나는 생각하는 감자 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   의료 영상과 인공지능, 그리고 신호처리를 탐구하며 연구 내용을 공유하는 기술 블로그입니다. 고민하고, 생각하고 글을 씁니다.
@@ -28,8 +28,8 @@ url: "https://soohyun-chris-jeon.github.io"
 github:
   username: soohyun-chris-jeon # change to your GitHub username
 
-twitter:
-  username: twitter_username # change to your Twitter username
+# twitter:
+#   username: twitter_username # change to your Twitter username
 
 author:
   name: Soohyun Chris Jeon
@@ -43,7 +43,8 @@ social:
   email: jssseh@gmail.com # change to your email address
   links:
     - https://github.com/soohyun-chris-jeon
-    - https://instagram.com/jssseh  # ← 인스타 추가
+    - https://instagram.com/jssseh  # ← 인스타d 추가
+    - mailto:jssseh@gmail.com
     # The first element serves as the copyright owner's link
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
