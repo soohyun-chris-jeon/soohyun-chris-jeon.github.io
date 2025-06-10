@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "2025-06-09 github pages 블로깅 시작!"
+title:  "github pages 블로깅 시작!"
 date:   2025-06-09 10:00:00 +0900
 categories: [GitHub, Blog]
 tags: [chirpy, jekyll, markdown]
