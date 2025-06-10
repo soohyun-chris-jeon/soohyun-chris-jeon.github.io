@@ -23,5 +23,6 @@ tags: [chirpy, jekyll, markdown]
 다만, **GPT에서 긁어온 자료는 반드시 별도 표기할 것이며 다른 모든 자료도 출처를 밝힐 것이다.**
 
  
+\* 작업 환경은 Windows Subsystem Linux이며 VScode 위에서 모든 작업을 진행 중이다.
 
 \* 참고로 `Chirpy starter`를 사용하니 어렵지 않게 페이지가 개설되었기 때문에 혹시 고민하고 있다면 추천!
