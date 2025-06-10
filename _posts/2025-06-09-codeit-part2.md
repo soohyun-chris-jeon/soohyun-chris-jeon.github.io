@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "[코드잇 스프린트] Part 2 "
+title:  "[Part 2] 025.06.09 ~ 2025.08.14  "
 date:   2025-06-09 10:00:00 +0900
-categories: [Codeit, AI 3기]
-tags: [python, deep learning, pytorch, numpy]
+categories: [Codeit AI 3기, Study log]
+tags: [python, Deep Learning, pytorch, numpy]
 ---
 
 
@@ -26,3 +26,6 @@ tags: [python, deep learning, pytorch, numpy]
 - `git status`를 항상 주시하면 무슨 일이 벌어졌는지 정확하게 알 수 있다.
 
 - Staged는 커밋하기 전에 변경 사항을 임시 저장하는 상태
+
+## 2025-06-09 Mon
+#### pytorch 다뤄보기

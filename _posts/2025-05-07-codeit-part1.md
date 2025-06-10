@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "[코드잇 스프린트] Part 1 "
+title:  " [Part 1] 2025.05.08 ~ 06.06 "
 date:   2025-05-07 10:00:00 +0900
-categories: [Codeit, AI 3기]
-tags: [python, machine learning, pandas, numpy]
+categories: [Codeit AI 3기, Study log]
+tags: [python, Machine Learning, pandas, numpy]
 ---
 
 
