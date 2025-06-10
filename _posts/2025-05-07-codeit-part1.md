@@ -1,12 +1,16 @@
 ---
 layout: post
 title:  "[코드잇 스프린트] Part 1 "
-date:   2025-06-04 10:00:00 +0900
+date:   2025-05-07 10:00:00 +0900
 categories: [Codeit, AI 3기]
-tags: [chirpy, jekyll, markdown]
+tags: [python, machine learning, pandas, numpy]
 ---
 
-# 2025.05.08 ~ 2025.06.06의 기록 
+
+
+![코드잇 스프린트](https://img1.daumcdn.net/thumb/R750x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F4qgsr%2FbtsFEtondnt%2FXoFKqUvKEaFyQubZZyLIPk%2Fimg.png)
+
+# 🟣 2025.05.08 ~ 2025.06.06의 기록 
 
 ## 2025-05-08 Thu
 - 개강일. OT 진행
@@ -189,7 +193,7 @@ df.duplicated(subset='컬럼명', keep='last')
 ---
 
 ## 2025-05-26 Mon
-#### hotel_bookings.csv
+#### `hotel_bookings.csv`
 - 호텔의 이용자 수를 Regression 해보는 데이터셋
 - 대부분 수치형 데이터이며 train과 test을 미리 나눠서 제공됨. 
 
@@ -347,7 +351,7 @@ plt.show()
 
 ## 2025-06-02 Mon
 
-#### bank-additional-full.csv
+#### `bank-additional-full.csv`
 - 유명한 Binary 분류 데이터
 - 특징적인 것은 범주형(categorical) 데이터가 많이 있음
 - `pd.get_dummies`: 
