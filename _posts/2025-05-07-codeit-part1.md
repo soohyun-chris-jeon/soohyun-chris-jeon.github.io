@@ -16,8 +16,8 @@ tags: [python, Machine Learning, pandas, numpy]
 - 개강일. OT 진행
 - 앞으로 7개월 동안 개인적으로 열심히 풀어나갈 [프로그래머스](https://programmers.co.kr/).
 - 학부에서 **C와 C++** 위주로 공부했기 때문에 이번 기회에 파이썬에 열심히 적응을 해볼 예정.
-- `pythonic`한 코드에 집중할 예정
-- 또한 한 가지 원칙은 이 페이지에는 **인용 문구 없이 챗GPT를 절대로 사용하지 않을것**. 
+- `pythonic`한 코드에 집중할 예정  
+- 또한 한 가지 원칙은 이 페이지에는 ⭐**인용 문구 없이 챗GPT를 절대로 사용하지 않을것**. 
 > 오로지 나의 생각과 정리를 위해서 페이지를 사용할 것이며 참고를 위한 GPT 인용은 가져올 것임.
    
 
@@ -25,8 +25,9 @@ tags: [python, Machine Learning, pandas, numpy]
 
 
 ## 2025-05-09 Fri
-- `list comprehension` 파이썬에서 pythonic한 코드를 짜는 방식이 왜 좋은가?
-   - **"명료함이 복잡함보다 낫다"** 에 따라, 코드는 직관적이고 쉽게 읽힐 수 있어야 합니다. (아직 직관적이진 않음)
+- ❗`list comprehension` 파이썬에서 pythonic한 코드를 짜는 방식이 왜 좋은가?
+   - ⭐**"명료함이 복잡함보다 낫다"** 에 따라, 코드는 직관적이고 쉽게 읽힐 수 있어야 합니다.  
+   (but 나에겐 아직 직관적이진 않음......)
 
 ```python
 numbers = [1, 2, 3, 4, 5]
@@ -38,7 +39,7 @@ for n in numbers:
 squared = [n ** 2 for n in numbers]
 ```
 
-- python의 강력한 내장함수는 가독성이 높고 효율적인 코딩이 가능하다는 점에서 **pythonic**하다.
+- python의 강력한 내장함수⭐는 가독성이 높고 효율적인 코딩이 가능하다는 점에서 **pythonic**하다.
 
 ```python
 # non-pythonic: 반복문으로 문자열 연결
@@ -65,14 +66,14 @@ for i, val in enumerate(my_list):
 ---
 ## 2025-05-12 Mon
 - 코딩 테스트 문제: < 소수의 합 구하기 >
-- N이하의 소수의 합 구하기(`에르토스테네스의 체`로 optimization해보기)
-  > 최적화 이슈를 만났을때 당황하지 않고 어떻게 문제를 해결할 수 있을 것인가?.
+- N이하의 소수의 합 구하기(⭐`에르토스테네스의 체`로 optimization해보기)
+  > *최적화 이슈를 만났을때 당황하지 않고 어떻게 문제를 해결할 수 있을 것인가?*
 
 ---
 
 ## 2025-05-13 Tue
 
-- 코딩테스트 문제: 주어진 시간 내에서 최적의 할일 찾기 -> `greedy 알고리즘` 
+- 코딩테스트 문제: 주어진 시간 내에서 최적의 할일 찾기 -> ⭐`greedy 알고리즘` 
 
 ---
 
@@ -80,13 +81,13 @@ for i, val in enumerate(my_list):
 
 
 ## 2025-05-15 Thu
-- 클래스의 생성자(__init__메소드)는 **명시적으로 리턴 타입을 지정해주지 않아도** 객체를 반환하도록 설계되어있다
-- 문자열을 ("")로 초기화하는 건 위험하다. None을 쓰는 것이 더 pythonic
+- 클래스의 생성자(__init__메소드)는 **명시적으로 리턴 타입을 지정해주지 않아도**❗ 객체를 반환하도록 설계되어있다
+- 문자열을 ("")로 초기화하는 건 위험하다. ⭐`None`을 쓰는 것이 더 pythonic
 
 ---
 
 ## 2025-05-16 Fri
-#### **< 실습과제 > `Hotel Booking Demand Datasets` 분석해보기(EDA) from 캐글**
+#### **< 실습과제 > 🔴`Hotel Booking Demand Datasets` 분석해보기(EDA) from 캐글**
 - data analysis에서 입문용으로 많이 사용하는 데이터셋(csv타입)
 - pandas의 DataFrame을 사용하면 numpy나 list보다 조금 더 유연하게 사용이 가능하다
 
@@ -94,7 +95,7 @@ for i, val in enumerate(my_list):
 
 - pandas의 DataFrame을 다룰때 아주 효율적인 `fillna()` 메th드는 결측치를 처리하는데 효과적이지만 가끔 경고가 뜨기도 하는데 `SettingWithCopyWarning`의 경우다.
 
-```
+```python
 players_df.loc['Ben Davies', :].fillna(29, inplace=True)
 ```
 
@@ -119,7 +120,7 @@ Pandas는 loc[row_label, :]으로 선택한 결과를 **반드시 원본의 뷰(
 | 용도               | 추천 도구                                |
 | ---------------- | ------------------------------------ |
 | EDA / 초안 시각화     | `Seaborn` or `Altair`            |
-| 논문 최종 제출용        | `Matplotlib (pgf backend)` + 수동 조정 |
+| 논문 최종 제출용⭐        | `Matplotlib (pgf backend)` + 수동 조정 |
 | R 사용자라면          | `Plotnine`                             |
 | LaTeX 완벽 통합 원할 때 | `TikZ` / `pgfplots`                      |
 
@@ -134,7 +135,7 @@ df['company':'agent'] # 접근 안됨
 df.loc['company':'agent'] # 마치 numpy처럼 인덱싱이 가능
 ```
 
-#### Seaborn의 `heatmap`
+#### Seaborn의 ⭐`heatmap` 
 Seaborn에서 사용할만한 함수는 Boxplot과 heatmap함수일 것 같다.
 ```python
 sns.heatmap(df.corr(), annot=true)
@@ -142,23 +143,23 @@ sns.heatmap(df.corr(), annot=true)
 `sns.heatmap()` 함수의 경우 df를 그대로 넣는 것이 아니라 correaltion을 구한 다음에 넣는다는 것이 포인트.
 
 #### Pandas DataFrame 주요 메서드 및 변수
-개인적으로 pandas는 굳이 사용할 일이 없었는데, 다루는 데이터가 DataFrame이 아니다보니 쓸일이 아예 없었다. 그러나 데이터 사이언스 관점에서는 동일한 과정이 진행되기 때문에 한번 공부해보는 것이 좋다고 판단되어 정리를 해보았음.
-`df.describe()`
-`df.info()`
-`df.shape`
-`df.dtype()`
-`df.rename()`: column명을 바꿀때 사용하곤 한다
-`df.drop(columns='')`: 해당 데이터 삭제. 기본적으로 row 삭제. 그러나  column도도 삭제 가능
-`df.isna().any(axis=1)`: 결측값이 있는 row를 bool인덱싱할때 유용하다.
-`df.dropna()`: 결측치 있는 데이터 삭제. 그러나 데이터를 삭제한다는 것은 신중하게 해야하므로 확신이 있을때 사용.
+개인적으로 pandas는 굳이 사용할 일이 없었는데, 다루는 데이터가 DataFrame이 아니다보니 쓸일이 아예 없었다. 그러나 데이터 사이언스 관점에서는 동일한 과정이 진행되기 때문에 한번 공부해보는 것이 좋다고 판단되어 정리를 해보았음.  
+`df.describe()`  
+`df.info()`  
+`df.shape`  
+`df.dtype()`  
+`df.rename()`: column명을 바꿀때 사용하곤 한다  
+`df.drop(columns='')`: 해당 데이터 삭제. 기본적으로 row 삭제. 그러나  column도도 삭제 가능  
+`df.isna().any(axis=1)`: 결측값이 있는 row를 bool인덱싱할때 유용하다.  
+`df.dropna()`: 결측치 있는 데이터 삭제. 그러나 데이터를 삭제한다는 것은 신중하게 해야하므로 확신이 있을때 사용.  
 `df.fillna()`: 결측치가 있는 데이터를 보완하기 좋음!
-`df.duplicated()`: 중복된 데이터 찾기. df.duplicated().sum()
+`df.duplicated()`: 중복된 데이터 찾기. df.duplicated().sum()  
 df.duplicated(subset='컬럼명', keep='last')
-`df.drop_duplicates()`: 중복값 삭제
-`df.unique()`:유일한 값을 뽑아낼때 유용
-`df.astype()`: data type 설정
-`df.value_counts(dropna=False, normalize=True)`
-`df.str`: 문자열 처리
+`df.drop_duplicates()`: 중복값 삭제  
+`df.unique()`:유일한 값을 뽑아낼때 유용  
+`df.astype()`: data type 설정  
+`df.value_counts(dropna=False, normalize=True)`  
+`df.str`: 문자열 처리  
 
 - 다만 DataFrame과 Series는 각각 적용될 수 있는 함수가 다르다. 즉, 그때 그때 잘 찾아봐라...(중요하진 않음)
 
@@ -193,11 +194,11 @@ df.duplicated(subset='컬럼명', keep='last')
 ---
 
 ## 2025-05-26 Mon
-#### `hotel_bookings.csv`
+#### <실습과제> 🔴 `hotel_bookings.csv`
 - 호텔의 이용자 수를 Regression 해보는 데이터셋
 - 대부분 수치형 데이터이며 train과 test을 미리 나눠서 제공됨. 
 
-#### RMSLE (Root Mean Squared logarithmatic Error)
+#### ⭐RMSLE (Root Mean Squared logarithmatic Error)
 - 작은 수일수록 민감
 - 과소 예측에 관대, **과대예측**에 더 민감
 - 데이터 크기 차이가 클 때 적합  
@@ -214,15 +215,15 @@ df.duplicated(subset='컬럼명', keep='last')
 
 ## 2025-05-27 Tue
 #### Decision tree
-- 설명이 중요할때 사용되는 분류 모델
+- 설명⭐이 중요할때 사용되는 분류 모델
 - **정보이득(Information Gain)** 이 최대가 되는 특성으로 데이터를 나눔
 - 대표적인 이진 분할 알고리즘 `CART ` 
 - **랜덤 포레스트(Random forest)** 는 결정 트리의 앙상블(Ensemble) 형태
 - 싸이킷런에서 제공하는 대표적인 데이터셋을 이용해서 트리 모델을 구현해봄봄
 ```python
-from sklearn.datasets import load_iris # iris 데이터셋
-from sklearn.datasets import fetch_california_housing # 캘리포니아 housing 데이터셋
-from sklearn.datasets import make_moons
+from sklearn.datasets import load_iris # 🔴 iris 데이터셋
+from sklearn.datasets import fetch_california_housing # 🔴 캘리포니아 housing 데이터셋
+from sklearn.datasets import make_moons # 🔴 make_moons 데이터셋
 ```
 
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Part 2] 025.06.09 ~ 2025.08.14  "
+title:  "[Part 2] 2025.06.09 ~ 08.14  "
 date:   2025-06-09 10:00:00 +0900
 categories: [Codeit AI 3기, Study log]
 tags: [python, Deep Learning, pytorch, numpy]
@@ -14,7 +14,7 @@ tags: [python, Deep Learning, pytorch, numpy]
 
 
 ## 2025-06-09 Mon
-#### Git은 파일 시스템 변화를 감지하긴 하지만, 추적하지는 않음
+#### 🟡 Git은 파일 시스템 변화를 감지하긴 하지만, 추적하지는 않음
 
 | 작업    | Git이 하는 일   | 우리가 해야 할 일                                        |
 | ----- | ----------- | ------------------------------------------------- |
@@ -28,4 +28,4 @@ tags: [python, Deep Learning, pytorch, numpy]
 - Staged는 커밋하기 전에 변경 사항을 임시 저장하는 상태
 
 ## 2025-06-09 Mon
-#### pytorch 다뤄보기
+#### 🟡 pytorch 다뤄보기
