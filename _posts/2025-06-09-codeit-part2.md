@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Part 2] 2025.06.09 ~ 08.14  "
+title:  "[Part 2] Study log 2025.06.09 ~ 08.14  "
 date:   2025-06-09 10:00:00 +0900
 categories: [Codeit AI 3기, Study log]
 tags: [python, Deep Learning, pytorch, numpy]
@@ -25,7 +25,15 @@ tags: [python, Deep Learning, pytorch, numpy]
 
 - `git status`를 항상 주시하면 무슨 일이 벌어졌는지 정확하게 알 수 있다.
 
-- Staged는 커밋하기 전에 변경 사항을 임시 저장하는 상태
+- `Staged`는 커밋하기 전에 변경 사항을 임시 저장하는 상태
 
 ## 2025-06-09 Mon
 #### 🟡 pytorch 다뤄보기
+
+
+## 2025-06-12 Thu
+
+#### 🔴 Denoising Dirty Documents 데이터셋(Kaggle)
+[Denoising Dirty Documents](https://www.kaggle.com/competitions/denoising-dirty-documents)
+
+## 2025-06-13 Fri

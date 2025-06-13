@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  " [Part 1] 2025.05.08 ~ 06.06 "
+title:  " [Part 1] Study log 2025.05.08 ~ 06.06 "
 date:   2025-05-07 10:00:00 +0900
 categories: [Codeit AI 3기, Study log]
 tags: [python, Machine Learning, pandas, numpy]
