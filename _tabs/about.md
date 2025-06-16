@@ -21,7 +21,7 @@ order: 4
   Yonsei University, Seoul, Republic of Korea (2019–Present)  
 
 - **B.S. in Electrical and Electronic Engineering**  
-  Yonsei University, Seoul, Republic of Korea (2015–2018)  
+  Yonsei University, Seoul, Republic of Korea (2010–2017)  
 
 ## Technical Skills
 
@@ -30,7 +30,7 @@ order: 4
 
 ## Experience & Certifications
 
-- **QA Software Engineer**, KT Corp.(2019)
+- **QA Software Engineer**, KT Corp.(2018-2019)
 - Licensed Electrical Engineer  
 - Level-1 Certificate in Spreadsheet & Database Applications (Computer Specialist)  
 
