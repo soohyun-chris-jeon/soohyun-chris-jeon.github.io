@@ -383,6 +383,21 @@ clf = Pipeline(steps=[
 ---
 
 ## 2025-06-03 Tue
+#### CNN의 구조: convolutional layer + pooling layer
+- 특히 pooling layer는 sampling의 의미도 있지만 **translation invariant** 특징도 갖게 된다. 
+- 하지만 개인적으로 pooling layer에 대한 느낌은 그렇게 좋지 않기 때문에 중요하게 생각하고 있지 않았다.
+- CNN의 시초인 LeNet()을 참고
+
+#### Pooling 없이 CNN을 짜는 건 가능한가?
+
+| 모델 이름               | Pooling 사용 여부 | 특징                                         |
+| ------------------- | ------------- | ------------------------------------------ |
+| **All-CNN** (2014)  | ❌             | MaxPooling 없이 모두 Conv + Stride로 구성         |
+| **ResNet**          | ⭕️ + ❌        | 일부 Layer에서 Pooling 제거, 대부분 Strided Conv 사용 |
+| **EfficientNet**    | ⭕️            | Pooling 일부 사용하나, 대부분 Strided Conv 기반       |
+| **ConvNeXt** (2022) | ❌             | 완전히 ViT 스타일로 가면서 Pooling 최소화               |
+| **MobileNetV2**     | ⭕️            | 구조 단순화하면서 일부 GAP 사용                        |
+
 
 ---
 

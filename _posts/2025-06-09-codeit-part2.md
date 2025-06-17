@@ -44,12 +44,12 @@ git commit ...  # commit으로 tracked 상태
 - 
 
 ## 2025-06-09 Mon
-#### 🟡 pytorch vs numpy
+#### 🟡 `torch.Tensor` vs `np.array`  
 | 요약    | 내용                                               |
 | ----- | ------------------------------------------------ |
 | 공통점   | 다차원 배열, 벡터화, 브로드캐스팅, dtype 설정, 서로 변환 가능          |
 | 차이점   | **PyTorch는 autograd + GPU 지원**, NumPy는 일반 수치 계산용 |
-| 실전 사용 | 딥러닝 모델 만들 땐 `torch.Tensor`만 써야 함                 |
+| 실전 사용 | 딥러닝 모델 학습시 `torch.Tensor` 써야 함                 |
 
 
 ## 2025-06-12 Thu
@@ -57,6 +57,10 @@ git commit ...  # commit으로 tracked 상태
 #### 🔴 Denoising Dirty Documents 데이터셋(Kaggle)
 [Denoising Dirty Documents](https://www.kaggle.com/competitions/denoising-dirty-documents)
 
+- Denoising-AE 과제
+
 ## 2025-06-13 Fri
 
 ## 2025-06-16 Mon
+
+#### `torchvision.transforms` 
