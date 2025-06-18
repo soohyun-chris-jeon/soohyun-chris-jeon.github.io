@@ -1,6 +1,8 @@
 ---
+layout: post
 title: "GitHub Pages 블로그 만들고 커스텀하기"
 date: 2024-11-05
+categories: [GitHub, Chirpy]
 tags: [GitHub Pages, Jekyll, Chirpy, blog]
 ---
 
