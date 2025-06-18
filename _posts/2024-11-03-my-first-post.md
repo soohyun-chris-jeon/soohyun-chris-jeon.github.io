@@ -2,12 +2,12 @@
 layout: post
 title:  "github pages 블로깅 시작!"
 date:   2024-11-03 10:00:00 +0900
-categories: [git, github]
-tags: [git, GitHub, GitHub pages, chirpy, jekyll, markdown]
+categories: [git, GitHub]
+tags: [git, GitHub, GitHub Pages, Chirpy, Jekyll, Markdown]
 pin: false
 
 ---
-#### 🟡 드디어..
+## 🟣 드디어..
 그 동안 다짐만 했던 GitHub pages를 개설하게 되었다! 
 
 미루고 미루기만 하다가 억지로 도서관에서 책을 빌려서 공부를 시작했고 github pages까지 구축해보기로 햇다..
@@ -36,6 +36,6 @@ pin: false
 힘든 시기를 보내고 방황하던 기간에 이 부트캠프를 선택한건 고민도 많이 했고 수강 신청 마지막 날까지 어려운 선택이었다. 하지만 이 기간을 말그대로 **Re-boot**하는 계기로 삼아서 다시 날카로운 감각을 가진 연구자로 거듭날 것이다.
 
  
-🟣 작업 환경은 Windows Subsystem Linux이며 VScode 위에서 모든 작업을 진행 중입니다.
+❗작업 환경은 Windows Subsystem Linux이며 VScode 위에서 모든 작업을 진행 중입니다.
 
-🟣 참고로 `Chirpy starter`를 사용하니 어렵지 않게 페이지가 개설되었기 때문에 혹시 고민하고 있다면 추천!
+❗ 참고로 `Chirpy starter`를 사용하니 어렵지 않게 페이지가 개설되었기 때문에 혹시 고민하고 있다면 추천!

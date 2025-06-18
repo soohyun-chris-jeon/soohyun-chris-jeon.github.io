@@ -2,7 +2,7 @@
 layout: post
 title: "GitHub Pages 블로그 만들고 커스텀하기"
 date: 2024-11-05
-categories: [GitHub, Chirpy]
+categories: [git, GitHub]
 tags: [GitHub, GitHub Pages, Jekyll, Chirpy, blog]
 pin: false
 comments: true     # 댓글 기능 사용 (옵션)

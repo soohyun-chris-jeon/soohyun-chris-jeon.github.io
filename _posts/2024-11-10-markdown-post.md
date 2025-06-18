@@ -3,7 +3,7 @@ layout: post
 title: "github pages 포스팅을 위한 Markdown 문법과 꿀팁"
 date: 2024-11-10 00:00:00 +0900
 categories: [Markdown]
-tags: [markdown, cheatsheet, github pages, blog]
+tags: [Markdown, cheatsheet, GitHub Pages, blog]
 pin: false
 comments: true     # 댓글 기능 사용 (옵션)
 

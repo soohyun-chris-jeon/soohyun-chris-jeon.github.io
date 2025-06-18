@@ -3,7 +3,7 @@ layout: post
 title:  "[Part 2] Study log 2025.06.09 ~ 08.14  "
 date:   2025-06-09 10:00:00 +0900
 categories: [Codeit AI 3기, Study log]
-tags: [python, Deep Learning, pytorch, numpy]
+tags: [python, Deep Learning, PyTorch, numpy]
 comments: true     # 댓글 기능 사용 (옵션)
 
 ---

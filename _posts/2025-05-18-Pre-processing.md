@@ -3,7 +3,7 @@ layout: post
 title:  "1-(3) 대표적인 데이터 전처리 방법인 결측값, 중복값, 이상치 처리에 대해"
 date:   2025-05-17 10:00:00 +0900
 categories: [Codeit AI 3기, Weekly Paper]
-tags: [Linear Algebra, Machine Learning, EDA]
+tags: [Linear Algebra, Machine Learning, pre-processing]
 comments: true     # 댓글 기능 사용 (옵션)
 
 ---
