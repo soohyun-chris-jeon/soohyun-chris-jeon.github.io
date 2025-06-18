@@ -8,7 +8,7 @@ comments: true     # 댓글 기능 사용 (옵션)
 
 ---
 
-## 5-(2) Pytorch에서 텐서란 무엇이고, NumPy의 Array(배열)과 어떤 차이가 있나요?
+## 🟢 5-(2) Pytorch에서 텐서란 무엇이고, NumPy의 Array(배열)과 어떤 차이가 있나요?
 
 
 `Tensor`는 쉽게 말하면 **NumPy의 array랑 거의 비슷하게 생긴 수치 데이터 컨테이너**

@@ -8,7 +8,7 @@ pin: false
 comments: true     # 댓글 기능 사용 (옵션)
 
 ---
-## 본격적인 Python 공부 위한
+## 🟣 본격적인 Python 공부 위한
 Visual Studio Code(VSCode) 셋팅을 정리한 문서.
 
 ## 왜 VScode를?
