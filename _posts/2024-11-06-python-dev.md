@@ -5,6 +5,8 @@ date: 2024-11-10 00:00:00 +0900
 categories: [Dev Environment]
 tags: [python, VScode, WSL, AI, Deep Learning]
 pin: false
+comments: true     # 댓글 기능 사용 (옵션)
+
 ---
 ## 본격적인 Python 공부 위한
 Visual Studio Code(VSCode) 셋팅을 정리한 문서.

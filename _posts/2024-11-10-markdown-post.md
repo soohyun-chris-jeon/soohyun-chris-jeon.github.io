@@ -5,6 +5,8 @@ date: 2024-11-10 00:00:00 +0900
 categories: [Markdown]
 tags: [markdown, cheatsheet, github pages, blog]
 pin: false
+comments: true     # 댓글 기능 사용 (옵션)
+
 ---
 
 github pages는 다양한 장점이 있지만 그럼에도 불구하고 높은 진입 장벽이 있는 것이 바로 포스팅이 다른 플래폼에 비해 번거롭다는 것이다.

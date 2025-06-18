@@ -4,6 +4,8 @@ title:  "1-(1) 선형대수학이란 어떤 학문이며, 왜 머신러닝에 �
 date:   2025-05-16 10:00:00 +0900
 categories: [Codeit AI 3기, Weekly Paper]
 tags: [Linear Algebra, Machine Learning, EDA]
+comments: true     # 댓글 기능 사용 (옵션)
+
 ---
 
 

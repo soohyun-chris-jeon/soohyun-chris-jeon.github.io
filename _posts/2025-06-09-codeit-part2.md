@@ -4,6 +4,8 @@ title:  "[Part 2] Study log 2025.06.09 ~ 08.14  "
 date:   2025-06-09 10:00:00 +0900
 categories: [Codeit AI 3기, Study log]
 tags: [python, Deep Learning, pytorch, numpy]
+comments: true     # 댓글 기능 사용 (옵션)
+
 ---
 
 
@@ -51,6 +53,12 @@ git commit ...  # commit으로 tracked 상태
 | 차이점   | **PyTorch는 autograd + GPU 지원**, NumPy는 일반 수치 계산용 |
 | 실전 사용 | 딥러닝 모델 학습시 `torch.Tensor` 써야 함                 |
 
+## 2025-06-10 Tue
+#### `np.unique`
+
+## 2025-06-11 Wed
+
+
 
 ## 2025-06-12 Thu
 
@@ -61,6 +69,13 @@ git commit ...  # commit으로 tracked 상태
 
 ## 2025-06-13 Fri
 
-## 2025-06-16 Mon
 
+## 2025-06-16 Mon
 #### `torchvision.transforms` 
+
+
+## 2025-06-17 Tue
+#### 로컬 전용 WSL 서버 구축하기
+
+## 2025-06-18 Wed
+#### .gitignore

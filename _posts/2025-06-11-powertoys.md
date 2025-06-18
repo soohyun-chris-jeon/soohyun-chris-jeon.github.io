@@ -5,6 +5,8 @@ date: 2025-06-11 00:00:00 +0900
 categories: [Dev Environment]
 tags: [Windows, PowerToys, WSL, logitech, Multi-Device, Productivity, VSCode]
 pin: false
+comments: true     # 댓글 기능 사용 (옵션)
+
 ---
 
 ## 최근에
