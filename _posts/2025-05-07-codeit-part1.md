@@ -405,6 +405,8 @@ clf = Pipeline(steps=[
 ---
 
 ## 2025-06-04 Wed
+>  인코더-디코더(Encoder-Decoder) 구조는 이제 특정 모델을 지칭하는 게 아니라, 딥러닝의 아주 근본적인 '**아키텍처 패러다임(Architecture Paradigm)** 이다. 
+*Ronneberger et al. (2015) "U-Net: Convolutional Networks for Biomedical Image Segmentation*
 
 ---
 
