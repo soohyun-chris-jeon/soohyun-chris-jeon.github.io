@@ -2,9 +2,9 @@
 layout: post
 title:  "github pages 블로깅 시작!"
 date:   2024-11-03 10:00:00 +0900
-#categories: [GitHub, Blog]
-#tags: [chirpy, jekyll, markdown]
-#pin: false
+categories: [GitHub, Blog]
+tags: [chirpy, jekyll, markdown]
+pin: false
 comments: true     # 댓글 기능 사용 (옵션)
 
 
