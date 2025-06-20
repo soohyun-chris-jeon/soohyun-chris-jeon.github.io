@@ -9,7 +9,7 @@ order: 4
 ---
 
 <div style="text-align: none;">
-  <img src="/assets/img/profile_1.JPG" alt="Soohyun Jeon Profile" style="width: 250px; border-radius: 50%;" />
+  <img src="/assets/img/profile_1.JPG" alt="Soohyun Jeon Profile" style="width: 250px; border-radius: 50%; border: 4px solid white;" />
 </div>
 ## Research Interests
 
@@ -38,7 +38,8 @@ order: 4
 - Level-1 Certificate in Spreadsheet & Database Applications (Computer Specialist)  
 
 ## Hobbies
-Badminton🏸, [Arsenal FC](https://cafe.naver.com/arsnl) ⚽
+- Badminton🏸
+- [Arsenal FC](https://cafe.naver.com/arsnl) ⚽
 
 
 ## Contact
