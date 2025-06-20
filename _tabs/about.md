@@ -8,6 +8,9 @@ order: 4
 
 ---
 
+<div style="text-align: none;">
+  <img src="/assets/img/profile_1.JPG" alt="Soohyun Jeon Profile" style="width: 250px; border-radius: 50%;" />
+</div>
 ## Research Interests
 
 - Magnetic Resonance Imaging (MRI): Image reconstruction and artifact reduction  
@@ -18,10 +21,10 @@ order: 4
 ## Education
 
 - **Ph.D. & M.S. in Electrical and Electronic Engineering**  
-  Yonsei University, Seoul, Republic of Korea (2019–Present)  
+      *Yonsei University, Seoul, Republic of Korea (2019–Present)*  
 
 - **B.S. in Electrical and Electronic Engineering**  
-  Yonsei University, Seoul, Republic of Korea (2010–2017)  
+      *Yonsei University, Seoul, Republic of Korea (2010–2017)*  
 
 ## Technical Skills
 
@@ -33,6 +36,10 @@ order: 4
 - **QA Software Engineer**, KT Corp.(2018-2019)
 - Licensed Electrical Engineer  
 - Level-1 Certificate in Spreadsheet & Database Applications (Computer Specialist)  
+
+## Hobbies
+Badminton🏸, [Arsenal FC](https://cafe.naver.com/arsnl) ⚽
+
 
 ## Contact
 

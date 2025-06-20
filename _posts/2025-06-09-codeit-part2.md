@@ -79,3 +79,19 @@ git commit ...  # commit으로 tracked 상태
 
 ## 2025-06-18 Wed
 #### .gitignore
+
+## 2025-06-20 Fri
+#### torch.utils.data의 Dataset 클래스(사용자 정의 클래스) (From [파이토치 공식문서](https://tutorials.pytorch.kr/beginner/basics/data_tutorial.html) )
+- __init__, __len__, and __getitem__  3가지 메서드를 반드시 정의해야한다.
+  - **\__init__** 함수는 Dataset 객체가 생성(instantiate)될 때 한 번만 실행됩니다. 여기서는 이미지와 주석 파일(annotation_file)이 포함된 디렉토리와 (다음 장에서 자세히 살펴볼) 두가지 변형(transform)을 초기화합니다.
+  
+  - **\__len__** 함수는 데이터셋의 샘플 개수를 반환합니다.
+
+  - **\__getitem__** 함수는 주어진 인덱스 idx 에 해당하는 샘플을 데이터셋에서 불러오고 반환합니다. 인덱스를 기반으로, 디스크에서 이미지의 위치를 식별하고, read_image 를 사용하여 이미지를 텐서로 변환하고, self.img_labels 의 csv 데이터로부터 해당하는 정답(label)을 가져오고, (해당하는 경우) 변형(transform) 함수들을 호출한 뒤, 텐서 이미지와 라벨을 Python 사전(dict)형으로 반환합니다.
+
+#### torch의 브로드캐스팅이란?
+
+
+#### nn.Conv2d()에 padding 값을 '`valid`'나 '`same`'으로 할 때 각각 패딩이 어떻게 적용되는지
+- `valid`는 padding을 따로 주지 않고 input image 자체만을 이용해 convolution 연산을 수행한다.
+- `same`은 output size가 input size와 동일하게 되도록 padding을 조절한다. 만약 stride=1, dilation=1인 경우 padding=(kernel_size-1)/2로 설정된다.

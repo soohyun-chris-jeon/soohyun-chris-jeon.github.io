@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "git - .gitinore 관리하기"
+title:  ".gitinore 관리하기"
 date:   2025-06-19 10:00:00 +0900
 categories: [git]
 tags: [git, GitHub, repository]

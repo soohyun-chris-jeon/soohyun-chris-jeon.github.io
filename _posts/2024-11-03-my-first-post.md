@@ -7,7 +7,7 @@ tags: [git, GitHub, GitHub Pages, Chirpy, Jekyll, Markdown]
 pin: false
 
 ---
-## 🟣 드디어..
+## ⚪ 드디어..
 그 동안 다짐만 했던 GitHub pages를 개설하게 되었다! 
 
 미루고 미루기만 하다가 억지로 도서관에서 책을 빌려서 공부를 시작했고 github pages까지 구축해보기로 햇다..
