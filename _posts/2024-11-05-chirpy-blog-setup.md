@@ -30,7 +30,7 @@ comments: true     # 댓글 기능 사용 (옵션)
 
 ---
 
-#### 1. Chirpy 테마로 리포지토리 생성
+#### 🟡 1. Chirpy 테마로 리포지토리 생성
 
 Chirpy 공식 스타터 저장소를 템플릿으로 사용함.
 
@@ -42,7 +42,7 @@ Chirpy 공식 스타터 저장소를 템플릿으로 사용함.
 
 ---
 
-#### 2. 로컬 개발 환경 설정 (Windows + WSL)
+#### 🟡 2. 로컬 개발 환경 설정 (Windows + WSL)
 
 Chirpy는 Ruby 기반이라 Jekyll이 필요했다. 나는 Windows **WSL (Ubuntu)** 위에서 모든 작업을 했다.
 
@@ -61,7 +61,7 @@ bundle exec jekyll serve
 
 ---
 
-#### 3. GitHub Pages 배포 설정
+#### 🟡 3. GitHub Pages 배포 설정
 
 - GitHub 리포지토리 > Settings > Pages에서 `gh-pages` 브랜치 선택
 - `_config.yml`에서 `url`, `github.username` 등 핵심 정보를 입력.
@@ -70,25 +70,25 @@ bundle exec jekyll serve
 
 ---
 
-#### 4. 블로그 커스터마이징
+#### 🟡 4. 블로그 커스터마이징
 
-##### 🟢 Hero Section 추가
+##### Hero Section 추가
 
 `_layouts/home.html` 파일을 수정해서 상단 Hero 영역을 추가했음. 사실 없어도 되는 기능인데 조금 더 커스텀을 하고 싶은 욕심에 추가했는데... 꽤 괜찮다.
 
 Chirpy는 Gem 기반 테마라서 layout과 include 파일을 직접 커스터마이징하려면 일부 파일을 로컬에 복사해야 합니다.
 
-##### 🟢 Footer 문구 변경
+##### Footer 문구 변경
 
 `_includes/footer.html`을 수정해 나만의 문구로 교체했습니다. 나름 고르고 고른 문구 하나 추가했음...
 
-##### 🟢 사이드바 카테고리명 변경
+##### 사이드바 카테고리명 변경
 
 `Categories` 항목을 `Studies`로 바꾸기 위해 `_includes/components/sidebar-panel.html`을 로컬에 복사해서 직접 수정했습니다.(이건 실패패)
 
 ---
 
-#### 5. 앞으로 해보고 싶은 것
+#### 🟡 5. 앞으로 해보고 싶은 것
 
 - 카드형 글 목록 UI 커스터마이징
 - 태그/카테고리 정렬 개선
