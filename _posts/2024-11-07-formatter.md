@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "python fomatter "
+title: "[Python] python fomatter: ruff와 black "
 date: 2024-11-07 00:00:00 +0900
-categories: [Dev Environment]
-tags: [python, VScode, WSL, AI, Deep Learning]
+categories: [python]
+tags: [python, VScode, black, ruff, AI, Deep Learning]
 pin: false
 comments: true     # 댓글 기능 사용 (옵션)
 ---

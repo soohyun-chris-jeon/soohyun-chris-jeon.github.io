@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "개발자용 메신저 Slack 활용법에 대해"
-date: 2024-05-19 09:00:00 +0900
+date: 2024-11-28 09:00:00 +0900
 categories: [Dev Environment]
 tags: [Discord, Slack, Microsoft Teams]
 pin: false
