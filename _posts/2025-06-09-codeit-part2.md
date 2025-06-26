@@ -206,12 +206,26 @@ tensor([[2, 1, 5],
 
 
 
-#### 🔴 [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia) 데이터셋
+#### 🔴 [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia) 데이터셋 (Kaggle)
 
 
 ## 2025-06-25 Wed
-#### 🔴 CaliforniaHousingDataset
+#### 🔴 [CaliforniaHousingDataset](https://www.kaggle.com/datasets/camnugent/california-housing-prices) 데이터셋 (Kaggle)
+`torch.utils.data.Dataset`를 상속받는 클래스는 반드시 이 3가지 특별 메소드를 구현해야함.
+```py
+from torch.utils.data import Dataset
+# pytorch의 Dataset 객체 만들기
+class CaliforniaHousingDataset(Dataset):
+  def __itit__():
+    pass
+  def __len__():
+    pass
+  def __getitem()__:
+    pass
 
+```
+
+또한 `torch.utils.data.DataLoader`으로 감싸서 batch 단위로 데이터 처리가 가능하다. 
 ## 2025-06-26 Thu
 #### ⚪
 
