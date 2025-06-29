@@ -142,18 +142,15 @@ print(f'size: {tensor.size()}') # shape이나 size나 같음
 - 이미지 rotation, crop, scaling 등...
 
 ## 2025-06-20 Fri
-#### ⚪ torch.utils.data의 Dataset 클래스(사용자 정의 클래스) (From [파이토치 공식문서](https://tutorials.pytorch.kr/beginner/basics/data_tutorial.html) )
+#### ⚪ `torch.utils.data`의 Dataset 클래스(사용자 정의 클래스) (From [파이토치 공식문서](https://tutorials.pytorch.kr/beginner/basics/data_tutorial.html) )
 - __init__, __len__, and __getitem__  3가지 메서드를 반드시 정의해야한다.
-  - **\__init__** 함수는 Dataset 객체가 생성(instantiate)될 때 한 번만 실행됩니다. 여기서는 이미지와 주석 파일(annotation_file)이 포함된 디렉토리와 (다음 장에서 자세히 살펴볼) 두가지 변형(transform)을 초기화합니다.
+  - **\__init__** 함수는 Dataset 객체가 생성(instantiate)될 때 한 번만 실행됩니다. 여기서는 이미지와 주석 파일(annotation_file)이 포함된 디렉토리와 두가지 변형(transform)을 초기화합니다.
   
   - **\__len__** 함수는 데이터셋의 샘플 개수를 반환합니다.
 
   - **\__getitem__** 함수는 주어진 인덱스 idx 에 해당하는 샘플을 데이터셋에서 불러오고 반환합니다. 인덱스를 기반으로, 디스크에서 이미지의 위치를 식별하고, read_image 를 사용하여 이미지를 텐서로 변환하고, self.img_labels 의 csv 데이터로부터 해당하는 정답(label)을 가져오고, (해당하는 경우) 변형(transform) 함수들을 호출한 뒤, 텐서 이미지와 라벨을 Python 사전(dict)형으로 반환합니다.
 
 #### ⚪ torch의 브로드캐스팅이란?
-- torch 합: `+` 연산자
-  torch 곱: `@`(매트릭스곱) vs. `*`(스칼라곱)
-
 - tensor의 size가 달라도 연산이 가능하게끔 구현해놓음
 ```py
 a = torch.tensor(
@@ -203,7 +200,8 @@ tensor([[2, 1, 5],
 
 
 ## 2025-06-24 Tue
-
+- torch 합: `+` 연산자
+  torch 곱: `@`(매트릭스곱) vs. `*`(스칼라곱)
 
 
 #### 🔴 [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia) 데이터셋 (Kaggle)
@@ -211,7 +209,7 @@ tensor([[2, 1, 5],
 
 ## 2025-06-25 Wed
 #### 🔴 [CaliforniaHousingDataset](https://www.kaggle.com/datasets/camnugent/california-housing-prices) 데이터셋 (Kaggle)
-`torch.utils.data.Dataset`를 상속받는 클래스는 반드시 이 3가지 특별 메소드를 구현해야함.
+`torch.utils.data.Dataset`를 상속받는 클래스는 반드시 이 3가지 특별 메소드⭐를 구현해야함.
 ```py
 from torch.utils.data import Dataset
 # pytorch의 Dataset 객체 만들기
