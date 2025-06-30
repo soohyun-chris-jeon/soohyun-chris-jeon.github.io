@@ -225,7 +225,26 @@ class CaliforniaHousingDataset(Dataset):
 
 또한 `torch.utils.data.DataLoader`으로 감싸서 batch 단위로 데이터 처리가 가능하다. 
 ## 2025-06-26 Thu
-#### ⚪
+#### ⚪ torch.nn
+- `torch.nn` 패키지는 뉴럴네트워크와 관련된 모듈를 모아놓은 패키지.
+  * 레이어(layers): `nn.Linear()`, `nn.Conv2d()` 등
+  * 활성화 함수(Activation function): `nn.ReLU()` 등
+  * 손실함수(loss function): `nn.MSELoss()` 등
+
+- `torch.nn` vs. `torch.nn.functional`
+  * **torch.nn**: 상태(State)를 가짐. nn.Linear, nn.Conv2d처럼 학습해야 할 가중치(weight, bias)를 내부 상태로 가지고 있음. 그래서 *__init__*에서 미리 정의하고 재사용하는 방식. layer 모듈 방식
+  * **torch.nn.functional**: 상태가 없음(Stateless). `relu()`, `max_pool()`, `softmax()`처럼 학습할 파라미터가 없는 순수 함수들의 모음. 입력이 들어가면 정해진 계산을 거쳐 출력을 낼 뿐, 내부적으로 저장하는 값이 없음. function 방식
+  * 이러한 둘의 차이는 코드의 가독성과 스타일에 따른 선택의 문제이기도 합니다.
+
+- 상태(state)를 가진다? `model.train()`인지 `model.eval()`인지. 즉, state를 갖는 모듈은 코드의 안정성이 높일 수 있음
+- `nn.Sequential`을 사용하려면 모듈 방식은 필수임.
 
 ## 2025-06-27 Fri
-#### ⚪
+#### ⚪ torch.tensor의 차원
+- 축(axis) 개수
+- 또는 tensor.ndim은 len(tensor.shape)과 같음
+- 이미지 배치 텐서 (B, C, H, W): pytorch는 기본적으로 차원이 1만큼 더 추가된다. BCHW(Batch, Channel, Height, Width) 구조로 나타낼 수 있다
+
+
+## 2025-06-30 Mon
+#### ⚪ 
