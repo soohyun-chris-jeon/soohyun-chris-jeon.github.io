@@ -247,4 +247,18 @@ class CaliforniaHousingDataset(Dataset):
 
 
 ## 2025-06-30 Mon
-#### ⚪ 
+#### ⚪ v2.ToTensor() 경고의 의미와 해결책
+
+이 경고는 torchvision의 transforms.v2 버전부터 데이터 변환 방식이 더 명확하고 세분화되었기 때문에 나타남
+
+과거의 ToTensor()는 두 가지 일을 한 번에 했는데
+  1. PIL 이미지나 NumPy 배열을 PyTorch 텐서로 변환.
+  2. 픽셀 값의 범위를 [0, 255]에서 [0.0, 1.0]으로 정규화(scaling).
+
+이걸 더 명확하게 분리하기 위해, v2 버전부터는 아래의 두 단계로 나누어 사용하도록 권장하고 있음
+  - `v2.ToImage()`: 이미지를 PyTorch 텐서로 변환하는 역할만 담당해. v2.ToTensor()와 달리 픽셀 값 범위를 바꾸지 않고 데이터 타입만 텐서로 바꿔줘.
+  - `v2.ToDtype(torch.float32, scale=True)`: 텐서의 데이터 타입을 float32로 바꾸면서, scale=True 옵션을 통해 픽셀 값을 [0.0, 1.0] 범위로 정규화해.
+
+  ## 2025-07-01 Tue
+  #### 🔴 [The Oxford-IIIT Pet Dataset}(https://www.kaggle.com/datasets/devdgohil/the-oxfordiiit-pet-dataset)
+
