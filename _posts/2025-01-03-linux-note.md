@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "리눅스 입문 with 우분투"
+title: "[Linux] 리눅스 입문 with 우분투"
 date: 2025-01-03 09:00:00 +0900
 categories: [Linux]
 tags: [Linux, Ubuntu, 학습기록, 운영체제]
