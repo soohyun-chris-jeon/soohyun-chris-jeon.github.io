@@ -9,7 +9,7 @@ comments: true     # 댓글 기능 사용 (옵션)
 
 ---
 
-## 🟣 들어가며
+## 🔵 들어가며
 
 그 동안 미뤄왔던 포트폴리오용 블로그를 만들기 위해 챗GPT와 씨름을 한지 1주일 정도 됐고 드디어 어느 정도 손에 익기 시작했다.
 
@@ -21,7 +21,7 @@ comments: true     # 댓글 기능 사용 (옵션)
 
 ---
 
-#### 🟢 사용한 기술 스택
+#### ⚪ 사용한 기술 스택
 
 - GitHub Pages
 - Jekyll
@@ -30,7 +30,7 @@ comments: true     # 댓글 기능 사용 (옵션)
 
 ---
 
-#### 🟡 1. Chirpy 테마로 리포지토리 생성
+#### ⚪ 1. Chirpy 테마로 리포지토리 생성
 
 Chirpy 공식 스타터 저장소를 템플릿으로 사용함.
 
@@ -42,7 +42,7 @@ Chirpy 공식 스타터 저장소를 템플릿으로 사용함.
 
 ---
 
-#### 🟡 2. 로컬 개발 환경 설정 (Windows + WSL)
+#### ⚪ 2. 로컬 개발 환경 설정 (Windows + WSL)
 
 Chirpy는 Ruby 기반이라 Jekyll이 필요했다. 나는 Windows **WSL (Ubuntu)** 위에서 모든 작업을 했다.
 
@@ -61,7 +61,7 @@ bundle exec jekyll serve
 
 ---
 
-#### 🟡 3. GitHub Pages 배포 설정
+#### ⚪ 3. GitHub Pages 배포 설정
 
 - GitHub 리포지토리 > Settings > Pages에서 `gh-pages` 브랜치 선택
 - `_config.yml`에서 `url`, `github.username` 등 핵심 정보를 입력.
@@ -70,7 +70,7 @@ bundle exec jekyll serve
 
 ---
 
-#### 🟡 4. 블로그 커스터마이징
+#### ⚪ 4. 블로그 커스터마이징
 
 ##### Hero Section 추가
 
@@ -88,7 +88,7 @@ Chirpy는 Gem 기반 테마라서 layout과 include 파일을 직접 커스터�
 
 ---
 
-#### 🟡 5. 앞으로 해보고 싶은 것
+#### ⚪ 5. 앞으로 해보고 싶은 것
 
 - 카드형 글 목록 UI 커스터마이징
 - 태그/카테고리 정렬 개선
@@ -97,7 +97,7 @@ Chirpy는 Gem 기반 테마라서 layout과 include 파일을 직접 커스터�
 
 ---
 
-## 마무리하며
+## 🔵 마무리하며
 
 블로그를 직접 구축하는 과정은 쉽지만은 않았지만, 그만큼 배우는 것은 더 많았다. 특히, git의 활용성를 여러번 몸소 느꼈고, 커스텀을 진행하는 과정에서는 조금만 시간을 투자하면 github pages 확장성을 더 키울 수 있는 가능성도 느꼈기 때문에 아마 장기적으로 굉장히 도움이 되는 시간이었던 것 같다.
 

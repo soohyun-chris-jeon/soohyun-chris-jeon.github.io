@@ -2,7 +2,7 @@
 layout: post
 title:  "Albumentations vs. torchvision"
 date:   2025-06-24 10:00:00 +0900
-categories: [Albumentations]
+categories: [PyTorch, Albumentations]
 tags: [Albumentations, Deep Learning, tensorboard, PyTorch]
 pin: false
 comments: true     # 댓글 기능 사용 (옵션)

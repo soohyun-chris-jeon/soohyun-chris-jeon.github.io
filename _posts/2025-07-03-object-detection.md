@@ -2,7 +2,7 @@
 layout: post
 title:  "Object Detection 분야의 근간이 되는 Faster R-CNN"
 date:   2025-07-03 10:00:00 +0900
-categories: [git]
+categories: [Deep Learning, Object detection]
 tags: [R-CNN, Object detection, PyTorch, CNN, convolutional-neural-network, Deep Learning, AI, Computer Vision]
 pin: false
 comments: true     # 댓글 기능 사용 (옵션)
@@ -47,5 +47,6 @@ comments: true     # 댓글 기능 사용 (옵션)
     - 완전한 End-to-End 학습
 
  
-🟣 마치며
-그 동안 R-CNN이라는 패러다임에 대해서 진지하게 생각해보지 않았지만 object detection 
+#### 🟣 마치며
+
+그 동안 R-CNN이라는 패러다임에 대해서 진지하게 생각해보지 않았지만 object detection이라는 개념을 처음으로 공부하고자 한다면 R-CNN의 발전 과정을 한번 훑고 가는게 매우 좋을 듯 싶다

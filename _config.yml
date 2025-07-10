@@ -11,6 +11,8 @@ lang: en
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 timezone: Asia/Seoul
 
+mathjax: true  # ✅ 이 줄 추가!
+
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
@@ -19,7 +21,7 @@ title: Serendipity # the main title
 tagline: 나는 생각하는 감자 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  의료 영상과 인공지능, 그리고 신호처리를 탐구하며 연구 내용을 공유하는 기술 블로그입니다. 고민하고, 생각하고 글을 씁니다.
+  인공지능과 의료 영상, 그리고 신호처리 연구 내용을 공유하는 블로그입니다. 
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -161,6 +163,8 @@ baseurl: ""
 # ------------ The following options are not recommended to be modified ------------------
 
 kramdown:
+  math_engine: mathjax  # ✅ 이 줄 추가
+  input: GFM            # ✅ 추가!
   footnote_backlink: "&#8617;&#xfe0e;"
   syntax_highlighter: rouge
   syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options

@@ -151,7 +151,8 @@ print(f'size: {tensor.size()}') # shape이나 size나 같음
   - **\__getitem__** 함수는 주어진 인덱스 idx 에 해당하는 샘플을 데이터셋에서 불러오고 반환합니다. 인덱스를 기반으로, 디스크에서 이미지의 위치를 식별하고, read_image 를 사용하여 이미지를 텐서로 변환하고, self.img_labels 의 csv 데이터로부터 해당하는 정답(label)을 가져오고, (해당하는 경우) 변형(transform) 함수들을 호출한 뒤, 텐서 이미지와 라벨을 Python 사전(dict)형으로 반환합니다.
 
 #### ⚪ torch의 브로드캐스팅이란?
-- tensor의 size가 달라도 연산이 가능하게끔 구현해놓음
+- tensor의 size가 달라도 연산이 가능하게끔 구현해놓음 
+
 ```py
 a = torch.tensor(
     [
@@ -170,6 +171,7 @@ tensor([[2, 1, 5],
         [5, 4, 8]]) a의 각 행에 b가 더 해짐
 """ 
 ```
+
 - 그러나 모든 tensor에 적용되는 것은 아니고 각 벡터의 length가 다르면 브로드캐스팅이 불가능!
 
 
@@ -256,9 +258,27 @@ class CaliforniaHousingDataset(Dataset):
   2. 픽셀 값의 범위를 [0, 255]에서 [0.0, 1.0]으로 정규화(scaling).
 
 이걸 더 명확하게 분리하기 위해, v2 버전부터는 아래의 두 단계로 나누어 사용하도록 권장하고 있음
-  - `v2.ToImage()`: 이미지를 PyTorch 텐서로 변환하는 역할만 담당해. v2.ToTensor()와 달리 픽셀 값 범위를 바꾸지 않고 데이터 타입만 텐서로 바꿔줘.
-  - `v2.ToDtype(torch.float32, scale=True)`: 텐서의 데이터 타입을 float32로 바꾸면서, scale=True 옵션을 통해 픽셀 값을 [0.0, 1.0] 범위로 정규화해.
+  - `v2.ToImage()`: 이미지를 PyTorch 텐서로 변환하는 역할만 담당해. v2.ToTensor()와 달리 픽셀 값 범위를 바꾸지 않고 데이터 타입만 텐서로 바꿈.
+  - `v2.ToDtype(torch.float32, scale=True)`: 텐서의 데이터 타입을 float32로 바꾸면서, scale=True 옵션을 통해 픽셀 값을 [0.0, 1.0] 범위로 정규화.
 
-  ## 2025-07-01 Tue
-  #### 🔴 [The Oxford-IIIT Pet Dataset}(https://www.kaggle.com/datasets/devdgohil/the-oxfordiiit-pet-dataset)
+## 2025-07-01 Tue
+#### 🔴 [The Oxford-IIIT Pet Dataset](https://www.kaggle.com/datasets/devdgohil/the-oxfordiiit-pet-dataset) 데이터셋(kaggle)
+
+## 2025-07-03 Wed
+#### ⚪ Batch_size vs. Learning_rate 뭐가 중요할까?
+
+## 2025-07-03 Thu
+#### ⚪ Adam + ReduceLROnPlateau: 옵티마이저+스케줄러 궁합은?
+
+## 2025-07-04 Fri
+#### ⚪ 
+
+## 2025-07-08 Mon
+#### ⚪ 
+
+## 2025-07-08 Tue
+#### ⚪ Generative Model의 개념 정리
+
+## 2025-07-09 Wed
+#### 🔴 [Football (Semantic Segmentation)](https://www.kaggle.com/datasets/sadhliroomyprime/football-semantic-segmentation) 데이터셋(kaggle)
 

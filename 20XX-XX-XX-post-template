@@ -6,6 +6,8 @@ categories: [git]
 tags: [xxxx]
 pin: false
 comments: true     # 댓글 기능 사용 (옵션)
+math: true
+
 
 
 ---
