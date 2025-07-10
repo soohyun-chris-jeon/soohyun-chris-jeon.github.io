@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  ".gitinore 관리하기"
+title:  "[git] '.gitinore' 템플릿을 작성하고 레포 관리하기"
 date:   2025-06-19 10:00:00 +0900
 categories: [git]
 tags: [git, GitHub, repository]
