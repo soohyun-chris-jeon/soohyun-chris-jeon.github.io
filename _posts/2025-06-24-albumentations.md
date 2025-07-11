@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Albumentations vs. torchvision"
+title:  "CV에서 강력한 Data Augmentation을 제공하는 Albumentations 패키지"
 date:   2025-06-24 10:00:00 +0900
 categories: [PyTorch, Albumentations]
 tags: [Albumentations, Deep Learning, tensorboard, PyTorch]

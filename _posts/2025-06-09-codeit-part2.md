@@ -282,3 +282,31 @@ class CaliforniaHousingDataset(Dataset):
 ## 2025-07-09 Wed
 #### 🔴 [Football (Semantic Segmentation)](https://www.kaggle.com/datasets/sadhliroomyprime/football-semantic-segmentation) 데이터셋(kaggle)
 
+
+
+## 2025-07-10 Thu
+#### ⚪ git pull `--no-rebase` vs `--rebase`
+
+
+## 2025-07-11 Fri
+1. [AI - 컴퓨터 비전] VAE의 구조와 학습 과정(ELBO 키워드 포함)에 대해 설명해 주세요. (20점)
+VAE는 인코더와 디코더로 구성된 생성 모델입니다. 인코더는 입력 데이터를 받아 잠재 변수의 확률분포(평균과 분산)를 추정하고, 디코더는 이 잠재 변수에서 샘플링한 값을 이용해 원본 데이터를 재구성합니다. 학습 과정에서는 재구성 손실과 KL Divergence를 포함한 ELBO(Evidence Lower Bound)를 최대화하여, 입력 데이터의 특성을 잘 반영하는 잠재 공간을 학습하게 됩니다.
+
+
+2. [AI - 컴퓨터 비전] GAN과 cGAN에 대해 설명하고, cGAN이 어떤 상황에서 유용할지 예시를 들어 설명해 주세요. (20점)
+GAN(Generative Adversarial Network)은 생성자(Generator)와 판별자(Discriminator)가 경쟁하며 학습하는 비지도 학습 기반의 이미지 생성 모델입니다. 생성자는 진짜 같은 이미지를 생성하고, 판별자는 생성된 이미지가 가짜인지 판별합니다.
+cGAN(Conditional GAN)**은 GAN에 추가적인 조건을 입력하여 원하는 특성을 가진 이미지를 생성할 수 있도록 한 모델입니다. 예를 들어, MNIST 데이터셋에서 숫자 '3'을 생성하고 싶다면, 3이라는 레이블 정보를 조건으로 사용하여 특정 숫자의 이미지를 생성할 수 있습니다.
+활용 예시: cGAN은 색상 변환, 스타일 변환, 특정 카테고리의 이미지 생성 등에 활용될 수 있습니다. 예를 들어, 흑백 사진을 컬러화하거나, 스케치를 실사 이미지로 변환하는 작업에 사용할 수 있습니다.
+채점 결과 및 코멘트
+
+3. [AI - 컴퓨터 비전] Image Segmentation에서 Semantic Segmentation과 Instance Segmentation의 차이를 설명해 주세요. (20점)
+Semantic Segmentation은 이미지 내의 각 픽셀을 특정 클래스에 할당하는 방식입니다. 같은 클래스에 속하는 모든 객체는 동일한 레이블을 가집니다. 예를 들어, 모든 자동차 픽셀을 같은 라벨로 지정합니다.
+Instance Segmentation(인스턴스 분할)은 같은 클래스 내에서도 개별 객체를 구별하는 방식입니다. 즉, 동일한 클래스의 여러 객체라도 각각 다른 라벨을 할당합니다. 예를 들어, 서로 다른 자동차마다 각각 다른 ID를 부여하여 구분합니다.
+4. [AI - 컴퓨터 비전] Single-Stage 모델과 Two-Stage 모델의 차이점을 설명하세요. (20점)
+Two-Stage 모델은 먼저 Region Proposal Network(RPN)을 사용하여 후보 영역을 생성한 후, 이를 바탕으로 객체 분류 및 바운딩 박스 보정을 수행하는 방식입니다. 대표적인 예시로 Faster R-CNN이 있으며, 일반적으로 정확도가 높지만 속도가 느립니다.
+Single-Stage 모델은 RPN을 사용하지 않고, 단일 네트워크에서 바운딩 박스 예측과 클래스 분류를 동시에 수행하는 방식입니다. 대표적인 예시로 YOLO(You Only Look Once), SSD(Single Shot MultiBox Detector)가 있으며, 실시간 성능이 뛰어나지만 정확도가 다소 낮을 수 있습니다.
+
+5. [AI - 컴퓨터 비전] 이미지 분류(Image Classification)와 객체 탐지(Object Detection)의 차이를 비교하세요. (20점)
+
+이미지 분류(Image Classification)는 입력 이미지가 주어졌을 때, 해당 이미지가 어떤 클래스에 속하는지를 예측하는 문제입니다. 단일 클래스 예측이 일반적이며, 대표적인 모델로 ResNet, VGG, EfficientNet 등이 있습니다.
+객체 탐지(Object Detection)는 이미지 내에서 여러 객체의 위치(Bounding Box)와 해당 클래스를 동시에 예측하는 문제입니다. 이미지 분류보다 더 복잡한 작업이며, 대표적인 모델로 Faster R-CNN, YOLO, SSD 등이 있습니다.
