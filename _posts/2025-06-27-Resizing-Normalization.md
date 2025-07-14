@@ -11,6 +11,8 @@ comments: true     # 댓글 기능 사용 (옵션)
 
 ### 🟢 7-(1). 리사이징(Resizing)과 정규화(Normalization)를 하는 이유?
 
+---
+
 #### ⚪ Resizing ?
 
 - **모델 사전 학습 구조와 일치**: 사전 학습(pretrained)된 모델은 특정 크기(예: ImageNet 기준 224×224)로 학습되었기 때문에 동일한 입력 크기가 필요함.
@@ -24,7 +26,7 @@ comments: true     # 댓글 기능 사용 (옵션)
 
 ![upsizing](https://lh7-rt.googleusercontent.com/docsz/AD_4nXebc5xxGUkDgO9Rfp_78VuVw5Ms6wcF684ACgz6wukyKRxFxQOERHS56uNUvmKCWNmDpaNNXzqrSUgzNX2dnSoWdhCO-YEkH77dmvwTKFjjMbn4CmlqfZaz59LZafP3kX88CTqyQ0blKH1RGc_epRli_luq891cwC6CzEwQ5WgEIPPDdwttgw?key=uEmuBJpB05J9QlNdDSHDGw)
 
-
+---
 
 #### ⚪ Normalization ?
 - **픽셀 값의 스케일 조정**: 일반적으로 픽셀 값은 [0, 255] 범위에 있으므로, 이를 [0, 1] 또는 평균 0, 표준편차 1 범위로 조정.
@@ -35,6 +37,7 @@ comments: true     # 댓글 기능 사용 (옵션)
 > 딥러닝에서 중요한 건 입력의 절대 스케일보다는, 데이터가 가지는 분포의 균형과 정규성이다.
  Ioffe & Szegedy (2015)
 
+---
 
 ### 🟢 예시 답안 (코드잇 제공)
 >  - 딥러닝 모델에 이미지를 입력하기 전에 리사이징(Resizing)과 정규화(Normalization)를 하는 이유는 모델 학습의 효율성과 성능을 높이기 위해서입니다.  

@@ -48,6 +48,8 @@ def myFunction(name): # 2. 함수 이름이 snake_case가 아님
   3): unused_variable이 선언됐지만 사용되지 않음. (F841)
   4): 들여쓰기가 4칸이 아님. (E111)
 
+---
+
 #### ⚪ 추천 세팅: Ruff + Black 조합
 
 Ruff는 빠르고 유연하지만 아직 포매팅 완성도 측면에서는 `black`이 더 안정적. 그래서 두 개를 **함께 쓰는 조합**이 가장 널리 쓰이고 있음.
@@ -72,9 +74,10 @@ Ruff는 빠르고 유연하지만 아직 포매팅 완성도 측면에서는 `bl
 ```
 이 설정은 저장 시 black으로 포매팅되고, ruff는 자동으로 코드 린트 및 수정(--fix)까지 처리해줌.
 
+---
+
 #### ⚪ 동작 예시 코드: 포매팅과 린트 에러가 섞인 상태
-아래 코드를 그대로 test_formatter.py 같은 파일로 저장해봐.
-일부러:
+아래 코드를 그대로 test_formatter.py 같은 파일로 저장하면:
   - 들여쓰기 틀림
   - import 순서 안 맞음
   - 줄 너무 긺
@@ -91,6 +94,8 @@ def    long_function_name( a,b ):
   unused_var = 42
   return a+b+ x +   np.sum(np.random.rand(100,100)) + pd.DataFrame({"a":[1,2,3]})
 ```
+---
+
 
 #### ⚪ 저장 후 기대 효과: 포매팅과 린트 에러가 섞인 상태
 
@@ -113,6 +118,7 @@ def long_function_name(a, b):
     )
 ```
 
+---
 
 ## 🔵 정리
 - `Black`: 안정적이고 일관된 스타일. 보수적인 선택.

@@ -15,8 +15,12 @@ math: true  # ✅ 요거 꼭 추가!
 
 개인적으로 수식을 떼놓고 블로그 포스팅을 하려고 했는데 이 참에 쭈욱 정리해보고 적극적으로 수식을 활용해보고자 포스팅을 한다.
 
+---
+
 #### ⚪ $LaTeX$랑 마크다운 관계?
 마크다운에서 수식을 사용한다는 것은, $LaTeX$ (레이텍)의 문법을 빌려와 렌더링하는 개념. 즉, 복잡한 수학 공식을 텍스트로 표현하기 위한 표준이라고 생각하면 됨.
+
+---
 
 #### ⚪ $LaTeX$ 수식 모드: 인라인(Inline) vs. 블록(Block)
 
@@ -29,7 +33,7 @@ math: true  # ✅ 요거 꼭 추가!
     * 예시: 
     $$\hat{\theta}_{MLE} = \arg\max_{\theta} L(\theta | \text{data})$$
 
-
+---
 
 
 #### ⚪ 필수 기초 문법 정리
@@ -158,6 +162,9 @@ math: true  # ✅ 요거 꼭 추가!
 | **로그** | `$\log_2(x)$` | $\log_2(x)$ |
 | **그리스 문자** | `$\alpha, \beta, \gamma, \theta$` | $\alpha, \beta, \gamma, \theta$ |
 | **행렬** | `$\begin{pmatrix} a & b \\ c & d \end{pmatrix}$` | $\begin{pmatrix} a & b \\ c & d \end{pmatrix}$ |
+
+
+---
 
 ## 🔵 마치며
 

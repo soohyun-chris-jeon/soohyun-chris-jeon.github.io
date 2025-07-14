@@ -15,6 +15,7 @@ Semantic Segmentation은 이미지에 있는 모든 픽셀(pixel)을 특정 클�
 
 ![sementic segmentation](https://www.hitechbpo.com/wp-content/uploads/2025/04/what-is-semantic-segmentation.jpg)
 
+---
 
 #### ⚪ Computer vision에서 나오는 주요 task와 비교
 
@@ -26,7 +27,7 @@ Semantic Segmentation은 이미지에 있는 모든 픽셀(pixel)을 특정 클�
 | **Object Detection**      | 객체 위치(Bounding box)와 클래스 | `class label + bounding boxes `   |
 | **Semantic Segmentation** | **픽셀 단위**로 클래스 지정        | `label map (HxW)`          |
 
-
+---
 
 #### ⚪ 대표적인 semantic segmentation 모델
 
@@ -50,6 +51,8 @@ Semantic Segmentation은 이미지에 있는 모든 픽셀(pixel)을 특정 클�
 - SegFormer: CNN 없이 pure Transformer encoder + MLP decoder
 - MaskFormer / Mask2Former: unified framework → semantic, instance, - panoptic segmentation 모두 처리 가능
 
+---
+
 #### ⚪ 요약 `Sementic Segmentation` vs. `Classification`
 
 | 구분 | Image Classification | Semantic Segmentation |
@@ -60,7 +63,7 @@ Semantic Segmentation은 이미지에 있는 모든 픽셀(pixel)을 특정 클�
 | **주요 아키텍처** | Fully Connected Layer로 클래스 확률 계산 | Fully Convolutional Network(FCN)로 공간 정보 유지 |
 | **응용 분야** | 이미지 태깅, 콘텐츠 필터링 | 자율 주행, 의료 영상 분석 (종양 분할 등) |
 
-
+---
 
 ### 🟢 예시 답안 (코드잇 제공)
 >  - Semantic Segmentation이란 이미지 내 각 픽셀에 대해 특정 클래스를 할당하는 작업을 의미합니다. 즉, 이미지 속의 모든 픽셀이 어떤 객체나 배경에 속하는지를 분류하는 것입니다.

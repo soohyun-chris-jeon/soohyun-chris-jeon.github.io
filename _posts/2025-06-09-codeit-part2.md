@@ -310,3 +310,13 @@ Single-Stage 모델은 RPN을 사용하지 않고, 단일 네트워크에서 바
 
 이미지 분류(Image Classification)는 입력 이미지가 주어졌을 때, 해당 이미지가 어떤 클래스에 속하는지를 예측하는 문제입니다. 단일 클래스 예측이 일반적이며, 대표적인 모델로 ResNet, VGG, EfficientNet 등이 있습니다.
 객체 탐지(Object Detection)는 이미지 내에서 여러 객체의 위치(Bounding Box)와 해당 클래스를 동시에 예측하는 문제입니다. 이미지 분류보다 더 복잡한 작업이며, 대표적인 모델로 Faster R-CNN, YOLO, SSD 등이 있습니다.
+
+
+## 2025-07-14 Mon
+
+#### ⚪ Debugging in Practice: Defensive Programming
+
+
+## 2025-07-15 Tue
+#### 🔴 torchvision.datasets.FashionMNIST
+

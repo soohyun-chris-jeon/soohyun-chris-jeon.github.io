@@ -20,7 +20,7 @@ JupyterLab 원격 접속까지 거의 하루를 갈아넣어버렸다...ㅜ
 
 ---
 
-## ⚙️ 시스템 구성
+### ⚙️ 시스템 구성
 
 | 항목       | 세부 내용                             |
 |------------|--------------------------------------|
@@ -31,20 +31,25 @@ JupyterLab 원격 접속까지 거의 하루를 갈아넣어버렸다...ㅜ
 
 ---
 
-## ⚪ 전체 과정 요약
+### ⚪ 전체 과정 요약
 
-### 1. WSL2에서 SSH 서버 설치 및 시작
+#### 1. WSL2에서 SSH 서버 설치 및 시작
 
 ```bash
 sudo apt update && sudo apt install openssh-server
 sudo service ssh start
 ```
+
+---
+
 ### 2. Windows 포트포워딩 설정 (PowerShell 관리자 권한)
 
 ```powershell
 netsh interface portproxy add v4tov4 listenport=2222 listenaddress=0.0.0.0 connectport=22 connectaddress=127.0.0.1
 ```
 ✅ 이걸 안 하면 외부에서 WSL에 접근할 수 없음!
+
+---
 
 ### 3. VSCode에서 Remote-SSH 연결 설정
 ```bash
@@ -55,6 +60,8 @@ Host my-wsl
     User soohyun
 ```
 → VSCode에서 Remote-SSH: Connect to Host → my-wsl 선택
+
+---
 
 ### 4. SSH 무비번 접속 (공개키 기반)
 ```bash
@@ -68,6 +75,9 @@ ssh-copy-id 안 되면 id_ed25519.pub 내용을 복사해서 노트북의 ~/.ssh
 chmod 700 ~/.ssh
 chmod 600 ~/.ssh/authorized_keys
 ```
+
+---
+
 ### 5. Conda 환경 구성 + 딥러닝 패키지 설치
 ```bash
 conda create -n JSH python=3.10
@@ -76,6 +86,8 @@ conda activate JSH
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 
 ```
+
+---
 
 ### 6. JupyterLab 설치 및 원격 설정
 
@@ -92,6 +104,7 @@ c.ServerApp.port = 8888
 c.ServerApp.open_browser = False
 c.ServerApp.allow_remote_access = True
 ```
+---
 
 ### 7. 실행 및 접속
 ```bash
@@ -103,6 +116,7 @@ http://192.168.0.9:8888
 ```
 브라우저에서 바로 접속 가능하고, VSCode 터미널에서 돌려도 됨!
 
+---
 
 ## 🔵 오늘의 교훈
 - 만만하게 봤던 리눅스 서버 세팅으로 하루를 온전히 날려버림

@@ -15,7 +15,7 @@ comments: true     # 댓글 기능 사용 (옵션)
 - 이 데이터들을 모델이 **학습하기 좋은 형태로 "가공"하고 "공급"해주는 역할**이 바로 `torch.utils.data`의 핵심!
 - 여기서 가장 중요한 두 가지 클래스는 `Dataset`과 `DataLoader`.
 
-
+---
 
 #### ⚪ Dataset 클래스: 말 그대로 데이터셋을 정의하는 클래스
 PyTorch에서 쓰이는 데이터셋은 torch.utils.data.Dataset을 상속받아 디자인됨.
@@ -25,6 +25,10 @@ PyTorch에서 쓰이는 데이터셋은 torch.utils.data.Dataset을 상속받아
     * __init__(self, ...)
     * __len__(self)
     * __getitem__(self, idx)
+
+
+---
+
 
 #### ⚪ DataLoader 클래스: 효율적인 데이터 공급을 위한 클래스
 - **미니배치(Mini-batch)**: 전체 데이터를 한 번에 메모리에 올리고 학습하면 너무 비효율적이고 메모리도 부족하므로 데이터를 작은 묶음(미니배치)으로 나눠서 처리.
@@ -69,10 +73,11 @@ for batch_data, batch_labels in my_dataloader:
     pass
 ```
 
+---
 
 ## 🟣 torch.utils.data 요약
 > `Dataset으로` 데이터를 포장하고, `DataLoader로` 효율적으로 모델에 공급한다
 
-#### ⚪ 출처
+## Reference
 [PyTorch Official Documentation (Data loading)](https://docs.pytorch.org/tutorials/beginner/data_loading_tutorial.html) 
 

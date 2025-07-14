@@ -12,6 +12,8 @@ comments: true     # 댓글 기능 사용 (옵션)
 ## 🟣  Intro
 **Object detection**은 딥러닝 task에서 기본적이지만 가장 널리 쓰이고 있을 정도로 중요한 task이다. 특히 `YOLO`라는 논문은 굉장히 유명했지만 완전하게 이해할만한 기회는 없었는데, 이번 기회에 차근차근 object detection을 한번 정리해보려한다.
 
+---
+
 #### ⚪ Object detection이란?
 
 > **Object detection = Classification + Regression**
@@ -22,6 +24,7 @@ comments: true     # 댓글 기능 사용 (옵션)
     1) classification loss: BCE, softmax 등
     2) regression loss: MSE, L1
 
+---
 
 #### ⚪ R-CNN의 발전 과정
 
@@ -46,6 +49,7 @@ comments: true     # 댓글 기능 사용 (옵션)
     - **Region Proposal Network (RPN)** 도입 -> Anchor Box 개념 -> NMS (Non-Maximum Suppression)을 통해 최종 ROI 선별 -> **Fast R-CNN Detector**
     - 완전한 End-to-End 학습
 
+ ---
  
 #### 🟣 마치며
 

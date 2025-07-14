@@ -23,10 +23,14 @@ class DoubleConv(nn.Module):
 
 - 이거 꼭 해야하나? 이거 왜 하는거지? dataset 만들때는 왜 안해도 되지? 싶어서 포스팅을 해보았다.
 
+---
+
 #### ⚪ super()의 역할
 - `super()`는 파이썬의 클래스 상속(inheritance)에서 자식 클래스에서 부모 클래스를 호출할 때 사용함. 즉, 이 개념을 위 코드에 적용하면
 
 > "좋아, DoubleConv 클래스를 초기화(\__init__)할 건데, 그 전에 일단 내 부모 클래스인 `nn.Module`의 초기화 메서드(\__init__)를 먼저 실행해서 기본 세팅부터 끝내줘."
+
+---
 
 #### ⚪ super()를 꼭 해야하나?
 PyTorch에서 모든 뉴럴네트워크 모듈은 `nn.Module`을 상속받는다. `nn.Module`의 \__init__ 메서드는 다음과 같은 매우 중요한 내부 상태(internal state)를 설정한다.
@@ -41,6 +45,8 @@ PyTorch에서 모든 뉴럴네트워크 모듈은 `nn.Module`을 상속받는다
 
 만약 super().\__init__을 하지 않는다면 이 모든 기능이 비활성화된다. 결과적으로 model.parameters()는 비어있을 것이고, model.to(device)는 작동하지 않으며, **학습 자체가 불가능**
 
+---
+
 #### ⚪ pythonic Syntax
 - `Python 2.x` 스타일 (여전히 작동함)
 ```py
@@ -51,6 +57,9 @@ super(DoubleConv, self).__init__()
 ```py
 super().__init__()
 ```
+
+---
+
 
 ## 🟣 결론
 

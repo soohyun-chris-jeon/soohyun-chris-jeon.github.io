@@ -11,11 +11,15 @@ comments: true     # 댓글 기능 사용 (옵션)
 
 ### 🟢 7-(3). Transfer Learning(전이 학습)이란?
 
+#### ⚪ Feature extraction vs. Fine-tuning?
 
 - **Feature Extraction**: pretrained model의 중간 feature만 사용하고, classifier만 새로 학습.
 - **Fine-tuning**: 전체 모델 또는 상위 일부 레이어를 재학습.
 
 ![tra](https://www.mdpi.com/sensors/sensors-23-00570/article_deploy/html/images/sensors-23-00570-g001.png)
+
+
+---
 
 #### ⚪ Computer vision 적용 사례
 
@@ -29,6 +33,9 @@ comments: true     # 댓글 기능 사용 (옵션)
 | **CLIP (by OpenAI)** | CNN + Transformer | 400M image-text pairs (web) | 이미지 + 텍스트 연결 학습. zero-shot 성능 강력함. |
 | **SAM (Segment Anything by Meta)** | CNN + ViT | 11M images + 1B masks | segmentation 전이 학습에 특화된 foundation model |
 
+
+---
+
 #### ⚪ Transfer Learning 응용 전략
 
 | 전략 | 설명 | 언제 사용하나 |
@@ -37,7 +44,7 @@ comments: true     # 댓글 기능 사용 (옵션)
 | **Fine-tuning** | 백본 일부 or 전체 재학습 | 라벨 수 많고 task가 기존과 조금 다를 때 |
 | **Zero-shot** | 학습 없이 inference만 | CLIP, GPT 같은 대규모 사전학습 모델에서 가능 |
 
-
+---
 
 ### 🟢 예시 답안 (코드잇 제공)
 >   - 전이 학습(Transfer Learning)이란 이미 학습된 모델의 가중치를 활용하여 새로운 데이터나 문제에 적용하는 기법입니다. 딥러닝 모델을 처음부터 학습하려면 많은 데이터와 연산 자원이 필요하지만, 전이 학습을 사용하면 기존에 학습된 지식을 재사용하여 적은 데이터로도 좋은 성능을 얻을 수 있습니다.  

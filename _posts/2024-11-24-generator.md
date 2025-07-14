@@ -12,6 +12,8 @@ comments: true     # 댓글 기능 사용 (옵션)
 ## 🟣 Generator란?
 'Fluent Python'에서 강조하는 개념으로 복잡한 개념은 아니지만 iterator의 개념은 python에서 굉장히 많이 사용되는 문법이지만 제대로 배우거나 정리한 적은 없어서 이번 기회에 살짝 정리해보았다.
 
+---
+
 #### ⚪ Generator? Iterator?
 | 항목                             | Generator                               | Iterator                                      |
 | ------------------------------ | --------------------------------------- | --------------------------------------------- |
@@ -28,6 +30,8 @@ comments: true     # 댓글 기능 사용 (옵션)
       → 예: iter([1,2,3])은 iterator지만 generator는 아님
 
 
+---
+
 #### ⚪ Generator
 ```py
 (x*x for x in range(1000))
@@ -36,6 +40,8 @@ comments: true     # 댓글 기능 사용 (옵션)
 - 리스트를 만들지 않고, 한 번에 하나씩만 처리
 - 메모리 절약에 유리
 
+---
+
 #### ⚪ List comprehension  
 ```py
 [x*x for x in range(1000)]
@@ -43,6 +49,8 @@ comments: true     # 댓글 기능 사용 (옵션)
 - 전체 결과를 한꺼번에 메모리에 저장함 (리스트 생성)
 - 결과가 바로 리스트로 materialize됨
 - 빠르지만 메모리를 많이 쓸 수 있음
+
+---
 
 
 #### ⚪ 예제 비교 
@@ -60,6 +68,7 @@ print(sys.getsizeof(gen))  # ❗ 제너레이터 112
 """
 ```
  
+---
 
 
 ## 🟣 마무리

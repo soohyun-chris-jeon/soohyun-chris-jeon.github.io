@@ -12,6 +12,9 @@ math: true  # ✅ 요거 꼭 추가!
 
 
 ### 🟣 Generative Model: 생성형 모델에 대해서
+![image](https://i0.wp.com/dropsofai.com/wp-content/uploads/2024/01/image-3.png?fit=1244%2C464&ssl=1)
+
+
 생성형 모델은 과거 VAE, GAN 등 딥러닝 역사에서 다양한 연구가 이뤄져 왔으며 현재 diffusion을 비롯한 LLM까지 AI 산업 전반에서 사용이 되는 중요한 모델이다.
 
 과거 generative model과 GAN은 거의 동의어로 사용된 기억이 있는데, 최근 `diffusion model`이 나오면서 generative model의 신뢰도가 상승하였다.
@@ -20,8 +23,10 @@ math: true  # ✅ 요거 꼭 추가!
 
 그러나 이제 인스타 광고나 어디에서나 `생성형 모델`이라는 단어를 찾아볼 수 있는 시대가 되면서 생성형 모델은 가장 중요한 패러다임이 되었다고 해도 과언은 아닐 것이다.
 
+
 그래서 간략한 개념과 함께 연구 전반의 흐름을 정리하기 위해서 포스팅을 해보았다.
 
+---
 
 #### ⚪ 확률 & 통계 관점에서 모델의 정의
 ##### 판별 모델(Discriminative Model):  `p(y | x)`
@@ -40,13 +45,18 @@ math: true  # ✅ 요거 꼭 추가!
 </div>
 $x_{new}$는 우리 모델이 학습한 확률 분포 $P_{model}$로부터 샘플린 된 새로운 데이터
 
+---
+
 #### ⚪ 왜 생성형 모델이 중요한가?
+![generativemodel](https://data-science-blog.com/wp-content/uploads/2022/02/dgms-pipeline-deep-learning-header-1030x301.png)
 
 생성 모델은 단순히 신기한 그림을 그리는 기술을 넘어, 데이터의 본질적인 분포를 이해하고 활용하는 강력한 통계적 도구이며 다양한 산업에서 실제 활용되고 있는 대표적인 AI 기술
 
 - 텍스트: GPT, LLM
 - 이미지: GAN, Diffusion
 - 오디오: WaveNet
+
+---
 
 #### ⚪ 어떻게 데이터의 확률 분포를 학습할까?: Maximum Likelihood Estimation, MLE
 - 우리가 가진 훈련 데이터가 우리 모델($P_{model}$)로부터 나왔을 확률(Likelihood)을 최대로 만드는 파라미터를 찾는 것.
@@ -56,6 +66,7 @@ $x_{new}$는 우리 모델이 학습한 확률 분포 $P_{model}$로부터 샘�
 $$\hat{\theta}_{MLE} = \arg\max_{\theta} \sum_{i=1}^{n} \log P(X_{train} | \theta)$$
 
 
+---
 
 #### ⚪ 대표적인 Generative model 3가지
 
@@ -84,6 +95,7 @@ Reverse process $p(x_{t-1} | x_t)$를 학습
 > VAE는 수학적으로 안정적이고, GAN은 리얼하게 잘 만들고, Diffusion은 정교하게 천천히 만든다!
 
 
+---
 
 #### ⚪ Generative model 논문 발전 과정
 
@@ -106,7 +118,7 @@ Reverse process $p(x_{t-1} | x_t)$를 학습
 
 
 
-
+---
 
 ### 🟣 마치며
 

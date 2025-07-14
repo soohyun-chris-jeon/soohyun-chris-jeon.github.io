@@ -9,15 +9,15 @@ comments: true     # 댓글 기능 사용 (옵션)
 
 ---
 
-# ⚪ 최근에
+## ⚪ 최근에
 집에서 수업을 듣게 되면서 앉아 있는 시간이 길어졌다. 그래서 작업을 할때 조금이라도 편의성을 높이는 방법을 고민하게 되었다. 
 
 최근 작업 환경을 잠시 브리핑해보면 
-- 🔧 데스크탑: 직접 조립  
+- 🔧 **데스크탑**: 직접 조립  
 ⭐인텔 i9 11세대, 128GB, ⭐RTX 3080 ti 
 windows 11 + WSL 기반 VScode
 
-- 🔧 랩탑: 삼성노트북  
+- 🔧 **랩탑**: 삼성노트북  
 인텔 i7 8세대, 24GB, GTX1650 
 windows 11 + WSL 기반 VScode (서브용)
 
@@ -33,9 +33,9 @@ windows 11 + WSL 기반 VScode (서브용)
 
 --- 
 
-# 🔵 Multi-Device AI & Productivity Workflow 
+## 🔵 Multi-Device AI & Productivity Workflow 
 
-## 💻 전체 구성 개요
+#### 💻 전체 구성 개요
 
 | 기기 | OS | 주요 목적 | 환경 구축 |
 |------|----|-----------|------------|
@@ -45,20 +45,20 @@ windows 11 + WSL 기반 VScode (서브용)
 
 ---
 
-## ⚪ 장치 간 연결 및 워크플로우
+#### ⚪ 장치 간 연결 및 워크플로우
 
-### ✅ PowerToys `Mouse Without Borders`
+##### ✅ PowerToys `Mouse Without Borders`
 
 - 두 윈도우 장치 간 **마우스 & 키보드 공유** 설정 완료
 - 네트워크 상 **IP 주소 기반 연결** 성공 (데스크탑 Wi-Fi 없음에도 작동)
 - 키보드 자동 전환 확인됨 (따로 Enable 옵션 없음 — 최신 버전 자동 설정)
 
-### 📎 파일/문서 동기화
+##### 📎 파일/문서 동기화
 
 - [ ] Dropbox or OneDrive 사용 고려 중
 - [ ] 추후 맥북 포함 시, iCloud와 Git 연동 가능성 검토 예정
 
-### 📝 깃헙 Pages 기반 블로그 관리
+##### 📝 깃헙 Pages 기반 블로그 관리
 
 - 블로그 주소: [soohyun-chris-jeon.github.io](https://soohyun-chris-jeon.github.io/)
 - Chirpy 테마 v7.3.0 기반
@@ -67,16 +67,16 @@ windows 11 + WSL 기반 VScode (서브용)
 
 ---
 
-## ⚪ 추천 툴 및 세팅 가이드 (맥북용)
+#### ⚪ 추천 툴 및 세팅 가이드 (맥북용)
 
-### 🔧 기본 개발 도구
+##### 🔧 기본 개발 도구
 
 - [ ] Homebrew (패키지 관리)
 - [ ] iTerm2 + Oh My Zsh
 - [ ] VSCode (with Remote-SSH, GitHub Copilot 등)
 - [ ] Git + GitHub CLI
 
-### 📝 문서 작업 & 블로그 관리
+##### 📝 문서 작업 & 블로그 관리
 
 - [ ] Typora (Markdown WYSIWYG 편집기)
 - [ ] Obsidian (로컬 + Git 기반 지식 관리)
@@ -85,7 +85,7 @@ windows 11 + WSL 기반 VScode (서브용)
 
 ---
 
-## ⚪ 장치별 사용 루틴 예시
+#### ⚪ 장치별 사용 루틴 예시
 
 | 시간대/장소 | 사용 기기 | 주요 작업 |
 |-------------|-----------|-----------|
@@ -95,7 +95,7 @@ windows 11 + WSL 기반 VScode (서브용)
 
 ---
 
-## ⚪ 향후 계획
+#### ⚪ 향후 계획
 
 - [ ] 맥북 세팅 시 GitHub Pages 자동 배포 루틴 설정
 - [ ] VSCode Sync Settings 활성화 (모든 장치에 동일한 확장/테마 유지)
@@ -103,7 +103,7 @@ windows 11 + WSL 기반 VScode (서브용)
 
 ---
 
-# ⚪ 도움 요청 및 개선 포인트
+## 🔵 도움 요청 및 개선 포인트
 
 - Chirpy 테마 커스터마이징 (포스트 카드 스타일 등) 지속 중
 - 블로그 콘텐츠 전략 및 깃헙 포트폴리오 구조화 관련 코멘트 환영

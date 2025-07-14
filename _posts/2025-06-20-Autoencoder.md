@@ -17,6 +17,7 @@ comments: true     # 댓글 기능 사용 (옵션)
 x ──▶ [Encoder] ──▶ z ──▶ [Decoder] ──▶ x'
 ```
 
+---
 
 #### ⚪ 오토인코더 적용사례
 
@@ -28,6 +29,7 @@ x ──▶ [Encoder] ──▶ z ──▶ [Decoder] ──▶ x'
 > "오토인코더는 '**데이터의 효율적인 표현(Representation) 학습**'을 위한 응용 사례다" 
 Hinton, G. E., & Salakhutdinov, R. R. (2006)
 
+---
 
 ### 🟢 6-(2). 오토 인코더를 구성하는 인코더(Encoder)와 디코더(Decoder) 각각의 개념과 차이점에 대해 설명하세요.
 
@@ -54,7 +56,7 @@ x ──▶ [Encoder] ──▶ z ──▶ [Decoder] ──▶ y
 
 
 
-
+---
 #### 🟢 예시 답안 (코드잇 제공)
 
 

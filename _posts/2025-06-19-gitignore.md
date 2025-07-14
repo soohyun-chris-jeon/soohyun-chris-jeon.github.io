@@ -23,6 +23,7 @@ comments: true     # 댓글 기능 사용 (옵션)
 
 챗GPT에게 딥러닝 환경에 아주 쾌적한 `.gitignore` 파일을 만들어 달라고 부탁했다.
 
+---
 
 #### ⚪ `.gitignore`
 

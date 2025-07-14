@@ -12,16 +12,22 @@ comments: true     # 댓글 기능 사용 (옵션)
 ## 🟣 Intro
 앞서 super().__init__을 통해 부모 클래스를 상속받아 초기화하는 과정을 공부해보았고 이제 Dataset 클래스와 비교를 해보면서 조금 더 이해해보려고 한다.
 
+---
+
 #### ⚪ nn.Module 클래스 vs. torch.utils.data.Dataset 클래스
 결론부터 얘기하면
     - **nn.Module**은 상태를 가지는 복잡한 기계에 가까움.
     - **Dataset**은 **데이터 접근 방법을 정의하는 약속(인터페이스)**에 가까움.
+
+---
 
 #### ⚪ nn.Module: 상태를 관리하는 복잡계 (Stateful Complex System)
 nn.Module은 그냥 클래스가 아니며 내부에 학습 가능한 파라미터(weights, biases), 서브 모듈, 버퍼 등 수많은 **상태(state)**를 가지고 있고, 이걸 아주 체계적으로 관리해야 함.
 * 파라미터 등록: 레이어를 만들면 `self._parameters`에 자동으로 등록되어야 optimizer가 찾을 수 있어.
 * 모드 전환: `model.train()`이나 `model.eval()`을 호출하면 모든 하위 모듈의 모드가 함께 바뀌어야 해.
 * 디바이스 이동: `model.to('cuda')`를 하면 모든 파라미터와 버퍼가 한 번에 GPU로 옮겨져야 해.
+
+---
 
 #### ⚪ torch.utils.data.Dataset: 데이터 접근을 위한 인터페이스 (Interface for Data Access)
 
@@ -38,6 +44,7 @@ Dataset의 부모 클래스 자체에는 __init__ 메서드에 특별한 내용�
 | **부모 `__init__` 역할** | 파라미터, 모듈 관리를 위한 **필수적인 내부 시스템 초기화** | 특별한 역할 없음 (내용이 비어있음) |
 | **`super().__init__()`** | **필수 (Mandatory)** | **선택 (Optional, 사실상 불필요)** |
 
+---
 
 #### ⚪ 소프트웨어 공학적 관점
 
@@ -46,6 +53,8 @@ Dataset의 부모 클래스 자체에는 __init__ 메서드에 특별한 내용�
 - Dataset을 상속하는 것은 DataLoader가 요구하는 **인터페이스(interface) 규약을 따르겠다**고 약속하는 것이다.
 
 > 참고: 이 원칙은 소프트웨어의 유연성과 재사용성을 높이는 핵심 개념으로, "Design Patterns: Elements of Reusable Object-Oriented Software" (Gamma et al., 1994)에서 널리 알려졌다.
+
+---
 
 ## 🟣 요약
 ~torch.nn~의 `nn.Module`은 상태를 포함하기 때문에 반드시 초기화 과정이 필요하지만, `torch.utils.data.Dataset`은 데이터 접근을 위한 인터페이스 역할만 하기 때문에 부모 클래스 상속이 필요 없다!
