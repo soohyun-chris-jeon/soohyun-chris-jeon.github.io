@@ -34,8 +34,8 @@ $$
 \text{CE}(p_t) = -\log(p_t)
 $$
 
-여기서:
-- \( p_t \)는 정답 클래스에 대한 예측 확률 (0~1)
+여기서:  
+$p_t$는 정답 클래스에 대한 예측 확률 (0~1)
 
 Focal Loss는 여기에 **조절 계수 modulating factor**를 곱해서, **쉬운 예제의 loss를 줄이고**, **어려운 예제의 loss는 유지**한다:
 
@@ -45,18 +45,18 @@ $$
 ![Focal](https://substackcdn.com/image/fetch/$s_!8oIY!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3556b4a8-bead-41df-894f-38bcf5e29818_2738x1314.png)
 
 여기서:
-- \( \gamma \)는 focusing parameter (보통 2 사용)
-- \( (1 - p_t)^\gamma \)는 예측이 쉬운 경우(= \( p_t \)가 클수록) loss를 줄이는 역할
+- $\gamma$는 focusing parameter (보통 2 사용)
+- $(1 - p_t)^\gamma$는 예측이 쉬운 경우(= $p_t$가 클수록) loss를 줄이는 역할
 
 
 ---
 
 #### ⚪ 해석 예시
 
-| 상황             | \( p_t \) | Modulating Factor \( (1 - p_t)^\gamma \) | 결과                      |
+| 상황             | $ p_t $ | Modulating Factor $ (1 - p_t)^\gamma $ | 결과                      |
 |------------------|-----------|-----------------------------------------|---------------------------|
-| 예측이 매우 정확함 | 0.95      | \( (1 - 0.95)^2 = 0.0025 \)              | 거의 무시됨               |
-| 예측이 매우 틀림  | 0.1       | \( (1 - 0.1)^2 = 0.81 \)                 | 강하게 페널티 부여       |
+| 예측이 매우 정확함 | 0.95      | $ (1 - 0.95)^2 = 0.0025 $             | 거의 무시됨               |
+| 예측이 매우 틀림  | 0.1       |  $(1 - 0.1)^2 = 0.81 $                | 강하게 페널티 부여       |
 
 즉, **쉬운 샘플은 무시하고, 어려운 샘플에 집중한다!**
 
