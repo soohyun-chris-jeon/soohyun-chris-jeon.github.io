@@ -12,7 +12,6 @@ math: true  # ✅ 요거 꼭 추가!
 
 
 ### 🟣 Generative Model: 생성형 모델에 대해서
-![image](https://i0.wp.com/dropsofai.com/wp-content/uploads/2024/01/image-3.png?fit=1244%2C464&ssl=1)
 
 
 생성형 모델은 과거 VAE, GAN 등 딥러닝 역사에서 다양한 연구가 이뤄져 왔으며 현재 diffusion을 비롯한 LLM까지 AI 산업 전반에서 사용이 되는 중요한 모델이다.
@@ -20,6 +19,9 @@ math: true  # ✅ 요거 꼭 추가!
 과거 generative model과 GAN은 거의 동의어로 사용된 기억이 있는데, 최근 `diffusion model`이 나오면서 generative model의 신뢰도가 상승하였다.
 
 사실 기존의 GAN은 연구적으로 '신기한 발견'에 가까웠지 그걸 신중하게 사용하거나 산업적으로 활용이 많지는 않았다.
+
+![generative model](https://vitalflux.com/wp-content/uploads/2023/03/generative-modeling-example-640x282.png)
+
 
 그러나 이제 인스타 광고나 어디에서나 `생성형 모델`이라는 단어를 찾아볼 수 있는 시대가 되면서 생성형 모델은 가장 중요한 패러다임이 되었다고 해도 과언은 아닐 것이다.
 
@@ -29,6 +31,8 @@ math: true  # ✅ 요거 꼭 추가!
 ---
 
 #### ⚪ 확률 & 통계 관점에서 모델의 정의
+
+![disc vs gen](https://velog.velcdn.com/images%2Fcha-suyeon%2Fpost%2F7dda5ea1-ba34-458c-97c1-38f07f832156%2Fimage.png)
 ##### 판별 모델(Discriminative Model):  `p(y | x)`
 > "x가 주어졌을 때 y가 나올 확률"  
 
