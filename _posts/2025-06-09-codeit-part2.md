@@ -320,3 +320,34 @@ Single-Stage 모델은 RPN을 사용하지 않고, 단일 네트워크에서 바
 ## 2025-07-15 Tue
 #### 🔴 torchvision.datasets.FashionMNIST
 
+## 2025-07-16 Wed
+#### ⚪ git config alias
+#### ⚪ git log --pretty=oneline
+#### ⚪ git show [커밋 아이디]
+특정 커밋에서 어떤 변경사항이 있었는지 확인
+
+
+## 2025-07-17 Thu
+#### ⚪ git reset --hard: 과거 커밋으로 아예 돌아가고 싶을 때
+- `--miexed`, `--soft` 같은 옵션과 차이 존재
+- `--hard` 옵션의 경우 working directory의 작업물까지 모두 날아갈 수 있다.
+- `git reset --hard HEAD^`: 현재 가리키고 있는 commit의 바로 이전 커밋
+- `git reflog`로 HEAD 이동 내역을 추적해서 복구 가능
+
+
+## 2025-07-18 Fri
+#### ⚪ git commit --ammend
+신 커밋을 다시 수정해서 새로운 커밋으로 만듦
+#### ⚪ commit 메시지 가이드라인: 협업을 위해서 회사나 조직에서는 일관된 commit 메시지 형식이 존재함
+
+#### ⚪ git tag [태그 이름] [커밋 아이디]
+
+
+
+## 2025-07-22 Tue
+#### ⚪ train.py의 고도화 작업 시작
+- Object학습 평가 지표
+  - IOU 추가
+  - mAP, mAP50, mAP75 등 분류 세분화
+- Earlystopping 전략
+
