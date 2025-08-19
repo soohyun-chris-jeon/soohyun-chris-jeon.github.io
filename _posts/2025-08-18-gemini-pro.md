@@ -3,7 +3,12 @@ layout: post
 title:  "구글 Gemini PRO 1년 프로모션 활용하기(~10/6)"
 date:   2025-08-18 14:00:00 +0900
 categories: [Dev Environment]
-tags: [NLP, Trasnformer, Deep Learning, AI, 구글AI프로, Gemini, GPT]
+tags: [NLP, Trasnformer, Deep Learning, AI, 구글AI프로, Gemini, Google, OpenAI, GPT]
+image:
+  path: https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2Fn61Iy%2FbtsBx7IWdAe%2FAAAAAAAAAAAAAAAAAAAAAGIdFV3xxH1MzgSeNyfkaLRlIczB5YD7ez__f6eWMIIN%2Fimg.jpg%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1756652399%26allow_ip%3D%26allow_referer%3D%26signature%3D7wKmCymZSUg1%252F3En5ehsQ1xDrR0%253D
+#   alt: 나의 멋진 썸네일 이미지
+#   lqip: data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD... # 여기에 base64 코드를 넣어
+#   shadow: true # 그림자 효과 켜기
 comments: true     # 댓글 기능 사용 (옵션)
 
 ---
@@ -20,6 +25,9 @@ comments: true     # 댓글 기능 사용 (옵션)
 
 #### ⚪ 구글 Gemini 2.5 Pro vs ChatGPT (GPT-5) 비교 (2025년 8월 기준)
 
+![gemini2](https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2024/09/hand-holding-a-phone-with-google-gemini-and-openai-chatgpt.jpg?q=49&fit=crop&w=943&h=530&dpr=2)
+
+
 | 항목 | Gemini 2.5 Pro | ChatGPT (GPT-5) |
 |------|----------------|-----------------|
 | 출시 시점 | 2025년 3월 | 2025년 8월 7일 |
@@ -29,7 +37,6 @@ comments: true     # 댓글 기능 사용 (옵션)
 
 대략적인 평가는 이러한데, 개인적인 사용 후기도 비슷하다. 챗GPT는 조금 더 유연하고 인간적인 감수성을 보인다. 반면 Gemini는 **Reasoning**에 강점이 있어서 연구적인 측면에 강하고 공부할만한 부분을 많이 던져준다.
 
-![gemini2](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm0Qw9-n8Wwj6C2ANdYvgbJ6ESqXYMdh7dKg&s)
 
 그리고 무엇보다 **2TB 구글 드라이브 제공**과 gmail과 안드로이드 & 워크스페이스 연동을 제미나이로 제공이 가능하기 때문에 이게 선택의 큰 메리트로 다가왔다.
 
