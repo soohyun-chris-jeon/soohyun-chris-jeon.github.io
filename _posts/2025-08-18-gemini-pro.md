@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "구글 Gemini pro 1년 프로모션 활용하기(~10/6)"
+title:  "구글 Gemini PRO 1년 프로모션 활용하기(~10/6)"
 date:   2025-08-18 14:00:00 +0900
 categories: [Dev Environment]
 tags: [NLP, Trasnformer, Deep Learning, AI, 구글AI프로, Gemini, GPT]
@@ -29,30 +29,35 @@ comments: true     # 댓글 기능 사용 (옵션)
 
 대략적인 평가는 이러한데, 개인적인 사용 후기도 비슷하다. 챗GPT는 조금 더 유연하고 인간적인 감수성을 보인다. 반면 Gemini는 **Reasoning**에 강점이 있어서 연구적인 측면에 강하고 공부할만한 부분을 많이 던져준다.
 
-그리고 무엇보다 2TB 구글 드라이브 제공과 gmail과 각종 안드로이드 연동도 제미나이로 제공이 가능하기 때문에 이게 선택의 큰 메리트로 다가왔다.
+![gemini2](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm0Qw9-n8Wwj6C2ANdYvgbJ6ESqXYMdh7dKg&s)
+
+그리고 무엇보다 **2TB 구글 드라이브 제공**과 gmail과 안드로이드 & 워크스페이스 연동을 제미나이로 제공이 가능하기 때문에 이게 선택의 큰 메리트로 다가왔다.
 
 
 ---
 
 #### ⚪ 구글 Gemini 학생 프로모션
 
-그렇게 3달 정도를 구독해서 알차게 사용하고 있었는데, 최근에 구글이 학생을 대상으로 Gemini pro를 무려 1년동안 무료❗로 제공해준다고 해서 헐레벌떡 기존 요금제가 끝나자마자 신청을 했다.
+그렇게 3달 정도를 구독해서 알차게 사용하고 있었는데, 최근에 구글이 학생을 대상으로 Gemini pro를 무려 **1년동안 무료**❗로 제공해준다고 해서 헐레벌떡 기존 요금제가 끝나자마자 신청을 했다.
 
 ##### (1) 구글 AI Pro 주요 혜택
 
 이번 학생 프로모션은 단순한 챗봇 기능만 제공하는 게 아니라 'AI 풀 패키지'에 가까움.
 
 - **Gemini 2.5 Pro 무제한 이용**
-- **딥 리서치 (Deep Research)**: 수백 개의 웹사이트를 실시간으로 분석해서 체계적인 보고서를 만들어주는 기능
+- **딥 리서치 (Deep Research)**⭐: 수백 개의 웹사이트를 실시간으로 분석해서 체계적인 보고서를 만들어주는 기능
 * **노트북LM (NotebookLM)**: 강의 노트, PDF, 녹음 파일을 업로드하면 AI가 핵심 내용을 요약하고 질문에 답해줌.
-* **2TB 구글 클라우드**: 구글 드라이브, 포토, Gmail에서 사용할 수 있는 넉넉한 저장 공간을 제공함.
+* **2TB 구글 클라우드**⭐: 구글 드라이브, 포토, Gmail에서 사용할 수 있는 넉넉한 저장 공간을 제공함.
 * **구글 워크스페이스 연동**: Gmail에서 메일 초안을 쓰거나, Docs에서 글을 다듬고, Sheets에서 데이터 분석하는 등 평소에 쓰던 구글 툴의 생산성을 높일 수 있음.
 
 ##### (2) 신청 자격
 
 * **나이**: 만 18세 이상
 * **거주지**: 대한민국 거주자
-* **학적**: 대한민국 내 대학교 또는 대학원에 재학 중인 학생
+* **학적**: 대한민국 내 대학교 또는 대학원에 재학 중인 학생 
+
+![gemini](https://lh3.googleusercontent.com/Q7M1CbGsNFj68xaHPP0R7zhQCZDPVAiox508rQCTOLTPUJiTN-FW40nJOXXDCYwopNvX21Qijl3BWNPlPgyhztymwbJIQbrHpkM=e365-pa-nu-w5760)
+
 
 ##### (3) 신청 방법 및 기한
 
@@ -62,7 +67,7 @@ comments: true     # 댓글 기능 사용 (옵션)
     * **결제 수단**: 해외 결제가 가능한 카드. 
 
 2.  **신청 단계**:
-    1.  **[Gemini for Students 공식 페이지](https://gemini.google/students/?hl=ko)에 접속해.**
+    1.  **[Gemini for Students 공식 페이지](https://gemini.google/students/?hl=ko)에 접속.**
     2.  개인 구글 계정으로 로그인하고 '학생 혜택 받기' 버튼을 클릭.
     3.  **'SheerID'라는 학생 인증 서비스**를 통해 재학생 신분을 인증해. 학교 이메일로 인증 코드를 받거나, 준비한 서류를 업로드하면 됨
     4.  인증이 완료되면 결제 수단을 등록하고 구독 절차를 마무리하면 끝!
