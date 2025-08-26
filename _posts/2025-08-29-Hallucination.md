@@ -1,15 +1,16 @@
 ---
 layout: post
-title:  "11-(2) Hugging Face Transformers 라이브러리는 무엇이며, 어떤 기능을 제공하나요?"
-date:   2025-08-22 12:00:00 +0900
+title:  "12-(1) LLM이 생성한 텍스트에서 할루시네이션(Hallucination)이란 무엇이고, 왜 문제가 되나요?"
+date:   2025-08-29 12:00:00 +0900
 categories: [Codeit AI 3기, Weekly Paper]
-tags: [BERT, GPT, NLP, LLM, Trasnformer, Deep Learning, AI]
+tags: [LLM, Hallucination, BERT, GPT, NLP, Trasnformer, Deep Learning, AI]
 comments: true     # 댓글 기능 사용 (옵션)
 
 ---
 
 
-## 🟢 Hugging Face Transformers 라이브러리는 무엇이며, 어떤 기능을 제공하나요?
+## 🟢 LLM이 생성한 텍스트에서 할루시네이션(Hallucination)이란 무엇이고, 왜 문제가 되나요? 여러 LLM 서비스들은 할루시네이션 문제를 어떻게 극복하려고 시도 중일까요? 구글링 등을 통해 자유롭게 리서치해보세요.
+
 ---
 #### ⚪ TBU..
 

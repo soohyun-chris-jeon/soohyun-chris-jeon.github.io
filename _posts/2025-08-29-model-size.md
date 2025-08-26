@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "11-(2) Hugging Face Transformers 라이브러리는 무엇이며, 어떤 기능을 제공하나요?"
-date:   2025-08-22 12:00:00 +0900
+title:  "12-(2) 모델 크기를 키우는 것만으로는 성능이 일정 시점 이후 둔화되는 이유는 무엇일까요?"
+date:   2025-08-29 13:00:00 +0900
 categories: [Codeit AI 3기, Weekly Paper]
 tags: [BERT, GPT, NLP, LLM, Trasnformer, Deep Learning, AI]
 comments: true     # 댓글 기능 사용 (옵션)
@@ -9,7 +9,7 @@ comments: true     # 댓글 기능 사용 (옵션)
 ---
 
 
-## 🟢 Hugging Face Transformers 라이브러리는 무엇이며, 어떤 기능을 제공하나요?
+## 🟢 TBU
 ---
 #### ⚪ TBU..
 
