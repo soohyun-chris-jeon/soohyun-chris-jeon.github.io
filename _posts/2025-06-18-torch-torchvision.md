@@ -5,6 +5,8 @@ date:   2025-06-18 10:00:00 +0900
 categories: [PyTorch]
 tags: [PyTorch, torch.torchvision, Machine Learning, Deep Learning, AI]
 pin: false
+image:
+    path: https://velog.velcdn.com/images/olxtar/post/869d2330-c718-49f1-b0d1-83604b6aebba/image.png
 comments: true     # 댓글 기능 사용 (옵션)
 
 

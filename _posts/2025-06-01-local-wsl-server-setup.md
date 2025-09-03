@@ -5,7 +5,8 @@ date: 2025-06-01
 categories: [Dev Environment]
 tags: [WSL, SSH, Dev Environment, Deep Learning, VScode, JupyterLab]
 comments: true     # 댓글 기능 사용 (옵션)
-
+image:
+    path: https://linuxkamarada.com/files/2025/03/wsl-en.png
 ---
 
 ## 🔵 Intro

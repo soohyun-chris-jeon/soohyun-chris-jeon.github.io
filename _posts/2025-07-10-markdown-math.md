@@ -6,6 +6,8 @@ categories: [Markdown]
 tags: [Markdown, LaTeX, GitHub Pages, blog]
 pin: false
 comments: true     # 댓글 기능 사용 (옵션)
+image:
+  path: https://lsin07.github.io/assets/img/2023-11-15-writing-latex-on-vscode/title.png
 math: true  # ✅ 요거 꼭 추가!
 
 

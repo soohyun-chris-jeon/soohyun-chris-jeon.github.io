@@ -5,7 +5,7 @@ date:   2025-07-21 11:00:00 +0900
 categories: [Machine Learning]
 tags: [WBF, sklearn, Deep Learning, AI, Computer Vision]
 image:
-  path: assets/img/WBF.png
+  path: https://learnopencv.com/wp-content/uploads/2023/07/weighted-boxes-fusion-feature.png
 #   alt: 나의 멋진 썸네일 이미지
 #   lqip: data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD... # 여기에 base64 코드를 넣어
 #   shadow: true # 그림자 효과 켜기

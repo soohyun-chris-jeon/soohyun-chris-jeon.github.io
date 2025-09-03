@@ -6,6 +6,8 @@ categories: [Codeit AI 3기, Weekly Paper]
 tags: [Generative Model, PyTorch, CNN, convolutional-neural-network, Diffusion Model, Deep Learning, AI, Computer Vision]
 comments: true     # 댓글 기능 사용 (옵션)
 math: true  # ✅ 요거 꼭 추가!
+image:
+    path: https://i.ytimg.com/vi/EhndHhIvWWw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDmiXXTvLBTOVzJpi-JBigzxP54YA
 ---
 
 ---

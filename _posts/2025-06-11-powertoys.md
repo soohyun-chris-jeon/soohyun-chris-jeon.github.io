@@ -6,6 +6,8 @@ categories: [Dev Environment]
 tags: [Windows, PowerToys, WSL, logitech, Multi-Device, Productivity, VScode]
 pin: false
 comments: true     # 댓글 기능 사용 (옵션)
+image:
+    path: https://miro.medium.com/0*CBiUMLrLbvqFdJiE.jpg
 
 ---
 

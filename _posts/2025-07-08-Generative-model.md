@@ -11,7 +11,7 @@ math: true  # ✅ 요거 꼭 추가!
 ---
 
 
-### 🟣 Generative Model: 생성형 모델에 대해서
+## 🟣 Generative Model: 생성형 모델에 대해서
 
 
 생성형 모델은 과거 VAE, GAN 등 딥러닝 역사에서 다양한 연구가 이뤄져 왔으며 현재 diffusion을 비롯한 LLM까지 AI 산업 전반에서 사용이 되는 중요한 모델이다.
@@ -124,7 +124,7 @@ Reverse process $p(x_{t-1} | x_t)$를 학습
 
 ---
 
-### 🟣 마치며
+## 🟣 마치며
 
 생성형 모델은 데이터의 확률 분포를 만들고 데이터를 sampling 한다는 것이 핵심 개념이다. 
 

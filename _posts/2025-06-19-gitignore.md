@@ -5,6 +5,8 @@ date:   2025-06-19 10:00:00 +0900
 categories: [git]
 tags: [git, GitHub, repository]
 comments: true     # 댓글 기능 사용 (옵션)
+image:
+    path: https://miro.medium.com/v2/resize:fit:1200/1*JLYlSLSK8-AZo8gt9UdYqA.jpeg
 ---
 
 

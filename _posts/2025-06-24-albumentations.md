@@ -5,6 +5,8 @@ date:   2025-06-24 10:00:00 +0900
 categories: [PyTorch, Albumentations]
 tags: [Albumentations, Deep Learning, tensorboard, PyTorch]
 pin: false
+image:
+    path: https://albumentations.ai/opengraph-image?adf77b6199288de1
 comments: true     # 댓글 기능 사용 (옵션)
 
 

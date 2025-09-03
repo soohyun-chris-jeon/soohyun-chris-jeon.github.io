@@ -5,13 +5,16 @@ date:   2025-05-07 10:00:00 +0900
 categories: [Codeit AI 3기, Study log]
 tags: [python, Machine Learning, pandas, numpy]
 pin: false
+image:
+  path: https://img1.daumcdn.net/thumb/R750x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F4qgsr%2FbtsFEtondnt%2FXoFKqUvKEaFyQubZZyLIPk%2Fimg.png
+
 comments: true     # 댓글 기능 사용 (옵션)
 
 ---
 
 
-
-![코드잇 스프린트](https://img1.daumcdn.net/thumb/R750x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F4qgsr%2FbtsFEtondnt%2FXoFKqUvKEaFyQubZZyLIPk%2Fimg.png)
+<!-- 
+![코드잇 스프린트](https://img1.daumcdn.net/thumb/R750x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F4qgsr%2FbtsFEtondnt%2FXoFKqUvKEaFyQubZZyLIPk%2Fimg.png) -->
 
 # 🟣 2025.05.08 ~ 2025.06.06의 기록 
 

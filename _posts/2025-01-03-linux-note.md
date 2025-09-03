@@ -6,6 +6,8 @@ categories: [Linux]
 tags: [Linux, Ubuntu, 학습기록, 운영체제]
 pin: false
 comments: true     # 댓글 기능 사용 (옵션)
+image:
+  path: https://cdn.inflearn.com/public/courses/327107/cover/3be82389-0166-46c4-9668-2a9430b5be94/327107.png
 
 ---
 # 🔵 리눅스...

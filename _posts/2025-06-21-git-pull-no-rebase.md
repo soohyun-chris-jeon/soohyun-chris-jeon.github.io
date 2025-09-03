@@ -6,6 +6,9 @@ categories: [git]
 tags: [git, GitHub, repository]
 comments: true     # 댓글 기능 사용 (옵션)
 math: true  # ✅ 요거 꼭 추가!
+image:
+    path: https://devpro.kr/assets/img/title/git_logo_white.png
+
 ---
 
 

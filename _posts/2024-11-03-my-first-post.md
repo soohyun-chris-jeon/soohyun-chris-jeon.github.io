@@ -5,6 +5,8 @@ date:   2024-11-03 10:00:00 +0900
 categories: [git, GitHub]
 tags: [git, GitHub, GitHub Pages, Chirpy, Jekyll, Markdown]
 pin: false
+image:
+  path: https://velog.velcdn.com/images/langoustine/post/988f6e2a-359e-46bb-9154-eecf28cc1164/image.jpeg
 
 ---
 ## 🔵 드디어..

@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "데이터 불균형(Imbalance) 해결 방법: Stratified Group Sampling, Weighted Sampling"
+title:  "Stratified Group Sampling(층화 샘플링): 데이터 불균형을 해결하기 위한 샘플링 방법론"
 date:   2025-07-17 11:00:00 +0900
 categories: [Machine Learning]
 tags: [StratifiedGroupKFold, sklearn, Deep Learning, AI, Computer Vision]
 comments: true     # 댓글 기능 사용 (옵션)
-
+image:
+    path: https://www.qualtrics.com/m/assets/wp-content/uploads/2021/08/stratified-03.jpg
 ---
 
 

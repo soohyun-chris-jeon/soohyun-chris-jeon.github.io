@@ -5,6 +5,8 @@ date: 2024-11-05
 categories: [git, GitHub]
 tags: [GitHub, GitHub Pages, Jekyll, Chirpy, blog]
 pin: false
+image:
+  path: https://cdn.jsdelivr.net/gh/jjikin/jjikin.github.io@main/assets/img/posts/image-20230618154229292.png
 comments: true     # 댓글 기능 사용 (옵션)
 
 ---

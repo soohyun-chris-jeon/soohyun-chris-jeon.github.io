@@ -5,6 +5,8 @@ date: 2024-11-10 00:00:00 +0900
 categories: [Markdown]
 tags: [Markdown, cheatsheet, GitHub Pages, blog]
 pin: false
+image:
+  path: https://gparkkii.github.io/static/53f2005a49bc6341f76a3d8c9bf09219/0ca3c/markdown.png
 comments: true     # 댓글 기능 사용 (옵션)
 
 ---

@@ -5,7 +5,10 @@ date:   2024-11-23 10:00:00 +0900
 categories: [python]
 tags: [python, Fluent python, pythonic]
 pin: false
+image:
+  path: https://m.media-amazon.com/images/I/411qhFCwczL.jpg_BO30,255,255,255_UF900,850_SR1910,1000,0,C_QL100_.jpg
 comments: true     # 댓글 기능 사용 (옵션)
+
 
 
 ---

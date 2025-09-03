@@ -5,7 +5,8 @@ date:   2025-08-08 14:00:00 +0900
 categories: [Codeit AI 3기, Weekly Paper]
 tags: [NLP, Trasnformer, Deep Learning, AI]
 comments: true     # 댓글 기능 사용 (옵션)
-
+image:
+    path: https://gaussian37.github.io/assets/img/dl/concept/transformer/2.png
 ---
 
 

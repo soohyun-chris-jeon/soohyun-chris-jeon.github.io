@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "VSCode Python 개발 환경 기본 셋팅 가이드"
+title: "[VSCode] Python 개발 환경 기본 셋팅 가이드"
 date: 2024-11-10 00:00:00 +0900
 categories: [Dev Environment]
 tags: [python, VScode, WSL, AI, Deep Learning]
 pin: false
+image:
+  path: https://chaechae.life/_next/image?url=%2Fimages%2Fblog%2Fthumbnails%2Fvscode-logo.png&w=1920&q=75
 comments: true     # 댓글 기능 사용 (옵션)
 
 ---
