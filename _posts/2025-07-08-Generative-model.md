@@ -6,7 +6,8 @@ categories: [Deep Learning, Generative Model]
 tags: [Generative Model, PyTorch, CNN, convolutional-neural-network, Deep Learning, AI, Computer Vision]
 comments: true     # 댓글 기능 사용 (옵션)
 math: true  # ✅ 요거 꼭 추가!
-
+image:
+  path: https://www.aitude.com/wp-content/uploads/2021/04/generating_data.png
 
 ---
 
