@@ -1,0 +1,153 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>Serendipity</title>
+  <subtitle>인공지능과 의료 영상, 그리고 신호처리 연구 내용을 공유하는 블로그입니다. </subtitle>
+  <updated>2025-09-04T18:50:32+09:00</updated>
+  <author>
+    <name>soohyun-chris-jeon</name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2025 soohyun-chris-jeon </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>12-(3) PEFT가 필요한 이유는 무엇이며, 어떤 상황에서 특히 효과적인가요?</title>
+    <link href="http://localhost:4000/posts/PEFT/" rel="alternate" type="text/html" title="12-(3) PEFT가 필요한 이유는 무엇이며, 어떤 상황에서 특히 효과적인가요?" />
+    <published>2025-08-29T14:00:00+09:00</published>
+  
+    <updated>2025-09-02T16:02:56+09:00</updated>
+  
+    <id>http://localhost:4000/posts/PEFT/</id>
+    <content type="text/html" src="http://localhost:4000/posts/PEFT/" />
+    <author>
+      <name>soohyun-chris-jeon</name>
+    </author>
+
+  
+    
+    <category term="Codeit AI 3기" />
+    
+    <category term="Weekly Paper" />
+    
+  
+
+  <summary>🟢 TBU   ⚪ TBU..  🟢 예시 답안 (코드잇 제공)    PEFT가 필요한 이유는 대형 언어 모델을 실제 환경에 맞게 활용하려고 할 때, 기존의 전체 파인튜닝 방식이 너무 비효율적이고 부담이 크기 때문입니다.기존 방식은 모델의 모든 파라미터를 다시 학습해야 하다 보니, 수많은 GPU 자원이 필요하고, 학습 시간도 오래 걸리며, 각각의 작업마다 전체 모델을 따로 저장해야 해서 저장 공간도 많이 차지합니다. 특히 사전학습 모델의 크기가 수십억에서 수천억 파라미터로 커진 요즘에는, 이 방식이 현실적으로 어렵습니다.이럴 때 PEFT는 전체 모델을 그대로 두고, 일부 파라미터만 학습하거나 작은 모듈만 추가로 학습하는 방식이기 때문에 훨씬 가볍고 빠릅니다. 전체 모델의 1%도 안 되는 파라미터만 수정하면...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>12-(2) 모델 크기를 키우는 것만으로는 성능이 일정 시점 이후 둔화되는 이유는 무엇일까요?</title>
+    <link href="http://localhost:4000/posts/model-size/" rel="alternate" type="text/html" title="12-(2) 모델 크기를 키우는 것만으로는 성능이 일정 시점 이후 둔화되는 이유는 무엇일까요?" />
+    <published>2025-08-29T13:00:00+09:00</published>
+  
+    <updated>2025-09-02T16:02:56+09:00</updated>
+  
+    <id>http://localhost:4000/posts/model-size/</id>
+    <content type="text/html" src="http://localhost:4000/posts/model-size/" />
+    <author>
+      <name>soohyun-chris-jeon</name>
+    </author>
+
+  
+    
+    <category term="Codeit AI 3기" />
+    
+    <category term="Weekly Paper" />
+    
+  
+
+  <summary>🟢 TBU   ⚪ TBU..  🟢 예시 답안 (코드잇 제공)          모델 크기를 키우면 초기에는 성능이 눈에 띄게 좋아지지만, 일정 규모를 넘어서면 성능 향상 속도가 점점 느려지고 결국에는 거의 개선되지 않는 구간에 도달하게 됩니다. 이 현상에는 몇 가지 이유가 있습니다.     첫째, 학습 데이터의 한계입니다. 모델이 아무리 크더라도 학습할 수 있는 데이터가 부족하거나 품질이 낮으면 그 성능은 금방 한계에 부딪힙니다. 특히 데이터에 중복이 많거나 편향된 정보가 많으면, 큰 모델일수록 오히려 그 편향을 더 강하게 반영할 수 있습니다.     둘째, 모델이 학습한 정보 중에는 실제로 문제 해결에 도움이 되지 않는 정보도 포함되기 때문에, 모델이 커질수록 반드시 ‘좋은 정보만 더 많이’ 배우는 것...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>12-(1) LLM이 생성한 텍스트에서 할루시네이션(Hallucination)이란 무엇이고, 왜 문제가 되나요?</title>
+    <link href="http://localhost:4000/posts/Hallucination/" rel="alternate" type="text/html" title="12-(1) LLM이 생성한 텍스트에서 할루시네이션(Hallucination)이란 무엇이고, 왜 문제가 되나요?" />
+    <published>2025-08-29T12:00:00+09:00</published>
+  
+    <updated>2025-09-02T16:02:56+09:00</updated>
+  
+    <id>http://localhost:4000/posts/Hallucination/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Hallucination/" />
+    <author>
+      <name>soohyun-chris-jeon</name>
+    </author>
+
+  
+    
+    <category term="Codeit AI 3기" />
+    
+    <category term="Weekly Paper" />
+    
+  
+
+  <summary>🟢 LLM이 생성한 텍스트에서 할루시네이션(Hallucination)이란 무엇이고, 왜 문제가 되나요? 여러 LLM 서비스들은 할루시네이션 문제를 어떻게 극복하려고 시도 중일까요? 구글링 등을 통해 자유롭게 리서치해보세요.    ⚪ TBU..  🟢 예시 답안 (코드잇 제공)         LLM이 생성한 텍스트에서 할루시네이션(Hallucination)이란, 모델이 실제로 존재하지 않는 정보나 사실과 다른 내용을 그럴듯하게 생성하는 현상을 말합니다. 예를 들어, 존재하지 않는 논문 제목을 만들어 내거나, 실제로는 관련 없는 사실을 연결해 설명하는 경우가 할루시네이션에 해당합니다. 이 문제는 특히 신뢰성과 정확성이 중요한 분야에서 큰 문제가 됩니다. 예를 들어, 의료, 법률, 금융 같은 도메인에서는 모델...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>11-(3) BERT와 GPT 이후 등장한 주요 사전학습 모델에는 어떤 것들이 있으며, 특징은 무엇인가요? 구글링 등을 통해 자유롭게 리서치해서 정리해보세요.</title>
+    <link href="http://localhost:4000/posts/BERT/" rel="alternate" type="text/html" title="11-(3) BERT와 GPT 이후 등장한 주요 사전학습 모델에는 어떤 것들이 있으며, 특징은 무엇인가요? 구글링 등을 통해 자유롭게 리서치해서 정리해보세요." />
+    <published>2025-08-22T15:00:00+09:00</published>
+  
+    <updated>2025-08-26T15:36:12+09:00</updated>
+  
+    <id>http://localhost:4000/posts/BERT/</id>
+    <content type="text/html" src="http://localhost:4000/posts/BERT/" />
+    <author>
+      <name>soohyun-chris-jeon</name>
+    </author>
+
+  
+    
+    <category term="Codeit AI 3기" />
+    
+    <category term="Weekly Paper" />
+    
+  
+
+  <summary>🟢 BERT와 GPT 이후 등장한 주요 사전학습 모델에는 어떤 것들이 있으며, 특징은 무엇인가요? 구글링 등을 통해 자유롭게 리서치해서 정리해보세요.”   ⚪ TBU..  🟢 예시 답안 (코드잇 제공)          RoBERTa (Robustly Optimized BERT Approach) RoBERTa는 BERT를 기반으로 하되, 학습 방법을 개선해 성능을 끌어올린 모델입니다.                BERT보다 더 많은 데이터와 긴 학습 시간으로 훈련됨.         NSP(Next Sentence Prediction) 태스크를 제거하고, 순수한 Masked Language Modeling만 사용.         큰 배치 사이즈와 학습률, 다양한 시퀀스 길이 사용.         BERT와...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>11-(2) Hugging Face Transformers 라이브러리는 무엇이며, 어떤 기능을 제공하나요?</title>
+    <link href="http://localhost:4000/posts/hugging-face/" rel="alternate" type="text/html" title="11-(2) Hugging Face Transformers 라이브러리는 무엇이며, 어떤 기능을 제공하나요?" />
+    <published>2025-08-22T12:00:00+09:00</published>
+  
+    <updated>2025-08-26T15:36:12+09:00</updated>
+  
+    <id>http://localhost:4000/posts/hugging-face/</id>
+    <content type="text/html" src="http://localhost:4000/posts/hugging-face/" />
+    <author>
+      <name>soohyun-chris-jeon</name>
+    </author>
+
+  
+    
+    <category term="Codeit AI 3기" />
+    
+    <category term="Weekly Paper" />
+    
+  
+
+  <summary>🟢 Hugging Face Transformers 라이브러리는 무엇이며, 어떤 기능을 제공하나요?   ⚪ TBU..  🟢 예시 답안 (코드잇 제공)          Hugging Face Transformers 라이브러리는 사전학습된 자연어처리 모델을 손쉽게 불러오고 사용할 수 있도록 도와주는 오픈소스 라이브러리입니다. PyTorch와 TensorFlow를 모두 지원하며, NLP 작업에 필요한 대부분의 모델과 도구를 통합적으로 제공합니다. 이 라이브러리의 가장 큰 장점은, BERT, GPT, RoBERTa, T5, DistilBERT 같은 유명한 사전학습 모델들을 몇 줄의 코드만으로 불러와서 바로 사용할 수 있다는 점입니다. 복잡한 모델 구조를 처음부터 구현하지 않아도 되기 때문에, 모델 실험과 응용을...</summary>
+
+  </entry>
+
+</feed>
+
+
