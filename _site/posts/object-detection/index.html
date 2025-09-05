@@ -44,15 +44,15 @@
 <meta property="og:locale" content="en" />
 <meta name="description" content="🟣 Intro Object detection은 딥러닝 task에서 기본적이지만 가장 널리 쓰이고 있을 정도로 중요한 task이다. 특히 YOLO라는 논문은 굉장히 유명했지만 완전하게 이해할만한 기회는 없었는데, 이번 기회에 차근차근 object detection을 한번 정리해보려한다." />
 <meta property="og:description" content="🟣 Intro Object detection은 딥러닝 task에서 기본적이지만 가장 널리 쓰이고 있을 정도로 중요한 task이다. 특히 YOLO라는 논문은 굉장히 유명했지만 완전하게 이해할만한 기회는 없었는데, 이번 기회에 차근차근 object detection을 한번 정리해보려한다." />
-<link rel="canonical" href="https://soohyun-chris-jeon.github.io/posts/object-detection/" />
-<meta property="og:url" content="https://soohyun-chris-jeon.github.io/posts/object-detection/" />
+<link rel="canonical" href="http://localhost:4000/posts/object-detection/" />
+<meta property="og:url" content="http://localhost:4000/posts/object-detection/" />
 <meta property="og:site_name" content="Serendipity" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2025-07-03T10:00:00+09:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Object Detection 분야의 근간이 되는 Faster R-CNN" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Soohyun Chris Jeon"},"dateModified":"2025-07-14T19:04:17+09:00","datePublished":"2025-07-03T10:00:00+09:00","description":"🟣 Intro Object detection은 딥러닝 task에서 기본적이지만 가장 널리 쓰이고 있을 정도로 중요한 task이다. 특히 YOLO라는 논문은 굉장히 유명했지만 완전하게 이해할만한 기회는 없었는데, 이번 기회에 차근차근 object detection을 한번 정리해보려한다.","headline":"Object Detection 분야의 근간이 되는 Faster R-CNN","mainEntityOfPage":{"@type":"WebPage","@id":"https://soohyun-chris-jeon.github.io/posts/object-detection/"},"url":"https://soohyun-chris-jeon.github.io/posts/object-detection/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Soohyun Chris Jeon"},"dateModified":"2025-07-14T19:04:17+09:00","datePublished":"2025-07-03T10:00:00+09:00","description":"🟣 Intro Object detection은 딥러닝 task에서 기본적이지만 가장 널리 쓰이고 있을 정도로 중요한 task이다. 특히 YOLO라는 논문은 굉장히 유명했지만 완전하게 이해할만한 기회는 없었는데, 이번 기회에 차근차근 object detection을 한번 정리해보려한다.","headline":"Object Detection 분야의 근간이 되는 Faster R-CNN","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/object-detection/"},"url":"http://localhost:4000/posts/object-detection/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -1033,21 +1033,21 @@
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=Object%20Detection%20%EB%B6%84%EC%95%BC%EC%9D%98%20%EA%B7%BC%EA%B0%84%EC%9D%B4%20%EB%90%98%EB%8A%94%20Faster%20R-CNN%20-%20Serendipity&url=https%3A%2F%2Fsoohyun-chris-jeon.github.io%2Fposts%2Fobject-detection%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=Object%20Detection%20%EB%B6%84%EC%95%BC%EC%9D%98%20%EA%B7%BC%EA%B0%84%EC%9D%B4%20%EB%90%98%EB%8A%94%20Faster%20R-CNN%20-%20Serendipity&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fobject-detection%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=Object%20Detection%20%EB%B6%84%EC%95%BC%EC%9D%98%20%EA%B7%BC%EA%B0%84%EC%9D%B4%20%EB%90%98%EB%8A%94%20Faster%20R-CNN%20-%20Serendipity&u=https%3A%2F%2Fsoohyun-chris-jeon.github.io%2Fposts%2Fobject-detection%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=Object%20Detection%20%EB%B6%84%EC%95%BC%EC%9D%98%20%EA%B7%BC%EA%B0%84%EC%9D%B4%20%EB%90%98%EB%8A%94%20Faster%20R-CNN%20-%20Serendipity&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fobject-detection%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=https%3A%2F%2Fsoohyun-chris-jeon.github.io%2Fposts%2Fobject-detection%2F&text=Object%20Detection%20%EB%B6%84%EC%95%BC%EC%9D%98%20%EA%B7%BC%EA%B0%84%EC%9D%B4%20%EB%90%98%EB%8A%94%20Faster%20R-CNN%20-%20Serendipity" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fobject-detection%2F&text=Object%20Detection%20%EB%B6%84%EC%95%BC%EC%9D%98%20%EA%B7%BC%EA%B0%84%EC%9D%B4%20%EB%90%98%EB%8A%94%20Faster%20R-CNN%20-%20Serendipity" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     

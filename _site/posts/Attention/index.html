@@ -44,8 +44,8 @@
 <meta property="og:locale" content="en" />
 <meta name="description" content="🟢 Attention 메커니즘이 Seq2Seq 모델의 어떤 문제를 해결하는 데 도움이 되나요? NLP에서 Seq2Seq는 ‘정보 병목(Information Bottleneck)’ 현상이 가장 큰 한계였다. 즉, 기존 RNN 모델은 디코더에서 context vector에 현재까지 모든 정보를 담는 구조이기 때문에 정보가 소실되는 문제가 있었다." />
 <meta property="og:description" content="🟢 Attention 메커니즘이 Seq2Seq 모델의 어떤 문제를 해결하는 데 도움이 되나요? NLP에서 Seq2Seq는 ‘정보 병목(Information Bottleneck)’ 현상이 가장 큰 한계였다. 즉, 기존 RNN 모델은 디코더에서 context vector에 현재까지 모든 정보를 담는 구조이기 때문에 정보가 소실되는 문제가 있었다." />
-<link rel="canonical" href="https://soohyun-chris-jeon.github.io/posts/Attention/" />
-<meta property="og:url" content="https://soohyun-chris-jeon.github.io/posts/Attention/" />
+<link rel="canonical" href="http://localhost:4000/posts/Attention/" />
+<meta property="og:url" content="http://localhost:4000/posts/Attention/" />
 <meta property="og:site_name" content="Serendipity" />
 <meta property="og:image" content="https://lena-voita.github.io/resources/lectures/seq2seq/attention/bahdanau_model-min.png" />
 <meta property="og:type" content="article" />
@@ -54,7 +54,7 @@
 <meta property="twitter:image" content="https://lena-voita.github.io/resources/lectures/seq2seq/attention/bahdanau_model-min.png" />
 <meta property="twitter:title" content="10-(3) Attention 메커니즘이 Seq2Seq 모델의 어떤 문제를 해결하는 데 도움이 되나요?" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Soohyun Chris Jeon"},"dateModified":"2025-09-04T18:16:04+09:00","datePublished":"2025-08-08T13:00:00+09:00","description":"🟢 Attention 메커니즘이 Seq2Seq 모델의 어떤 문제를 해결하는 데 도움이 되나요? NLP에서 Seq2Seq는 ‘정보 병목(Information Bottleneck)’ 현상이 가장 큰 한계였다. 즉, 기존 RNN 모델은 디코더에서 context vector에 현재까지 모든 정보를 담는 구조이기 때문에 정보가 소실되는 문제가 있었다.","headline":"10-(3) Attention 메커니즘이 Seq2Seq 모델의 어떤 문제를 해결하는 데 도움이 되나요?","image":"https://lena-voita.github.io/resources/lectures/seq2seq/attention/bahdanau_model-min.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://soohyun-chris-jeon.github.io/posts/Attention/"},"url":"https://soohyun-chris-jeon.github.io/posts/Attention/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Soohyun Chris Jeon"},"dateModified":"2025-09-04T18:16:04+09:00","datePublished":"2025-08-08T13:00:00+09:00","description":"🟢 Attention 메커니즘이 Seq2Seq 모델의 어떤 문제를 해결하는 데 도움이 되나요? NLP에서 Seq2Seq는 ‘정보 병목(Information Bottleneck)’ 현상이 가장 큰 한계였다. 즉, 기존 RNN 모델은 디코더에서 context vector에 현재까지 모든 정보를 담는 구조이기 때문에 정보가 소실되는 문제가 있었다.","headline":"10-(3) Attention 메커니즘이 Seq2Seq 모델의 어떤 문제를 해결하는 데 도움이 되나요?","image":"https://lena-voita.github.io/resources/lectures/seq2seq/attention/bahdanau_model-min.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/Attention/"},"url":"http://localhost:4000/posts/Attention/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -1118,21 +1118,21 @@
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=10-(3)%20Attention%20%EB%A9%94%EC%BB%A4%EB%8B%88%EC%A6%98%EC%9D%B4%20Seq2Seq%20%EB%AA%A8%EB%8D%B8%EC%9D%98%20%EC%96%B4%EB%96%A4%20%EB%AC%B8%EC%A0%9C%EB%A5%BC%20%ED%95%B4%EA%B2%B0%ED%95%98%EB%8A%94%20%EB%8D%B0%20%EB%8F%84%EC%9B%80%EC%9D%B4%20%EB%90%98%EB%82%98%EC%9A%94?%20-%20Serendipity&url=https%3A%2F%2Fsoohyun-chris-jeon.github.io%2Fposts%2FAttention%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=10-(3)%20Attention%20%EB%A9%94%EC%BB%A4%EB%8B%88%EC%A6%98%EC%9D%B4%20Seq2Seq%20%EB%AA%A8%EB%8D%B8%EC%9D%98%20%EC%96%B4%EB%96%A4%20%EB%AC%B8%EC%A0%9C%EB%A5%BC%20%ED%95%B4%EA%B2%B0%ED%95%98%EB%8A%94%20%EB%8D%B0%20%EB%8F%84%EC%9B%80%EC%9D%B4%20%EB%90%98%EB%82%98%EC%9A%94?%20-%20Serendipity&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FAttention%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=10-(3)%20Attention%20%EB%A9%94%EC%BB%A4%EB%8B%88%EC%A6%98%EC%9D%B4%20Seq2Seq%20%EB%AA%A8%EB%8D%B8%EC%9D%98%20%EC%96%B4%EB%96%A4%20%EB%AC%B8%EC%A0%9C%EB%A5%BC%20%ED%95%B4%EA%B2%B0%ED%95%98%EB%8A%94%20%EB%8D%B0%20%EB%8F%84%EC%9B%80%EC%9D%B4%20%EB%90%98%EB%82%98%EC%9A%94?%20-%20Serendipity&u=https%3A%2F%2Fsoohyun-chris-jeon.github.io%2Fposts%2FAttention%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=10-(3)%20Attention%20%EB%A9%94%EC%BB%A4%EB%8B%88%EC%A6%98%EC%9D%B4%20Seq2Seq%20%EB%AA%A8%EB%8D%B8%EC%9D%98%20%EC%96%B4%EB%96%A4%20%EB%AC%B8%EC%A0%9C%EB%A5%BC%20%ED%95%B4%EA%B2%B0%ED%95%98%EB%8A%94%20%EB%8D%B0%20%EB%8F%84%EC%9B%80%EC%9D%B4%20%EB%90%98%EB%82%98%EC%9A%94?%20-%20Serendipity&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FAttention%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=https%3A%2F%2Fsoohyun-chris-jeon.github.io%2Fposts%2FAttention%2F&text=10-(3)%20Attention%20%EB%A9%94%EC%BB%A4%EB%8B%88%EC%A6%98%EC%9D%B4%20Seq2Seq%20%EB%AA%A8%EB%8D%B8%EC%9D%98%20%EC%96%B4%EB%96%A4%20%EB%AC%B8%EC%A0%9C%EB%A5%BC%20%ED%95%B4%EA%B2%B0%ED%95%98%EB%8A%94%20%EB%8D%B0%20%EB%8F%84%EC%9B%80%EC%9D%B4%20%EB%90%98%EB%82%98%EC%9A%94?%20-%20Serendipity" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FAttention%2F&text=10-(3)%20Attention%20%EB%A9%94%EC%BB%A4%EB%8B%88%EC%A6%98%EC%9D%B4%20Seq2Seq%20%EB%AA%A8%EB%8D%B8%EC%9D%98%20%EC%96%B4%EB%96%A4%20%EB%AC%B8%EC%A0%9C%EB%A5%BC%20%ED%95%B4%EA%B2%B0%ED%95%98%EB%8A%94%20%EB%8D%B0%20%EB%8F%84%EC%9B%80%EC%9D%B4%20%EB%90%98%EB%82%98%EC%9A%94?%20-%20Serendipity" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     

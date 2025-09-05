@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>https://soohyun-chris-jeon.github.io/</id>
+  <id>http://localhost:4000/</id>
   <title>Serendipity</title>
   <subtitle>인공지능과 의료 영상, 그리고 신호처리 연구 내용을 공유하는 블로그입니다. </subtitle>
-  <updated>2025-09-05T15:34:31+09:00</updated>
+  <updated>2025-09-05T17:54:48+09:00</updated>
   <author>
     <name>soohyun-chris-jeon</name>
-    <uri>https://soohyun-chris-jeon.github.io/</uri>
+    <uri>http://localhost:4000/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="https://soohyun-chris-jeon.github.io/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="https://soohyun-chris-jeon.github.io/"/>
+    href="http://localhost:4000/"/>
   <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
   <rights> © 2025 soohyun-chris-jeon </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
@@ -21,13 +21,13 @@
   
   <entry>
     <title>13-(3) RAG 시스템에서 'Agent'는 어떤 개념인지, 어떻게 구현할 수 있는지 구글 등에서 리서치하여 정리해보세요.</title>
-    <link href="https://soohyun-chris-jeon.github.io/posts/RAG2/" rel="alternate" type="text/html" title="13-(3) RAG 시스템에서 &amp;apos;Agent&amp;apos;는 어떤 개념인지, 어떻게 구현할 수 있는지 구글 등에서 리서치하여 정리해보세요." />
+    <link href="http://localhost:4000/posts/RAG2/" rel="alternate" type="text/html" title="13-(3) RAG 시스템에서 &amp;apos;Agent&amp;apos;는 어떤 개념인지, 어떻게 구현할 수 있는지 구글 등에서 리서치하여 정리해보세요." />
     <published>2025-09-05T13:00:00+09:00</published>
   
     <updated>2025-09-05T13:00:00+09:00</updated>
   
-    <id>https://soohyun-chris-jeon.github.io/posts/RAG2/</id>
-    <content type="text/html" src="https://soohyun-chris-jeon.github.io/posts/RAG2/" />
+    <id>http://localhost:4000/posts/RAG2/</id>
+    <content type="text/html" src="http://localhost:4000/posts/RAG2/" />
     <author>
       <name>soohyun-chris-jeon</name>
     </author>
@@ -47,13 +47,13 @@
   
   <entry>
     <title>13-(2) RAG 시스템의 성능을 평가하는 방법에는 어떤 것들이 있고, 독립 평가와 종단간 평가의 차이는 무엇인가요?</title>
-    <link href="https://soohyun-chris-jeon.github.io/posts/RAG1/" rel="alternate" type="text/html" title="13-(2) RAG 시스템의 성능을 평가하는 방법에는 어떤 것들이 있고, 독립 평가와 종단간 평가의 차이는 무엇인가요?" />
+    <link href="http://localhost:4000/posts/RAG1/" rel="alternate" type="text/html" title="13-(2) RAG 시스템의 성능을 평가하는 방법에는 어떤 것들이 있고, 독립 평가와 종단간 평가의 차이는 무엇인가요?" />
     <published>2025-09-05T11:00:00+09:00</published>
   
     <updated>2025-09-05T11:00:00+09:00</updated>
   
-    <id>https://soohyun-chris-jeon.github.io/posts/RAG1/</id>
-    <content type="text/html" src="https://soohyun-chris-jeon.github.io/posts/RAG1/" />
+    <id>http://localhost:4000/posts/RAG1/</id>
+    <content type="text/html" src="http://localhost:4000/posts/RAG1/" />
     <author>
       <name>soohyun-chris-jeon</name>
     </author>
@@ -73,13 +73,13 @@
   
   <entry>
     <title>13-(1) LangChain을 사용해 RAG 시스템을 구축할 때 어떤 주요 구성 요소들이 필요하고, 각각 어떤 역할을 하나요?</title>
-    <link href="https://soohyun-chris-jeon.github.io/posts/LangChain/" rel="alternate" type="text/html" title="13-(1) LangChain을 사용해 RAG 시스템을 구축할 때 어떤 주요 구성 요소들이 필요하고, 각각 어떤 역할을 하나요?" />
+    <link href="http://localhost:4000/posts/LangChain/" rel="alternate" type="text/html" title="13-(1) LangChain을 사용해 RAG 시스템을 구축할 때 어떤 주요 구성 요소들이 필요하고, 각각 어떤 역할을 하나요?" />
     <published>2025-09-05T10:00:00+09:00</published>
   
     <updated>2025-09-05T10:00:00+09:00</updated>
   
-    <id>https://soohyun-chris-jeon.github.io/posts/LangChain/</id>
-    <content type="text/html" src="https://soohyun-chris-jeon.github.io/posts/LangChain/" />
+    <id>http://localhost:4000/posts/LangChain/</id>
+    <content type="text/html" src="http://localhost:4000/posts/LangChain/" />
     <author>
       <name>soohyun-chris-jeon</name>
     </author>
@@ -99,13 +99,13 @@
   
   <entry>
     <title>12-(3) PEFT가 필요한 이유는 무엇이며, 어떤 상황에서 특히 효과적인가요?</title>
-    <link href="https://soohyun-chris-jeon.github.io/posts/PEFT/" rel="alternate" type="text/html" title="12-(3) PEFT가 필요한 이유는 무엇이며, 어떤 상황에서 특히 효과적인가요?" />
+    <link href="http://localhost:4000/posts/PEFT/" rel="alternate" type="text/html" title="12-(3) PEFT가 필요한 이유는 무엇이며, 어떤 상황에서 특히 효과적인가요?" />
     <published>2025-08-29T14:00:00+09:00</published>
   
     <updated>2025-09-02T16:02:56+09:00</updated>
   
-    <id>https://soohyun-chris-jeon.github.io/posts/PEFT/</id>
-    <content type="text/html" src="https://soohyun-chris-jeon.github.io/posts/PEFT/" />
+    <id>http://localhost:4000/posts/PEFT/</id>
+    <content type="text/html" src="http://localhost:4000/posts/PEFT/" />
     <author>
       <name>soohyun-chris-jeon</name>
     </author>
@@ -118,20 +118,20 @@
     
   
 
-  <summary>🟢 TBU   ⚪ TBU..  🟢 예시 답안 (코드잇 제공)    PEFT가 필요한 이유는 대형 언어 모델을 실제 환경에 맞게 활용하려고 할 때, 기존의 전체 파인튜닝 방식이 너무 비효율적이고 부담이 크기 때문입니다.기존 방식은 모델의 모든 파라미터를 다시 학습해야 하다 보니, 수많은 GPU 자원이 필요하고, 학습 시간도 오래 걸리며, 각각의 작업마다 전체 모델을 따로 저장해야 해서 저장 공간도 많이 차지합니다. 특히 사전학습 모델의 크기가 수십억에서 수천억 파라미터로 커진 요즘에는, 이 방식이 현실적으로 어렵습니다.이럴 때 PEFT는 전체 모델을 그대로 두고, 일부 파라미터만 학습하거나 작은 모듈만 추가로 학습하는 방식이기 때문에 훨씬 가볍고 빠릅니다. 전체 모델의 1%도 안 되는 파라미터만 수정하면...</summary>
+  <summary>🟢 PEFT가 필요한 이유는 무엇이며, 어떤 상황에서 특히 효과적인가요?  모델과 데이터의 크기가 커지면서 모델 전체를 처음부터 학습시키는 것보다 사전 학습된(pre-trained) 모델을 활용하는 빈도가 훨씬 더 많아지고 있다.  특히 트랜스포머와 같은 모델의 경우는 학습의 난이도가 높기 때문에 기본적으로 pre-trained 모델을 활용하는 것이 정석에 모든 딥러닝 분야에서 가까운 접근 방식이다.  LLM에서 PEFT(Parameter-Efficient Fine-Tuning)는 기법이 요즘 자주 등장하는데 PEFT는 전체 모델의 극히 일부 파라미터만 수정하여 자원 소모를 극적으로 줄이면서도, 전체를 파인튜닝한 것과 유사한 성능을 내는 기법이라고 한다.  수십억 개가 넘는 파라미터를 가진 거대 언어 ...</summary>
 
   </entry>
 
   
   <entry>
     <title>12-(2) 모델 크기를 키우는 것만으로는 성능이 일정 시점 이후 둔화되는 이유는 무엇일까요?</title>
-    <link href="https://soohyun-chris-jeon.github.io/posts/model-size/" rel="alternate" type="text/html" title="12-(2) 모델 크기를 키우는 것만으로는 성능이 일정 시점 이후 둔화되는 이유는 무엇일까요?" />
+    <link href="http://localhost:4000/posts/model-size/" rel="alternate" type="text/html" title="12-(2) 모델 크기를 키우는 것만으로는 성능이 일정 시점 이후 둔화되는 이유는 무엇일까요?" />
     <published>2025-08-29T13:00:00+09:00</published>
   
     <updated>2025-09-02T16:02:56+09:00</updated>
   
-    <id>https://soohyun-chris-jeon.github.io/posts/model-size/</id>
-    <content type="text/html" src="https://soohyun-chris-jeon.github.io/posts/model-size/" />
+    <id>http://localhost:4000/posts/model-size/</id>
+    <content type="text/html" src="http://localhost:4000/posts/model-size/" />
     <author>
       <name>soohyun-chris-jeon</name>
     </author>
@@ -144,7 +144,7 @@
     
   
 
-  <summary>🟢 TBU   ⚪ TBU..  🟢 예시 답안 (코드잇 제공)          모델 크기를 키우면 초기에는 성능이 눈에 띄게 좋아지지만, 일정 규모를 넘어서면 성능 향상 속도가 점점 느려지고 결국에는 거의 개선되지 않는 구간에 도달하게 됩니다. 이 현상에는 몇 가지 이유가 있습니다.     첫째, 학습 데이터의 한계입니다. 모델이 아무리 크더라도 학습할 수 있는 데이터가 부족하거나 품질이 낮으면 그 성능은 금방 한계에 부딪힙니다. 특히 데이터에 중복이 많거나 편향된 정보가 많으면, 큰 모델일수록 오히려 그 편향을 더 강하게 반영할 수 있습니다.     둘째, 모델이 학습한 정보 중에는 실제로 문제 해결에 도움이 되지 않는 정보도 포함되기 때문에, 모델이 커질수록 반드시 ‘좋은 정보만 더 많이’ 배우는 것...</summary>
+  <summary>🟢 모델 크기를 키우는 것만으로는 성능이 일정 시점 이후 둔화되는 이유는 무엇일까요?    ⚪ TBU..  모델 크기를 키우는 것만으로 성능 향상이 둔화되는 가장 핵심적인 이유는 데이터가 모델의 거대한 크기를 뒷받침해주지 못하기 때문입니다. 즉, 모델이 소화할 ‘음식(데이터)’은 한정되어 있는데, 몸집(파라미터 수)만 계속 커지는 상황과 같습니다.  이는 ‘스케일링 법칙(Scaling Laws)’ 연구를 통해 명확해졌으며, 주로 두 가지 주요 원인으로 설명할 수 있습니다.  —  ## 1. 훈련 데이터의 양과 질의 한계  LLM의 성능은 모델의 크기뿐만 아니라, 학습에 사용된 데이터의 양과 질에 의해 결정됩니다.     데이터 고갈 (Data Exhaustion): 모델이 특정 수준 이상으로 커지면, ...</summary>
 
   </entry>
 

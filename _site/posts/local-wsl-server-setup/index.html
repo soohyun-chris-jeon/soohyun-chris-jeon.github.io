@@ -44,8 +44,8 @@
 <meta property="og:locale" content="en" />
 <meta name="description" content="🔵 Intro 본격적인 딥러닝 과제를 하기에 앞서 Colab만으로는 한계가 느껴져서 로컬에도 하나 쯤은 GPU가 있어야 할 것 같다고 판단이 들었다. 그래서 놀고 있던 노트북에 gtx 1650이라는 귀여운 그래픽카드가 있는데 이 친구라도 공부에 활용하기로 했다." />
 <meta property="og:description" content="🔵 Intro 본격적인 딥러닝 과제를 하기에 앞서 Colab만으로는 한계가 느껴져서 로컬에도 하나 쯤은 GPU가 있어야 할 것 같다고 판단이 들었다. 그래서 놀고 있던 노트북에 gtx 1650이라는 귀여운 그래픽카드가 있는데 이 친구라도 공부에 활용하기로 했다." />
-<link rel="canonical" href="https://soohyun-chris-jeon.github.io/posts/local-wsl-server-setup/" />
-<meta property="og:url" content="https://soohyun-chris-jeon.github.io/posts/local-wsl-server-setup/" />
+<link rel="canonical" href="http://localhost:4000/posts/local-wsl-server-setup/" />
+<meta property="og:url" content="http://localhost:4000/posts/local-wsl-server-setup/" />
 <meta property="og:site_name" content="Serendipity" />
 <meta property="og:image" content="https://linuxkamarada.com/files/2025/03/wsl-en.png" />
 <meta property="og:type" content="article" />
@@ -54,7 +54,7 @@
 <meta property="twitter:image" content="https://linuxkamarada.com/files/2025/03/wsl-en.png" />
 <meta property="twitter:title" content="[서버 구축] 남는 노트북 WSL을 개인 딥러닝 서버로 세팅하기" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Soohyun Chris Jeon"},"dateModified":"2025-09-04T00:30:09+09:00","datePublished":"2025-06-01T00:00:00+09:00","description":"🔵 Intro 본격적인 딥러닝 과제를 하기에 앞서 Colab만으로는 한계가 느껴져서 로컬에도 하나 쯤은 GPU가 있어야 할 것 같다고 판단이 들었다. 그래서 놀고 있던 노트북에 gtx 1650이라는 귀여운 그래픽카드가 있는데 이 친구라도 공부에 활용하기로 했다.","headline":"[서버 구축] 남는 노트북 WSL을 개인 딥러닝 서버로 세팅하기","image":"https://linuxkamarada.com/files/2025/03/wsl-en.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://soohyun-chris-jeon.github.io/posts/local-wsl-server-setup/"},"url":"https://soohyun-chris-jeon.github.io/posts/local-wsl-server-setup/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Soohyun Chris Jeon"},"dateModified":"2025-09-04T00:30:09+09:00","datePublished":"2025-06-01T00:00:00+09:00","description":"🔵 Intro 본격적인 딥러닝 과제를 하기에 앞서 Colab만으로는 한계가 느껴져서 로컬에도 하나 쯤은 GPU가 있어야 할 것 같다고 판단이 들었다. 그래서 놀고 있던 노트북에 gtx 1650이라는 귀여운 그래픽카드가 있는데 이 친구라도 공부에 활용하기로 했다.","headline":"[서버 구축] 남는 노트북 WSL을 개인 딥러닝 서버로 세팅하기","image":"https://linuxkamarada.com/files/2025/03/wsl-en.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/local-wsl-server-setup/"},"url":"http://localhost:4000/posts/local-wsl-server-setup/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -1209,21 +1209,21 @@ jupyter lab password  <span class="c"># 브라우저용 접속 비밀번호 설�
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=[%EC%84%9C%EB%B2%84%20%EA%B5%AC%EC%B6%95]%20%EB%82%A8%EB%8A%94%20%EB%85%B8%ED%8A%B8%EB%B6%81%20WSL%EC%9D%84%20%EA%B0%9C%EC%9D%B8%20%EB%94%A5%EB%9F%AC%EB%8B%9D%20%EC%84%9C%EB%B2%84%EB%A1%9C%20%EC%84%B8%ED%8C%85%ED%95%98%EA%B8%B0%20-%20Serendipity&url=https%3A%2F%2Fsoohyun-chris-jeon.github.io%2Fposts%2Flocal-wsl-server-setup%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=[%EC%84%9C%EB%B2%84%20%EA%B5%AC%EC%B6%95]%20%EB%82%A8%EB%8A%94%20%EB%85%B8%ED%8A%B8%EB%B6%81%20WSL%EC%9D%84%20%EA%B0%9C%EC%9D%B8%20%EB%94%A5%EB%9F%AC%EB%8B%9D%20%EC%84%9C%EB%B2%84%EB%A1%9C%20%EC%84%B8%ED%8C%85%ED%95%98%EA%B8%B0%20-%20Serendipity&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Flocal-wsl-server-setup%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=[%EC%84%9C%EB%B2%84%20%EA%B5%AC%EC%B6%95]%20%EB%82%A8%EB%8A%94%20%EB%85%B8%ED%8A%B8%EB%B6%81%20WSL%EC%9D%84%20%EA%B0%9C%EC%9D%B8%20%EB%94%A5%EB%9F%AC%EB%8B%9D%20%EC%84%9C%EB%B2%84%EB%A1%9C%20%EC%84%B8%ED%8C%85%ED%95%98%EA%B8%B0%20-%20Serendipity&u=https%3A%2F%2Fsoohyun-chris-jeon.github.io%2Fposts%2Flocal-wsl-server-setup%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=[%EC%84%9C%EB%B2%84%20%EA%B5%AC%EC%B6%95]%20%EB%82%A8%EB%8A%94%20%EB%85%B8%ED%8A%B8%EB%B6%81%20WSL%EC%9D%84%20%EA%B0%9C%EC%9D%B8%20%EB%94%A5%EB%9F%AC%EB%8B%9D%20%EC%84%9C%EB%B2%84%EB%A1%9C%20%EC%84%B8%ED%8C%85%ED%95%98%EA%B8%B0%20-%20Serendipity&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Flocal-wsl-server-setup%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=https%3A%2F%2Fsoohyun-chris-jeon.github.io%2Fposts%2Flocal-wsl-server-setup%2F&text=[%EC%84%9C%EB%B2%84%20%EA%B5%AC%EC%B6%95]%20%EB%82%A8%EB%8A%94%20%EB%85%B8%ED%8A%B8%EB%B6%81%20WSL%EC%9D%84%20%EA%B0%9C%EC%9D%B8%20%EB%94%A5%EB%9F%AC%EB%8B%9D%20%EC%84%9C%EB%B2%84%EB%A1%9C%20%EC%84%B8%ED%8C%85%ED%95%98%EA%B8%B0%20-%20Serendipity" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Flocal-wsl-server-setup%2F&text=[%EC%84%9C%EB%B2%84%20%EA%B5%AC%EC%B6%95]%20%EB%82%A8%EB%8A%94%20%EB%85%B8%ED%8A%B8%EB%B6%81%20WSL%EC%9D%84%20%EA%B0%9C%EC%9D%B8%20%EB%94%A5%EB%9F%AC%EB%8B%9D%20%EC%84%9C%EB%B2%84%EB%A1%9C%20%EC%84%B8%ED%8C%85%ED%95%98%EA%B8%B0%20-%20Serendipity" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     

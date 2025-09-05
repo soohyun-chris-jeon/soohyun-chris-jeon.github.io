@@ -42,17 +42,19 @@
 <meta property="og:title" content="12-(3) PEFT가 필요한 이유는 무엇이며, 어떤 상황에서 특히 효과적인가요?" />
 <meta name="author" content="Soohyun Chris Jeon" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="🟢 TBU ⚪ TBU.." />
-<meta property="og:description" content="🟢 TBU ⚪ TBU.." />
-<link rel="canonical" href="https://soohyun-chris-jeon.github.io/posts/PEFT/" />
-<meta property="og:url" content="https://soohyun-chris-jeon.github.io/posts/PEFT/" />
+<meta name="description" content="🟢 PEFT가 필요한 이유는 무엇이며, 어떤 상황에서 특히 효과적인가요?" />
+<meta property="og:description" content="🟢 PEFT가 필요한 이유는 무엇이며, 어떤 상황에서 특히 효과적인가요?" />
+<link rel="canonical" href="http://localhost:4000/posts/PEFT/" />
+<meta property="og:url" content="http://localhost:4000/posts/PEFT/" />
 <meta property="og:site_name" content="Serendipity" />
+<meta property="og:image" content="https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2023/05/15213322/Parameter-efficient-Fine-tuning.png" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2025-08-29T14:00:00+09:00" />
-<meta name="twitter:card" content="summary" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2023/05/15213322/Parameter-efficient-Fine-tuning.png" />
 <meta property="twitter:title" content="12-(3) PEFT가 필요한 이유는 무엇이며, 어떤 상황에서 특히 효과적인가요?" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Soohyun Chris Jeon"},"dateModified":"2025-09-02T16:02:56+09:00","datePublished":"2025-08-29T14:00:00+09:00","description":"🟢 TBU ⚪ TBU..","headline":"12-(3) PEFT가 필요한 이유는 무엇이며, 어떤 상황에서 특히 효과적인가요?","mainEntityOfPage":{"@type":"WebPage","@id":"https://soohyun-chris-jeon.github.io/posts/PEFT/"},"url":"https://soohyun-chris-jeon.github.io/posts/PEFT/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Soohyun Chris Jeon"},"dateModified":"2025-09-02T16:02:56+09:00","datePublished":"2025-08-29T14:00:00+09:00","description":"🟢 PEFT가 필요한 이유는 무엇이며, 어떤 상황에서 특히 효과적인가요?","headline":"12-(3) PEFT가 필요한 이유는 무엇이며, 어떤 상황에서 특히 효과적인가요?","image":"https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2023/05/15213322/Parameter-efficient-Fine-tuning.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/PEFT/"},"url":"http://localhost:4000/posts/PEFT/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -518,6 +520,170 @@
 
 
 
+  
+  
+
+  
+    
+      
+      
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+
+  
+
 
 <!-- Add header for code snippets -->
 
@@ -593,6 +759,17 @@
 
       
     
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
 
     
   
@@ -600,6 +777,60 @@
   
   
 
+  
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
   
 
 
@@ -673,6 +904,15 @@
       
 
       
+        
+        
+        
+
+        
+
+        <div class="mt-3 mb-3">
+          <a href="https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2023/05/15213322/Parameter-efficient-Fine-tuning.png" class="popup img-link preview-img shimmer"><img src="https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2023/05/15213322/Parameter-efficient-Fine-tuning.png"  alt="Preview Image" width="1200" height="630"  loading="lazy"></a></div>
+      
 
       <div class="d-flex justify-content-between">
         <!-- author(s) -->
@@ -713,9 +953,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="643 words"
+  title="1874 words"
 >
-  <em>3 min</em> read</span>
+  <em>10 min</em> read</span>
 
         </div>
       </div>
@@ -747,9 +987,56 @@
   
 
   <div class="content">
-    <h2 id="-tbu"><span class="me-2">🟢 TBU</span><a href="#-tbu" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+    <h2 id="-peft가-필요한-이유는-무엇이며-어떤-상황에서-특히-효과적인가요"><span class="me-2">🟢 PEFT가 필요한 이유는 무엇이며, 어떤 상황에서 특히 효과적인가요?</span><a href="#-peft가-필요한-이유는-무엇이며-어떤-상황에서-특히-효과적인가요" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>모델과 데이터의 크기가 커지면서 모델 전체를 처음부터 학습시키는 것보다 사전 학습된(pre-trained) 모델을 활용하는 빈도가 훨씬 더 많아지고 있다.</p>
+
+<p>특히 트랜스포머와 같은 모델의 경우는 학습의 난이도가 높기 때문에 기본적으로 pre-trained 모델을 활용하는 것이 정석에 모든 딥러닝 분야에서 가까운 접근 방식이다.</p>
+
+<p>LLM에서 PEFT(Parameter-Efficient Fine-Tuning)는 기법이 요즘 자주 등장하는데 PEFT는 전체 모델의 극히 일부 파라미터만 수정하여 <strong>자원 소모를 극적으로 줄이면서도, 전체를 파인튜닝한 것과 유사한 성능</strong>을 내는 기법이라고 한다.</p>
+
+<p>수십억 개가 넘는 파라미터를 가진 거대 언어 모델(LLM) 전체를 파인튜닝하는 것이 <strong>엄청난 비용과 시간을 필요</strong>로 하기 때문에 정교한 파인튜닝 기법이 필요하며 아마도 계속해서 발전할 기법이 아닐까 싶다.</p>
+
 <hr />
-<h4 id="-tbu-1"><span class="me-2">⚪ TBU..</span><a href="#-tbu-1" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<h4 id="-왜-peft가-필요한가"><span class="me-2">⚪ 왜 PEFT가 필요한가?</span><a href="#-왜-peft가-필요한가" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+
+<p>LLM을 특정 작업에 맞게 조정하는 기존의 ‘전체 파인튜닝(Full Fine-tuning)’ 방식은 다음과 같은 심각한 문제점을 가집니다.</p>
+
+<ol>
+  <li><strong>엄청난 컴퓨팅 비용</strong>: 수십억, 수천억 개의 파라미터 전체를 업데이트하려면 최상급 GPU 수십, 수백 대와 오랜 학습 시간이 필요합니다. 이는 개인이나 소규모 팀에게는 거의 불가능한 수준의 비용입니다.</li>
+  <li><strong>막대한 저장 공간</strong>: 만약 10개의 다른 작업에 모델을 적용하고 싶다면, 원본 모델(수백 GB) 크기의 모델 10개를 별도로 저장해야 합니다. 이는 매우 비효율적인 저장 공간 낭비입니다.</li>
+  <li><strong>파국적 망각 (Catastrophic Forgetting)</strong>: 새로운 작업을 학습하면서 기존에 모델이 가지고 있던 일반적인 지식이나 다른 작업 수행 능력을 잃어버릴 위험이 있습니다.</li>
+</ol>
+
+<p>PEFT는 이러한 문제에 대한 아주 효과적인 해결책입니다. 모델의 99.9% 파라미터는 <strong>‘얼려서(freeze)’</strong> 그대로 두고, <strong>작업별로 0.1% 내외의 작은 추가 파라미터(어댑터 등)만 학습</strong>시킵니다. 이 작은 어댑터(수십 MB)만 교체하면 원본 모델 하나로 여러 작업을 수행할 수 있습니다.</p>
+
+<p><a href="https://blogs.debutinfotech.com/wp-content/uploads/2024/03/Fine-Tuning-And-PEFT.jpg" class="popup img-link shimmer"><img src="https://blogs.debutinfotech.com/wp-content/uploads/2024/03/Fine-Tuning-And-PEFT.jpg" alt="Finetuning" loading="lazy"></a></p>
+
+<hr />
+
+<h4 id="-peft가-특히-효과적인-상황"><span class="me-2">⚪ PEFT가 특히 효과적인 상황</span><a href="#-peft가-특히-효과적인-상황" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+
+<h5 id="1-제한된-컴퓨팅-자원-및-예산-"><span class="me-2"><strong>1. 제한된 컴퓨팅 자원 및 예산 💻</strong></span><a href="#1-제한된-컴퓨팅-자원-및-예산-" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h5>
+
+<p>개인 개발자, 학생, 스타트업 등 고사양 GPU 클러스터를 사용하기 어려운 환경에서 PEFT는 필수적입니다. 단일 소비자용 GPU로도 수백억 파라미터 모델을 특정 작업에 맞게 파인튜닝할 수 있게 해줍니다.</p>
+
+<hr />
+
+<h5 id="2-하나의-모델로-여러-작업을-수행해야-할-때-"><span class="me-2"><strong>2. 하나의 모델로 여러 작업을 수행해야 할 때 🚀</strong></span><a href="#2-하나의-모델로-여러-작업을-수행해야-할-때-" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h5>
+
+<p>하나의 거대 원본 모델을 유지하면서, 여러 고객사나 다양한 서비스에 맞는 <strong>‘작업별 맞춤 모듈’</strong>을 빠르고 가볍게 만들어야 할 때 매우 효과적입니다. 예를 들어, 기본 LLM은 하나 두고 ‘법률 상담용 어댑터’, ‘의료 차트 요약용 어댑터’, ‘고객 서비스 챗봇용 어댑터’ 등을 각각 수십 MB 크기로 만들어 필요에 따라 교체하며 사용할 수 있습니다. 이는 모델 관리와 배포를 훨씬 효율적으로 만듭니다.</p>
+
+<hr />
+
+<h5 id="3-빠른-실험과-반복이-필요할-때"><span class="me-2"><strong>3. 빠른 실험과 반복이 필요할 때</strong></span><a href="#3-빠른-실험과-반복이-필요할-때" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h5>
+
+<p>전체 파인튜닝이 몇 주에서 몇 달이 걸릴 수 있는 반면, PEFT는 훨씬 적은 파라미터를 학습시키므로 학습 시간이 크게 단축됩니다. 따라서 다양한 데이터셋이나 하이퍼파라미터로 여러 가지 아이디어를 신속하게 테스트하고 모델을 개선해 나가는 연구 및 개발 환경에 매우 적합합니다.</p>
+
+<hr />
+
+<h5 id="4-데이터가-많지-않을-때"><span class="me-2"><strong>4. 데이터가 많지 않을 때</strong></span><a href="#4-데이터가-많지-않을-때" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h5>
+
+<p>전체 파라미터를 학습시키기에는 데이터가 부족한 경우, 전체 파인튜닝은 모델이 데이터에 과적합(overfitting)될 위험이 큽니다. PEFT는 학습 대상 파라미터 수가 매우 적기 때문에, 상대적으로 적은 양의 데이터로도 과적합 위험을 줄이면서 효과적으로 모델을 특정 작업에 적응시킬 수 있습니다.</p>
 
 <h2 id="-예시-답안-코드잇-제공"><span class="me-2">🟢 예시 답안 (코드잇 제공)</span><a href="#-예시-답안-코드잇-제공" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <blockquote>
@@ -848,21 +1135,21 @@
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=12-(3)%20PEFT%EA%B0%80%20%ED%95%84%EC%9A%94%ED%95%9C%20%EC%9D%B4%EC%9C%A0%EB%8A%94%20%EB%AC%B4%EC%97%87%EC%9D%B4%EB%A9%B0,%20%EC%96%B4%EB%96%A4%20%EC%83%81%ED%99%A9%EC%97%90%EC%84%9C%20%ED%8A%B9%ED%9E%88%20%ED%9A%A8%EA%B3%BC%EC%A0%81%EC%9D%B8%EA%B0%80%EC%9A%94?%20-%20Serendipity&url=https%3A%2F%2Fsoohyun-chris-jeon.github.io%2Fposts%2FPEFT%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=12-(3)%20PEFT%EA%B0%80%20%ED%95%84%EC%9A%94%ED%95%9C%20%EC%9D%B4%EC%9C%A0%EB%8A%94%20%EB%AC%B4%EC%97%87%EC%9D%B4%EB%A9%B0,%20%EC%96%B4%EB%96%A4%20%EC%83%81%ED%99%A9%EC%97%90%EC%84%9C%20%ED%8A%B9%ED%9E%88%20%ED%9A%A8%EA%B3%BC%EC%A0%81%EC%9D%B8%EA%B0%80%EC%9A%94?%20-%20Serendipity&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FPEFT%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=12-(3)%20PEFT%EA%B0%80%20%ED%95%84%EC%9A%94%ED%95%9C%20%EC%9D%B4%EC%9C%A0%EB%8A%94%20%EB%AC%B4%EC%97%87%EC%9D%B4%EB%A9%B0,%20%EC%96%B4%EB%96%A4%20%EC%83%81%ED%99%A9%EC%97%90%EC%84%9C%20%ED%8A%B9%ED%9E%88%20%ED%9A%A8%EA%B3%BC%EC%A0%81%EC%9D%B8%EA%B0%80%EC%9A%94?%20-%20Serendipity&u=https%3A%2F%2Fsoohyun-chris-jeon.github.io%2Fposts%2FPEFT%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=12-(3)%20PEFT%EA%B0%80%20%ED%95%84%EC%9A%94%ED%95%9C%20%EC%9D%B4%EC%9C%A0%EB%8A%94%20%EB%AC%B4%EC%97%87%EC%9D%B4%EB%A9%B0,%20%EC%96%B4%EB%96%A4%20%EC%83%81%ED%99%A9%EC%97%90%EC%84%9C%20%ED%8A%B9%ED%9E%88%20%ED%9A%A8%EA%B3%BC%EC%A0%81%EC%9D%B8%EA%B0%80%EC%9A%94?%20-%20Serendipity&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FPEFT%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=https%3A%2F%2Fsoohyun-chris-jeon.github.io%2Fposts%2FPEFT%2F&text=12-(3)%20PEFT%EA%B0%80%20%ED%95%84%EC%9A%94%ED%95%9C%20%EC%9D%B4%EC%9C%A0%EB%8A%94%20%EB%AC%B4%EC%97%87%EC%9D%B4%EB%A9%B0,%20%EC%96%B4%EB%96%A4%20%EC%83%81%ED%99%A9%EC%97%90%EC%84%9C%20%ED%8A%B9%ED%9E%88%20%ED%9A%A8%EA%B3%BC%EC%A0%81%EC%9D%B8%EA%B0%80%EC%9A%94?%20-%20Serendipity" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FPEFT%2F&text=12-(3)%20PEFT%EA%B0%80%20%ED%95%84%EC%9A%94%ED%95%9C%20%EC%9D%B4%EC%9C%A0%EB%8A%94%20%EB%AC%B4%EC%97%87%EC%9D%B4%EB%A9%B0,%20%EC%96%B4%EB%96%A4%20%EC%83%81%ED%99%A9%EC%97%90%EC%84%9C%20%ED%8A%B9%ED%9E%88%20%ED%9A%A8%EA%B3%BC%EC%A0%81%EC%9D%B8%EA%B0%80%EC%9A%94?%20-%20Serendipity" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     
