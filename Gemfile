@@ -13,4 +13,5 @@ end
 
 gem "wdm", "~> 0.2.0", :platforms => [:mingw, :x64_mingw, :mswin]
 
-gem "jekyll-sitemap"
+gem "jekyll-sitemap"  # 사이트맵 자동 생성을 위한 공식 플러그인
+gem "jekyll-feed"     # RSS 피드(feed.xml) 자동 생성을 위한 공식 플러그인
