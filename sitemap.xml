@@ -1,5 +1,6 @@
 ---
 layout: null
+sitemap: false
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -9,12 +10,15 @@ layout: null
       <lastmod>{{ post.last_modified_at | default: post.date | date_to_xmlschema }}</lastmod>
     </url>
   {% endfor %}
-  {% for page in site.pages %}
-    {% if page.sitemap != false and page.url %}
-    <url>
-      <loc>{{ site.url }}{{ page.url }}</loc>
-      <lastmod>{{ page.last_modified_at | default: page.date | date_to_xmlschema }}</lastmod>
-    </url>
+  
+  {% assign important_pages = "about,archives,categories,tags" | split: "," %}
+  {% for p in important_pages %}
+    {% assign page_object = site.pages | where: "name", p | first %}
+    {% if page_object %}
+      <url>
+        <loc>{{ site.url }}{{ page_object.url }}</loc>
+        <lastmod>{{ page_object.last_modified_at | default: site.time | date_to_xmlschema }}</lastmod>
+      </url>
     {% endif %}
   {% endfor %}
 </urlset>
