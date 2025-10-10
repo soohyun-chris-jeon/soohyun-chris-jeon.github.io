@@ -1,4 +1,6 @@
-{% include custom-head.html %}
+{% if page.layout != "sitemap" and page.layout != "feed" %}
+  {% include custom-head.html %}
+{% endif %}
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">

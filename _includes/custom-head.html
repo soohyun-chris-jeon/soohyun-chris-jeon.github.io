@@ -1,10 +1,10 @@
 <!-- custom-head.html -->
 <!-- ✅ Google AdSense site verification -->
-{% raw %}
-<meta name="google-adsense-account" content="ca-pub-4795027126021575">
-{% endraw %}
+{% if page.layout != "sitemap" and page.layout != "feed" %}
+  <meta name="google-adsense-account" content="ca-pub-4795027126021575">
 
-{% if jekyll.environment == "production" %}
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4795027126021575"
-          crossorigin="anonymous"></script>
+  {% if jekyll.environment == "production" %}
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4795027126021575"
+            crossorigin="anonymous"></script>
+  {% endif %}
 {% endif %}
