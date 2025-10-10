@@ -1,10 +1,13 @@
-<!-- custom-head.html -->
+<!-- _includes/custom-head.html -->
 <!-- ✅ Google AdSense site verification -->
-{% if page.layout != "sitemap" and page.layout != "feed" %}
-  <meta name="google-adsense-account" content="ca-pub-4795027126021575">
+{% raw %}
+<meta name="google-adsense-account" content="ca-pub-4795027126021575">
+{% endraw %}
 
-  {% if jekyll.environment == "production" %}
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4795027126021575"
-            crossorigin="anonymous"></script>
-  {% endif %}
+{% comment %}
+  AdSense script should only load on production and non-feed/atom pages
+{% endcomment %}
+{% if jekyll.environment == "production" and page.layout != "feed" and page.layout != "sitemap" %}
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4795027126021575"
+          crossorigin="anonymous"></script>
 {% endif %}

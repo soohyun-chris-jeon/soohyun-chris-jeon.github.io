@@ -202,6 +202,10 @@ defaults:
     values:
       layout: page
       permalink: /:title/
+  - scope:
+      path: "" # 모든 파일에 대한 가장 마지막 기본 규칙
+    values:
+      layout: null # 기본 레이아웃을 '없음'으로 강제 설정
 
 sass:
   style: compressed
@@ -214,6 +218,9 @@ compress_html:
   blanklines: false
   ignore:
     envs: [development]
+  exclude:
+    - "/sitemap.xml"
+    - "/atom.xml" # Chirpy 테마는 feed.xml 대신 atom.xml을 사용
 
 include:
   - ads.txt
