@@ -6,7 +6,7 @@ categories: [Codeit AI 3기, Weekly Paper]
 tags: [Docker,Kubernetes, Deep Learning, AI]
 comments: true     # 댓글 기능 사용 (옵션)
 image:
-    path: https://www.solulab.com/wp-content/uploads/2024/07/rag.jpg
+    path: https://source.inblog.dev/featured_image/2025-05-29T08:00:50.351Z-0627429c-15b0-4a8a-82f6-db15f6b4c9e1
 
 ---
 ## 🟢 
