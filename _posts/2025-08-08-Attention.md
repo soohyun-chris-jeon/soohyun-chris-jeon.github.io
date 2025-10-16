@@ -2,7 +2,7 @@
 layout: post
 title:  "10-(3) Attention 메커니즘이 Seq2Seq 모델의 어떤 문제를 해결하는 데 도움이 되나요?"
 date:   2025-08-08 13:00:00 +0900
-categories: [Codeit AI 3기, Weekly Paper]
+categories: [Deep Learning, NLP]
 tags: [NLP, Attetion, Deep Learning, AI]
 comments: true     # 댓글 기능 사용 (옵션)
 image: 

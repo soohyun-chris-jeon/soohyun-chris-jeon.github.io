@@ -2,7 +2,7 @@
 layout: post
 title:  "14-(2) Docker Compose는 어떤 상황에서 유용하며, 일반 Dockerfile과 어떤 차이가 있나요?"
 date:   2025-10-13 12:00:00 +0900
-categories: [Codeit AI 3기, Weekly Paper]
+categories: [Docker, Docker Compose]
 tags: [Docker, Deep Learning, AI]
 comments: true     # 댓글 기능 사용 (옵션)
 image:

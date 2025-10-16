@@ -2,7 +2,7 @@
 layout: post
 title:  "[Python] Fluent python - 루시아누 히말류"
 date:   2024-11-23 10:00:00 +0900
-categories: [python]
+categories: [python, Fluent python]
 tags: [python, Fluent python, pythonic]
 pin: false
 image:

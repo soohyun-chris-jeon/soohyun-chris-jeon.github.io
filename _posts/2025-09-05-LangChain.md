@@ -2,7 +2,7 @@
 layout: post
 title:  "13-(1) LangChain을 사용해 RAG 시스템을 구축할 때 어떤 주요 구성 요소들이 필요하고, 각각 어떤 역할을 하나요?"
 date:   2025-09-05 10:00:00 +0900
-categories: [Codeit AI 3기, Weekly Paper]
+categories: [LLM, LangChain]
 tags: [RAG, LangChain, PEFT, BERT, GPT, NLP, LLM, Trasnformer, Deep Learning, AI]
 comments: true     # 댓글 기능 사용 (옵션)
 image:

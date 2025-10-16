@@ -2,7 +2,7 @@
 layout: post
 title:  "[git] git pull --rebase vs --no-rebase 차이"
 date:   2025-06-21 01:00:00 +0900
-categories: [git]
+categories: [git, rebase]
 tags: [git, GitHub, repository]
 comments: true     # 댓글 기능 사용 (옵션)
 math: true  # ✅ 요거 꼭 추가!

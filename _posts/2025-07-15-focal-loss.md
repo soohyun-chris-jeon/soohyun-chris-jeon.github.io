@@ -2,7 +2,7 @@
 layout: post
 title:  "Focal loss에 관하여"
 date:   2025-07-15 11:00:00 +0900
-categories: [Deep Learning, Generative Model]
+categories: [Deep Learning, Focal loss]
 tags: [Semantic Segmentation, Generative Model, PyTorch, CNN, convolutional-neural-network, Deep Learning, AI, Computer Vision]
 comments: true     # ✅ 댓글 기능 사용 (옵션)
 image:

@@ -2,7 +2,7 @@
 layout: post
 title:  "7-(2) 데이터 증강(Data Augmentation)이란 무엇이며, 이미지 데이터에서 주로 사용하는 증강 기법에는 어떤 것들이 있나요?"
 date:   2025-06-27 11:00:00 +0900
-categories: [Codeit AI 3기, Weekly Paper]
+categories: [Deep Learning, Data Augmentation]
 tags: [Data Augmentation, PyTorch, CNN, convolutional-neural-network, Deep Learning, AI, Computer Vision]
 comments: true     # 댓글 기능 사용 (옵션)
 

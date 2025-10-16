@@ -2,7 +2,7 @@
 layout: post
 title:  "9-(1) Semantic Segmentation이란 무엇이며, 이미지 분류(Classification)와 어떤 차이가 있나요?"
 date:   2025-07-11 00:00:00 +0900
-categories: [Codeit AI 3기, Weekly Paper]
+categories: [Deep Learning, Semantic Segmentation]
 tags: [Semantic Segmentation, Classification, CNN, convolutional-neural-network, Deep Learning, AI, Computer Vision]
 comments: true     # 댓글 기능 사용 (옵션)
 math: true  # ✅ 요거 꼭 추가!

@@ -2,7 +2,7 @@
 layout: post
 title:  "[PyTorch] `nn.Module` vs. `Dataset`: 왜 `super().__init__()` 호출 여부가 다른가?"
 date:   2025-06-20 10:00:00 +0900
-categories: [PyTorch]
+categories: [PyTorch, nn.Module]
 tags: [PyTorch, torch.torchvision, Machine Learning, Deep Learning, AI]
 pin: false
 comments: true     # 댓글 기능 사용 (옵션)

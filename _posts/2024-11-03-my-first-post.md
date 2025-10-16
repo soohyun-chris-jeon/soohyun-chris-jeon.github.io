@@ -2,7 +2,7 @@
 layout: post
 title:  "github pages 블로깅 시작!"
 date:   2024-11-03 10:00:00 +0900
-categories: [git, GitHub]
+categories: [GitHub, Jekyll]
 tags: [git, GitHub, GitHub Pages, Chirpy, Jekyll, Markdown]
 pin: false
 image:

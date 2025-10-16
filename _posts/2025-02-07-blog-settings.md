@@ -2,7 +2,7 @@
 layout: post
 title:  "Jekyll 블로그, 댓글부터 검색엔진 최적화(SEO)까지 설정해보기"
 date:   2025-02-07 10:00:00 +0900
-categories: [git, GitHub]
+categories: [GitHub, Jekyll]
 tags: [git, GitHub, GitHub Pages, Chirpy, Jekyll, Markdown, giscus, goatcounter, SEO, sitemap, RSS, google-search-console, naver-search-advisor]
 pin: false
 image:

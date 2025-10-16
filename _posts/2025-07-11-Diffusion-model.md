@@ -2,7 +2,7 @@
 layout: post
 title:  "9-(4) Diffusion 모델이 이미지 생성에서 어떻게 활용되며, 어떤 장점이 있나요?"
 date:   2025-07-11 14:00:00 +0900
-categories: [Codeit AI 3기, Weekly Paper]
+categories: [Deep Learning, Diffusion Model]
 tags: [Generative Model, PyTorch, CNN, convolutional-neural-network, Diffusion Model, Deep Learning, AI, Computer Vision]
 comments: true     # 댓글 기능 사용 (옵션)
 math: true  # ✅ 요거 꼭 추가!

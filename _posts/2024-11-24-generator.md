@@ -2,7 +2,7 @@
 layout: post
 title:  "[Python] Generator 표현식에 대해서"
 date:   2024-11-24 10:00:00 +0900
-categories: [python]
+categories: [python, generator]
 tags: [python, generator, Iterator, Fluent python, pythonic]
 pin: false
 comments: true     # 댓글 기능 사용 (옵션)

@@ -2,7 +2,7 @@
 layout: post
 title: "개발자용 메신저 Slack 활용법에 대해"
 date: 2024-11-28 09:00:00 +0900
-categories: [Dev Environment]
+categories: [Dev Environment, Slack]
 tags: [Discord, Slack, Microsoft Teams]
 image:
     path: https://tillerdigital.com/wp-content/uploads/2022/03/tiller-blog-slack-brand-audit-960x540.png

@@ -2,7 +2,7 @@
 layout: post
 title:  "10-(1) 텍스트 데이터를 모델에 적용하기 전에 어떤 전처리 과정을 거치나요?"
 date:   2025-08-08 10:00:00 +0900
-categories: [Codeit AI 3기, Weekly Paper]
+categories: [Deep Learning, NLP]
 tags: [NLP, Tokenization, Deep Learning, AI]
 image:
   path: https://media.licdn.com/dms/image/v2/D5612AQGeJ5FET7M8lQ/article-cover_image-shrink_720_1280/B56ZebNFxzG0AI-/0/1750655621243?e=2147483647&v=beta&t=q_F45m3wtJbYY9-ARt9VZd8eZ7tsc32-JG-CqdOj9Ew

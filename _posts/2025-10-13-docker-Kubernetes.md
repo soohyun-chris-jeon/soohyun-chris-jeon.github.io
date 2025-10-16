@@ -2,7 +2,7 @@
 layout: post
 title:  "14-(3) Kubernetes의 기본 개념은 무엇이며, Docker와는 어떤 관계가 있나요?"
 date:   2025-10-13 13:00:00 +0900
-categories: [Codeit AI 3기, Weekly Paper]
+categories: [Docker, Kubernetes]
 tags: [Docker,Kubernetes, Deep Learning, AI]
 comments: true     # 댓글 기능 사용 (옵션)
 image:
@@ -11,6 +11,9 @@ image:
 ---
 ## 🟢 
 
+[Docker와 Kubernetes란 무엇일까? -SK C&C 블로그](https://engineering-skcc.github.io/cloud/what-is-docker/)
+
+[쿠버네티스 알아보기 1편: 쿠버네티스와 컨테이너, 도커에 대한 기본 개념 - SDS 블로그](https://www.samsungsds.com/kr/insights/220222_kubernetes1.html)
 
 #### ⚪ 
 

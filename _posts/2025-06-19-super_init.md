@@ -2,7 +2,7 @@
 layout: post
 title:  "[PyTorch] nn.Module 클래스 super().__init__()의 역할"
 date:   2025-06-19 10:00:00 +0900
-categories: [PyTorch]
+categories: [PyTorch, nn.Module]
 tags: [PyTorch, torch.torchvision, Machine Learning, Deep Learning, AI]
 pin: false
 comments: true     # 댓글 기능 사용 (옵션)

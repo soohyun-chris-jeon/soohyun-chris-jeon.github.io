@@ -2,7 +2,7 @@
 layout: post
 title:  "7-(3) Transfer Learning(전이 학습)이란 무엇이며, 이미지 분류 모델에서 어떻게 활용할 수 있나요?"
 date:   2025-06-27 13:00:00 +0900
-categories: [Codeit AI 3기, Weekly Paper]
+categories: [Deep Learning, Transfer Learning]
 tags: [Transfer Learning, 전이학습, PyTorch, CNN, convolutional-neural-network, Deep Learning, AI, Computer Vision]
 comments: true     # 댓글 기능 사용 (옵션)
 

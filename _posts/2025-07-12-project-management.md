@@ -2,7 +2,7 @@
 layout: post
 title:  "프로젝트 구조를 통한 효율적인 협업 관리"
 date:   2025-07-12 00:00:00 +0900
-categories: [Deep Learning, Generative Model]
+categories: [Deep Learning]
 tags: [Semantic Segmentation, Generative Model, PyTorch, CNN, convolutional-neural-network, Deep Learning, AI, Computer Vision]
 comments: true     # ✅ 댓글 기능 사용 (옵션)
 math: true  # ✅ 요거 꼭 추가!

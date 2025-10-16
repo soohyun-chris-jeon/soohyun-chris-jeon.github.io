@@ -2,7 +2,7 @@
 layout: post
 title: "[VSCode] Python 개발 환경 기본 셋팅 가이드"
 date: 2024-11-10 00:00:00 +0900
-categories: [Dev Environment]
+categories: [Dev Environment, VScode]
 tags: [python, VScode, WSL, AI, Deep Learning]
 pin: false
 image:

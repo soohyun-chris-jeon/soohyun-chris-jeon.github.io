@@ -2,7 +2,7 @@
 layout: post
 title: "[서버 구축] 남는 노트북 WSL을 개인 딥러닝 서버로 세팅하기"
 date: 2025-06-01
-categories: [Dev Environment]
+categories: [Dev Environment, WSL]
 tags: [WSL, SSH, Dev Environment, Deep Learning, VScode, JupyterLab]
 comments: true     # 댓글 기능 사용 (옵션)
 image:

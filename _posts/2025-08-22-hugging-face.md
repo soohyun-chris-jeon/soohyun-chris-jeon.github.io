@@ -2,7 +2,7 @@
 layout: post
 title:  "11-(2) Hugging Face Transformers 라이브러리는 무엇이며, 어떤 기능을 제공하나요?"
 date:   2025-08-22 12:00:00 +0900
-categories: [Codeit AI 3기, Weekly Paper]
+categories: [Deep Learning, LLM]
 tags: [BERT, GPT, NLP, LLM, Trasnformer, Deep Learning, AI]
 comments: true     # 댓글 기능 사용 (옵션)
 image:

@@ -2,7 +2,7 @@
 layout: post
 title:  "[PyTorch] view() vs. reshape() 비교"
 date:   2025-06-15 10:00:00 +0900
-categories: [PyTorch]
+categories: [PyTorch, view()]
 tags: [PyTorch, reshape(),view(), commit, repository]
 comments: true     # 댓글 기능 사용 (옵션)
 

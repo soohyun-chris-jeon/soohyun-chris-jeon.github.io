@@ -2,7 +2,7 @@
 layout: post
 title:  "12-(1) LLM이 생성한 텍스트에서 할루시네이션(Hallucination)이란 무엇이고, 왜 문제가 되나요?"
 date:   2025-08-29 12:00:00 +0900
-categories: [Codeit AI 3기, Weekly Paper]
+categories: [LLM, Hallucination]
 tags: [LLM, Hallucination, BERT, GPT, NLP, Trasnformer, Deep Learning, AI]
 comments: true     # 댓글 기능 사용 (옵션)
 image:

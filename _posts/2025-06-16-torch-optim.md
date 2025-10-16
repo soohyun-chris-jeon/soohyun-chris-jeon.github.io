@@ -2,7 +2,7 @@
 layout: post
 title:  "[PyTorch] 모델을 똑똑하게 학습시키는 트레이너, torch.optim"
 date:   2025-06-16 10:00:00 +0900
-categories: [PyTorch]
+categories: [PyTorch, torch.optim]
 tags: [PyTorch, torch.optim, Machine Learning, Deep Learning, AI]
 pin: false
 comments: true     # 댓글 기능 사용 (옵션)

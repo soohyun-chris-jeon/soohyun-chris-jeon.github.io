@@ -2,7 +2,7 @@
 layout: post
 title:  "10-(4) Transformer 모델은 Seq2Seq 구조와 어떤 점에서 근본적으로 다른가요?"
 date:   2025-08-08 14:00:00 +0900
-categories: [Codeit AI 3기, Weekly Paper]
+categories: [Deep Learning, NLP]
 tags: [NLP, Trasnformer, Deep Learning, AI]
 comments: true     # 댓글 기능 사용 (옵션)
 image:

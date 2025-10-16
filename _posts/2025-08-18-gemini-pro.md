@@ -2,7 +2,7 @@
 layout: post
 title:  "구글 Gemini PRO 1년 프로모션 활용하기(~10/6)"
 date:   2025-08-18 14:00:00 +0900
-categories: [Dev Environment]
+categories: [Dev Environment, Google Gemini]
 tags: [NLP, Trasnformer, Deep Learning, AI, 구글AI프로, Gemini, Google, OpenAI, GPT]
 image:
   path: https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2Fn61Iy%2FbtsBx7IWdAe%2FAAAAAAAAAAAAAAAAAAAAAGIdFV3xxH1MzgSeNyfkaLRlIczB5YD7ez__f6eWMIIN%2Fimg.jpg%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1756652399%26allow_ip%3D%26allow_referer%3D%26signature%3D7wKmCymZSUg1%252F3En5ehsQ1xDrR0%253D

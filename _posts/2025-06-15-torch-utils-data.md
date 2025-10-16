@@ -2,7 +2,7 @@
 layout: post
 title:  "[PyTorch] 데이터 준비의 모든 것, torch.utils.data 패키지에 대해"
 date:   2025-06-15 13:00:00 +0900
-categories: [PyTorch]
+categories: [PyTorch, torch.utils.data]
 tags: [PyTorch, torch.utils.data, data loader, Augmentation Deep Learning, AI]
 pin: false
 comments: true     # 댓글 기능 사용 (옵션)

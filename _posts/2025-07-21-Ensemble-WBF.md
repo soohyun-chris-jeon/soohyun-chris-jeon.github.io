@@ -2,7 +2,7 @@
 layout: post
 title:  "Object Detection의 앙상블 기법: WBF"
 date:   2025-07-21 11:00:00 +0900
-categories: [Machine Learning]
+categories: [Machine Learning, WBF]
 tags: [WBF, sklearn, Deep Learning, AI, Computer Vision]
 image:
   path: https://learnopencv.com/wp-content/uploads/2023/07/weighted-boxes-fusion-feature.png

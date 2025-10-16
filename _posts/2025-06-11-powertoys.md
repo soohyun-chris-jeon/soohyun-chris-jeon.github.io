@@ -2,7 +2,7 @@
 layout: post
 title: "[Microsoft PowerToys] 멀티 디바이스 페어링"
 date: 2025-06-11 00:00:00 +0900
-categories: [Dev Environment]
+categories: [Dev Environment, PowerToys]
 tags: [Windows, PowerToys, WSL, logitech, Multi-Device, Productivity, VScode]
 pin: false
 comments: true     # 댓글 기능 사용 (옵션)

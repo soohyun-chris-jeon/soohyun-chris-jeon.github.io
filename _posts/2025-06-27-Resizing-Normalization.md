@@ -2,7 +2,7 @@
 layout: post
 title:  "7-(1) 이미지를 모델에 입력하기 전에 리사이징(Resizing)과 정규화(Normalization)를 하는 이유는 무엇인가요?"
 date:   2025-06-27 10:00:00 +0900
-categories: [Codeit AI 3기, Weekly Paper]
+categories: [Deep Learning]
 tags: [Resizing, Normalization, PyTorch, CNN, convolutional-neural-network, Deep Learning, AI, Computer Vision]
 comments: true     # 댓글 기능 사용 (옵션)
 

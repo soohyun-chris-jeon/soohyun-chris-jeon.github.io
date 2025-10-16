@@ -2,7 +2,7 @@
 layout: post
 title:  "[PyTorch] 컴퓨터 비전의 동반자, torchvision"
 date:   2025-06-18 10:00:00 +0900
-categories: [PyTorch]
+categories: [PyTorch, torch.torchvision]
 tags: [PyTorch, torch.torchvision, Machine Learning, Deep Learning, AI]
 pin: false
 image:
