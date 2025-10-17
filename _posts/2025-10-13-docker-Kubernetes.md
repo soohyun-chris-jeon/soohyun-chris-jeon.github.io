@@ -9,13 +9,72 @@ image:
     path: https://source.inblog.dev/featured_image/2025-05-29T08:00:50.351Z-0627429c-15b0-4a8a-82f6-db15f6b4c9e1
 
 ---
-## 🟢 
+## 🟢 Kubernetes의 기본 개념과 Docker와의 관계
 
-[Docker와 Kubernetes란 무엇일까? -SK C&C 블로그](https://engineering-skcc.github.io/cloud/what-is-docker/)
+이번엔 Docker 다음 단계인 Kubernetes에 대해 포스팅하고자 한다.
 
-[쿠버네티스 알아보기 1편: 쿠버네티스와 컨테이너, 도커에 대한 기본 개념 - SDS 블로그](https://www.samsungsds.com/kr/insights/220222_kubernetes1.html)
+이 포스트는 공신력 있는 블로그 몇개를 참고하여 작성하였으니 참고바란다.
+- [Docker와 Kubernetes란 무엇일까? -SK C&C 블로그](https://engineering-skcc.github.io/cloud/what-is-docker/)
 
-#### ⚪ 
+- [쿠버네티스 알아보기 1편: 쿠버네티스와 컨테이너, 도커에 대한 기본 개념 - SDS 블로그](https://www.samsungsds.com/kr/insights/220222_kubernetes1.html)
+
+
+---
+
+#### ⚪ Kubernetes의 기본 개념
+
+**쿠버네티스(Kubernetes, 줄여서 K8s)**는 **컨테이너 오케스트레이션(Container Orchestration)** 도구이다. Docker로 컨테이너 한두 개를 띄우는 건 쉽지만, 수십, 수백 개의 컨테이너가 얽혀있는 복잡한 서비스를 운영하려면 이걸 자동으로 관리해줄 시스템이 필요하다. 바로 그 역할을 K8s가 하는 것.
+
+![k](https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRPFcXSElgZVpg_Pg0kGRsz7ArxIPcN3hFz5aoOgAxFfVyLvMWvgyVZD0EnhXe3K8Dew9rkvjapcO8rIFt8xP8d0YE-u2Km-NNgGCyAXUdpUErPWQQ)
+
+K8s가 해결해주는 핵심 문제들은 다음과 같음:
+
+* **자동화된 배포와 롤백**: 새 버전의 앱을 배포하거나 문제가 생겼을 때 이전 버전으로 쉽게 되돌릴 수 있음.
+* **서비스 디스커버리와 로드 밸런싱**: 여러 개의 컨테이너에 네트워크 트래픽을 알아서 분산시켜줌.
+* **자동 복구 (Self-healing)**: 특정 컨테이너가 죽으면? K8s가 알아서 감지하고 다시 실행시켜줌.
+* **자동 확장 (Auto-scaling)**: 사용량이 몰리면 자동으로 컨테이너 수를 늘리고, 줄어들면 다시 줄여서 자원을 효율적으로 사용하게 함.
+
+이런 마법 같은 일들을 하기 위해 K8s는 몇 가지 중요한 개념을 사용함.
+
+![pod](https://blog.kakaocdn.net/dna/E3A2H/btrtwqJ9vLN/AAAAAAAAAAAAAAAAAAAAANBr4ttNeQkdJlJFz8L_vh0_Phrs4lTGY82GeO33xiqx/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1761922799&allow_ip=&allow_referer=&signature=%2BtZvlIfZiaXskIvwK0TZ3hSrSFk%3D)
+
+1.  **클러스터 (Cluster)**: K8s의 전체 시스템. 여러 대의 컴퓨터(서버)가 하나처럼 동작하는 집합.
+2.  **노드 (Node)**: 클러스터를 구성하는 개별 컴퓨터(물리 서버 또는 가상 머신). 컨테이너들이 실제로 실행되는 장소.
+3.  **파드 (Pod)**: **K8s에서 생성하고 관리하는 가장 작은 배포 단위.** 하나 이상의 컨테이너 그룹. 보통 하나의 파드에는 하나의 메인 컨테이너를 넣어서 관리함. 파드는 고유한 IP 주소를 가지며, 함께 묶인 컨테이너들은 이 IP와 저장 공간(볼륨)을 공유함.
+4.  **디플로이먼트 (Deployment)**: "우리는 이 파드를 항상 3개 유지하고 싶어"와 같이, 파드의 상태를 정의하고 관리하는 역할이다. 앱을 업데이트하거나 확장할 때 주로 사용됨.
+5.  **서비스 (Service)**: 여러 파드에 걸쳐 안정적인 네트워크 연결(고정 IP 주소와 DNS 이름)을 제공하는 방법. 파드는 언제든 죽고 새로 생길 수 있어서 IP가 계속 바뀌는데, 서비스는 이 변화와 상관없이 외부에서 파드에 접근할 수 있는 고정된 창구 역할을 해줌.
+
+---
+
+#### ⚪ Docker와 Kubernetes의 관계
+
+둘은 경쟁 관계가 아니라, **파트너 관계**.
+
+* **Docker는 '컨테이너'를 만들고 실행하는 역할 (Build & Run)**
+    * Docker는 `Dockerfile`을 이용해 애플리케이션을 **이미지**로 패키징하고, 그 이미지를 **컨테이너**로 실행시키는 **컨테이너 런타임(Container Runtime)** 기술.
+
+* **Kubernetes는 그 '컨테이너'들을 관리하고 조율하는 역할 (Orchestrate)**
+    * Kubernetes는 Docker가 만든 컨테이너들을 가져다가, 어느 서버(노드)에 몇 개를 배치할지, 트래픽은 어떻게 분배할지, 문제가 생긴 컨테이너는 어떻게 처리할지를 총괄 지휘함.
+
+> 비유하자면, Docker는 표준 규격의 **해상 운송 컨테이너**를 만드는 기술이고 *Kubernetes는 수많은 컨테이너들을 배에 싣고 내리며, 전 세계 항구를 오가는 거대한 **물류 시스템**.
+
+즉, K8s는 Docker 같은 컨테이너 런타임 위에서 동작. K8s가 "이 컨테이너를 실행시켜 줘!"라고 명령하면, 각 노드에 설치된 Docker가 그 명령을 받아 실제로 컨테이너를 띄우는 구조다. (최근에는 Docker 외에 `containerd`나 `CRI-O` 같은 다른 컨테이너 런타임을 사용하기도 하지만, 개념적으로는 동일하다.)
+
+---
+
+#### ⚪ 비교 및 결론
+
+| 구분 | Docker | Kubernetes |
+| :--- | :--- | :--- |
+| **주요 역할** | 컨테이너 **생성 및 실행** | 컨테이너 **관리 및 조율 (오케스트레이션)** |
+| **작동 범위** | 단일 노드 (개별 컴퓨터) | 다중 노드로 구성된 클러스터 |
+| **핵심 단위** | 컨테이너 (Container) | 파드 (Pod) |
+| **비유** | 표준화된 '컨테이너 박스' | 컨테이너를 관리하는 '거대 항만 시스템' |
+| **관계** | Kubernetes가 관리할 '대상' | Docker 컨테이너를 관리하는 '관리자' |
+
+결론적으로, `Docker`로 앱을 컨테이너화하고, `Kubernetes`를 이용해 그 컨테이너들을 대규모 서비스 환경에서 안정적으로 운영하는 것이 현대적인 클라우드 개발의 표준 방식이다. 이 둘의 관계를 이해하면 MSA(마이크로서비스 아키텍처)나 클라우드 네이티브 환경을 이해하는 데 큰 도움이 될 것이다.
+
+
 
 ## 🟢 예시 답안 (코드잇 제공)
 

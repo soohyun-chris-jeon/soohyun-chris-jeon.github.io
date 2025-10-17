@@ -9,7 +9,62 @@ image:
     path: https://velog.velcdn.com/images/tak980418/post/0c2169cd-b5d7-4866-9a66-1e5e44ed5612/image.png
 
 ---
-## 🟢 
+## 🟢 Docker Compose의 개념
+
+결론부터 말하면, **Dockerfile은 '단일 컨테이너'의 설계도**이고, **Docker Compose는 여러 개의 컨테이너로 구성된 '하나의 완전한 애플리케이션'을 정의하고 실행**하는 도구이다. 즉, 관리하는 스케일이 다름!
+
+![co](https://media.licdn.com/dms/image/v2/D5612AQFw5JFjeqBPYA/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1710704624100?e=2147483647&v=beta&t=v_YdjqGf9gqISzhcu_4b0CwOMvthiOWQa2dyKEcNXZU)
+
+---
+
+#### ⚪ Docker Compose는 어떤 상황에 유용한가?
+
+**Docker Compose는 두 개 이상의 컨테이너가 함께 작동해야 하는 '다중 컨테이너 애플리케이션' 환경에서 빛을 발한다.**
+
+예를 들어, 일반적인 웹 서비스를 개발한다고 생각해보자. 보통 이런 구성으로 시작할 것이다.
+
+* **웹 서버 컨테이너** (Nginx, Apache)
+* **애플리케이션 서버 컨테이너** (Python/Django, Node.js/Express)
+* **데이터베이스 컨테이너** (PostgreSQL, MySQL)
+* **캐시 서버 컨테이너** (Redis)
+
+이 컨테이너들은 각각 별개의 이미지를 기반으로 하지만, 서로 네트워크로 연결되어 데이터를 주고받아야 하나의 서비스로 동작할 수 있다.
+
+만약 Docker Compose가 없다면, 터미널에 `docker run ...` 명령어를 복잡한 네트워크 옵션과 함께 여러 번 입력해서 각각의 컨테이너를 띄우고 서로 연결해줘야 해. 개발 환경을 새로 구축할 때마다 이 과정을 반복해야 하니 정말 번거롭겠지?
+
+**Docker Compose는 이 모든 과정을 `docker-compose.yml`이라는 파일 하나에 깔끔하게 정의**해두고, `docker-compose up`이라는 명령어 한 방으로 전체 애플리케이션을 띄우고, `docker-compose down`으로 한 번에 내릴 수 있게 해줘. 개발 환경의 설정과 실행을 엄청나게 단순화시켜주는 거지.
+
+
+
+---
+
+#### ⚪ Dockerfile vs. Docker Compose: 역할의 차이
+
+둘은 완전히 다른 목적을 가진 도구야. 서로를 대체하는 게 아니라 **함께 사용**되는 관계지.
+
+* **Dockerfile: 컨테이너 이미지 '만들기' (BUILD)**
+    * **목적**: 단일 Docker 이미지를 어떻게 만들지를 정의하는 **설계도 또는 레시피**야.
+    * **내용**: 베이스 이미지(e.g., `FROM python:3.9`), 필요한 패키지 설치(`RUN pip install ...`), 소스 코드 복사(`COPY . .`), 실행 명령어(`CMD ["python", "app.py"]`) 등 이미지 생성에 필요한 절차를 순서대로 기술해.
+    * **결과물**: `docker build` 명령어를 통해 하나의 **Docker 이미지**가 만들어져.
+
+* **Docker Compose: 다중 컨테이너 애플리케이션 '실행하기' (RUN & ORCHESTRATE)**
+    * **목적**: 여러 컨테이너들의 **실행 환경(Runtime)을 정의**하는 **설정 파일**이야.
+    * **내용**: 어떤 이미지들을 사용할지 (`image: ...` 또는 `build: .`), 컨테이너들의 네트워크는 어떻게 구성할지, 어떤 포트를 외부에 노출할지, 데이터를 저장할 볼륨은 무엇인지 등 여러 컨테이너의 '관계'와 '실행 옵션'을 `YAML` 형식으로 기술해.
+    * **결과물**: `docker-compose up` 명령어를 통해 `yml` 파일에 정의된 **모든 컨테이너가 실행**되고 서로 연결된 애플리케이션 환경이 구축돼.
+
+---
+
+#### ⚪ 비교 및 결론
+
+| 구분 | Dockerfile | Docker Compose |
+| :--- | :--- | :--- |
+| **주요 목적** | 단일 Docker **이미지 빌드** | 다중 컨테이너 **애플리케이션 실행 및 관리** |
+| **형식** | 일반 텍스트 파일 (`Dockerfile`) | YAML 파일 (`docker-compose.yml`) |
+| **관리 단위** | **하나의 컨테이너** | **여러 컨테이너 (서비스)** |
+| **사용 명령어** | `docker build` | `docker-compose up`, `down`, `ps` |
+| **비유** | 개별 요리 **레시피** (스테이크 굽는 법) | **코스 요리 메뉴판** (애피타이저, 메인, 디저트 구성) |
+
+요약하자면, 각 서비스(웹, DB 등)의 **Dockerfile**로 개별 이미지를 만들고, **Docker Compose** 파일에 이 이미지들을 어떻게 조합해서 하나의 완전한 애플리케이션으로 동작시킬지 정의하는 거야. 개발 환경에서는 Docker Compose가 정말 필수적인 도구라고 할 수 있지.
 
 
 #### ⚪ 
