@@ -226,6 +226,8 @@ compress_html:
 
 include:
   - ads.txt
+  - assets/img
+
 
 exclude:
   - "*.gem"
