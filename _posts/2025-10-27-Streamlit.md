@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "16-(1) Streamlit을 사용해서 AI 모델을 웹 애플리케이션에 통합하려면 모델 로드, 사용자 입력, 결과 출력의 단계를 거쳐야합니다. 각각의 단계에 대해 설명해주세요."
-date:   2025-10-27 02:00:00 +0900
+date:   2025-10-27 00:00:00 +0900
 categories: [Streamlit]
 tags: [Quantization, Streamlit, Docker, Deep Learning, AI]
 comments: true     # 댓글 기능 사용 (옵션)
