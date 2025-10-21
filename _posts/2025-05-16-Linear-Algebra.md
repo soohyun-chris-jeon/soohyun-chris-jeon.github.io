@@ -5,6 +5,8 @@ date:   2025-05-16 10:00:00 +0900
 categories: [Machine Learning, Linear Algebra]
 tags: [Linear Algebra, Machine Learning]
 comments: true     # 댓글 기능 사용 (옵션) 
+image:
+  path: https://miro.medium.com/v2/resize:fit:870/1*E95MCdwnJK6_-fLQN3pcQg.jpeg
 
 ---
 
@@ -38,7 +40,6 @@ comments: true     # 댓글 기능 사용 (옵션)
 
 #### ⚪ Gilbert Strang 교수님
 그러나 이 코스는 정말 큰 쾌감을 선사해준 수업이었는데... 그 이유는 바로 fillepd learning의 영상 주인공이 MIT의 Gilbert Strang이라는 교수님이었기 때문이다. 엄청 노해한 교수님이 큰 칠판에 예제 하나 써놓고 썰어버리는 그 느낌은 큰 충격이었으며 공식 알려주고 문제 풀어주는 강사님들이랑은 차원이 달랐다. 
-![gilbert strang](https://miro.medium.com/v2/resize:fit:870/1*E95MCdwnJK6_-fLQN3pcQg.jpeg)
 
 [MIT 18.06SC Linear Algebra](https://youtu.be/7UJ4CFRGd-U?si=As1jaSOKII3WPEjK)이라는 과정인데 여전히 선형대수에서는 손에 꼽는 명강의라고 알고 있고 특히 공대생들에게는 절대적으로 추천하는 강의다.
 
