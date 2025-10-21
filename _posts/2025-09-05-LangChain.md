@@ -6,7 +6,7 @@ categories: [LLM, LangChain]
 tags: [RAG, LangChain, PEFT, BERT, GPT, NLP, LLM, Trasnformer, Deep Learning, AI]
 comments: true     # 댓글 기능 사용 (옵션)
 image:
-    path: assets/img/RAG.png
+    path: /assets/img/RAG.png
 
 ---
 

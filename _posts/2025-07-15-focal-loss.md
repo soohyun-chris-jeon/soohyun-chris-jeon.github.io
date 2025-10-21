@@ -6,7 +6,7 @@ categories: [Deep Learning, Focal loss]
 tags: [Semantic Segmentation, Generative Model, PyTorch, CNN, convolutional-neural-network, Deep Learning, AI, Computer Vision]
 comments: true     # ✅ 댓글 기능 사용 (옵션)
 image:
-  path: assets/img/focal.png
+  path: /assets/img/focal.png
 #   alt: 나의 멋진 썸네일 이미지
 #   lqip: data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD... # 여기에 base64 코드를 넣어
 #   shadow: true # 그림자 효과 켜기
