@@ -7,6 +7,7 @@ tags: [Quantization, Streamlit, Docker, Deep Learning, AI]
 comments: true     # 댓글 기능 사용 (옵션)
 image:
     path: https://blog.zarathu.com/posts/2023-02-01-streamlit/logo.jpeg
+description: "🟢 파이썬 스크립트를 공유 가능한 대화형 웹 애플리케이션 Streamlit에 대해 알아보자"
 
 ---
 ## 🟢 Streamlit이란?
