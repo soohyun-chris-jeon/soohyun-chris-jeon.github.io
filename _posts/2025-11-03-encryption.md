@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "암호화 알고리즘 정리 | IDEA, ARIA, RSA, AES 에 대하여"
+title: "암호화 알고리즘 정리: IDEA, ARIA, RSA, AES 에 대하여"
 date: 2025-11-03 00:00:00 +0900
 categories: [IPE, Encryption]
 tags: [IPE, 정보처리기사, GitHub Pages, blog, Normalization]
 pin: false
 image:
-  path: https://d33wubrfki0l68.cloudfront.net/8aefd8b3daeef0e5c9c690713ef499e3cef15b58/612da/media/images/network/osi/osi.png
+  path: https://www.thesslstore.com/blog/wp-content/uploads/2017/08/Asymmetric-vs-Symmetric.png
 comments: true     # 댓글 기능 사용 (옵션)
 description: "🔵 암호화 알고리즘 종류를 정리해보았다"
 ---
