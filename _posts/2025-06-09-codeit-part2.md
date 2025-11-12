@@ -2,7 +2,7 @@
 layout: post
 title:  "[Part 2] Study log 2025.06.09 ~ 08.14  "
 date:   2025-06-09 10:00:00 +0900
-categories: [Codeit AI 3기, Study log]
+categories: [Codeit AI, Study log]
 tags: [python, Deep Learning, PyTorch, numpy]
 image:
   path: https://img1.daumcdn.net/thumb/R750x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F4qgsr%2FbtsFEtondnt%2FXoFKqUvKEaFyQubZZyLIPk%2Fimg.png
